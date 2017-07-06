@@ -4,4 +4,8 @@
     <string name="give_or_take_money">Give or Take money</string>
     <string name="enter_amount">Enter amount positive if your giving negative if taking</string>
     <string name="description">description</string>
+    <string name="enter_the_name">enter the name</string>
+    <string name="add_person">add person</string>
+    <string name="add_person_menu">Add person</string>
+    <string name="help_menu">help</string>
 </resources>

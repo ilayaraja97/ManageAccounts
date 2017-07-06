@@ -7,13 +7,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/title"
-        android:text="add person"
+        android:text="@string/add_person"
         android:textStyle="bold"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/add_name"
-        android:hint="@string/enter_amount" />
+        android:hint="@string/enter_the_name" />
 
 </LinearLayout>
