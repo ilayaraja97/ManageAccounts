@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jul 06 15:09:38 AZOST 2017
+#Thu Jul 06 16:21:11 AZOST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_launcher.png

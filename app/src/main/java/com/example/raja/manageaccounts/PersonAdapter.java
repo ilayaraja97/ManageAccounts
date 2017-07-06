@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -58,6 +59,13 @@ public class PersonAdapter extends ArrayAdapter {
         holder.txtId.setText(String.valueOf(searchArrayList.get(position).getPid()));
         holder.txtName.setText(searchArrayList.get(position).getName());
         holder.txtAmount.setText(String.valueOf(searchArrayList.get(position).getCumulative_value()));
+        convertView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d("ilaya","clicked on ");
+                view.performLongClick();
+            }
+        });
 //        Log.d("ilaya","done setting text in list");
         return convertView;
     }
