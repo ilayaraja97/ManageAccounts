@@ -2615,14 +2615,7 @@
                     "endOffset": 34748
                 },
                 "from": {
-                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 401,
-                        "endColumn": 49,
-                        "endOffset": 446
-                    }
+                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -2634,14 +2627,7 @@
                     "endOffset": 34803
                 },
                 "from": {
-                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 451,
-                        "endColumn": 54,
-                        "endOffset": 501
-                    }
+                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -2673,8 +2659,27 @@
                     "startLine": 355,
                     "startColumn": 4,
                     "startOffset": 34912,
-                    "endColumn": 96,
-                    "endOffset": 35004
+                    "endColumn": 66,
+                    "endOffset": 34974
+                },
+                "from": {
+                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 194,
+                        "endColumn": 66,
+                        "endOffset": 256
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 356,
+                    "startColumn": 4,
+                    "startOffset": 34979,
+                    "endColumn": 57,
+                    "endOffset": 35032
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml"
@@ -2682,30 +2687,11 @@
             },
             {
                 "to": {
-                    "startLine": 356,
-                    "startColumn": 4,
-                    "startOffset": 35009,
-                    "endColumn": 57,
-                    "endOffset": 35062
-                },
-                "from": {
-                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 343,
-                        "endColumn": 57,
-                        "endOffset": 396
-                    }
-                }
-            },
-            {
-                "to": {
                     "startLine": 357,
                     "startColumn": 4,
-                    "startOffset": 35067,
+                    "startOffset": 35037,
                     "endColumn": 65,
-                    "endOffset": 35128
+                    "endOffset": 35098
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml"
@@ -2715,28 +2701,21 @@
                 "to": {
                     "startLine": 358,
                     "startColumn": 4,
-                    "startOffset": 35133,
+                    "startOffset": 35103,
                     "endColumn": 42,
-                    "endOffset": 35171
+                    "endOffset": 35141
                 },
                 "from": {
-                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 506,
-                        "endColumn": 42,
-                        "endOffset": 544
-                    }
+                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 359,
                     "startColumn": 4,
-                    "startOffset": 35176,
+                    "startOffset": 35146,
                     "endColumn": 59,
-                    "endOffset": 35231
+                    "endOffset": 35201
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml"
@@ -2746,9 +2725,9 @@
                 "to": {
                     "startLine": 360,
                     "startColumn": 4,
-                    "startOffset": 35236,
+                    "startOffset": 35206,
                     "endColumn": 52,
-                    "endOffset": 35284
+                    "endOffset": 35254
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2758,9 +2737,9 @@
                 "to": {
                     "startLine": 361,
                     "startColumn": 4,
-                    "startOffset": 35289,
+                    "startOffset": 35259,
                     "endColumn": 70,
-                    "endOffset": 35355
+                    "endOffset": 35325
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2770,9 +2749,9 @@
                 "to": {
                     "startLine": 362,
                     "startColumn": 4,
-                    "startOffset": 35360,
+                    "startOffset": 35330,
                     "endColumn": 77,
-                    "endOffset": 35433
+                    "endOffset": 35403
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2782,9 +2761,9 @@
                 "to": {
                     "startLine": 363,
                     "startColumn": 4,
-                    "startOffset": 35438,
+                    "startOffset": 35408,
                     "endColumn": 89,
-                    "endOffset": 35523
+                    "endOffset": 35493
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2794,9 +2773,9 @@
                 "to": {
                     "startLine": 364,
                     "startColumn": 4,
-                    "startOffset": 35528,
+                    "startOffset": 35498,
                     "endColumn": 87,
-                    "endOffset": 35611
+                    "endOffset": 35581
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2806,9 +2785,9 @@
                 "to": {
                     "startLine": 365,
                     "startColumn": 4,
-                    "startOffset": 35616,
+                    "startOffset": 35586,
                     "endColumn": 95,
-                    "endOffset": 35707
+                    "endOffset": 35677
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2818,10 +2797,10 @@
                 "to": {
                     "startLine": 366,
                     "startColumn": 4,
-                    "startOffset": 35712,
+                    "startOffset": 35682,
                     "endLine": 371,
                     "endColumn": 12,
-                    "endOffset": 35991
+                    "endOffset": 35961
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/styles.xml"
@@ -2831,10 +2810,10 @@
                 "to": {
                     "startLine": 372,
                     "startColumn": 4,
-                    "startOffset": 35996,
+                    "startOffset": 35966,
                     "endLine": 378,
                     "endColumn": 12,
-                    "endOffset": 36492
+                    "endOffset": 36462
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2844,9 +2823,9 @@
                 "to": {
                     "startLine": 379,
                     "startColumn": 4,
-                    "startOffset": 36497,
+                    "startOffset": 36467,
                     "endColumn": 88,
-                    "endOffset": 36581
+                    "endOffset": 36551
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2856,10 +2835,10 @@
                 "to": {
                     "startLine": 380,
                     "startColumn": 4,
-                    "startOffset": 36586,
+                    "startOffset": 36556,
                     "endLine": 383,
                     "endColumn": 12,
-                    "endOffset": 36828
+                    "endOffset": 36798
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2869,10 +2848,10 @@
                 "to": {
                     "startLine": 384,
                     "startColumn": 4,
-                    "startOffset": 36833,
+                    "startOffset": 36803,
                     "endLine": 387,
                     "endColumn": 12,
-                    "endOffset": 37109
+                    "endOffset": 37079
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2882,10 +2861,10 @@
                 "to": {
                     "startLine": 388,
                     "startColumn": 4,
-                    "startOffset": 37114,
+                    "startOffset": 37084,
                     "endLine": 392,
                     "endColumn": 12,
-                    "endOffset": 37394
+                    "endOffset": 37364
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2895,10 +2874,10 @@
                 "to": {
                     "startLine": 393,
                     "startColumn": 4,
-                    "startOffset": 37399,
+                    "startOffset": 37369,
                     "endLine": 398,
                     "endColumn": 12,
-                    "endOffset": 37787
+                    "endOffset": 37757
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2908,10 +2887,10 @@
                 "to": {
                     "startLine": 399,
                     "startColumn": 4,
-                    "startOffset": 37792,
+                    "startOffset": 37762,
                     "endLine": 405,
                     "endColumn": 12,
-                    "endOffset": 38264
+                    "endOffset": 38234
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2921,10 +2900,10 @@
                 "to": {
                     "startLine": 406,
                     "startColumn": 4,
-                    "startOffset": 38269,
+                    "startOffset": 38239,
                     "endLine": 409,
                     "endColumn": 12,
-                    "endOffset": 38486
+                    "endOffset": 38456
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2934,10 +2913,10 @@
                 "to": {
                     "startLine": 410,
                     "startColumn": 4,
-                    "startOffset": 38491,
+                    "startOffset": 38461,
                     "endLine": 413,
                     "endColumn": 12,
-                    "endOffset": 38708
+                    "endOffset": 38678
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2947,10 +2926,10 @@
                 "to": {
                     "startLine": 414,
                     "startColumn": 4,
-                    "startOffset": 38713,
+                    "startOffset": 38683,
                     "endLine": 418,
                     "endColumn": 12,
-                    "endOffset": 38976
+                    "endOffset": 38946
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2960,10 +2939,10 @@
                 "to": {
                     "startLine": 419,
                     "startColumn": 4,
-                    "startOffset": 38981,
+                    "startOffset": 38951,
                     "endLine": 422,
                     "endColumn": 12,
-                    "endOffset": 39203
+                    "endOffset": 39173
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2973,10 +2952,10 @@
                 "to": {
                     "startLine": 423,
                     "startColumn": 4,
-                    "startOffset": 39208,
+                    "startOffset": 39178,
                     "endLine": 426,
                     "endColumn": 12,
-                    "endOffset": 39433
+                    "endOffset": 39403
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2986,10 +2965,10 @@
                 "to": {
                     "startLine": 427,
                     "startColumn": 4,
-                    "startOffset": 39438,
+                    "startOffset": 39408,
                     "endLine": 430,
                     "endColumn": 12,
-                    "endOffset": 39663
+                    "endOffset": 39633
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -2999,10 +2978,10 @@
                 "to": {
                     "startLine": 431,
                     "startColumn": 4,
-                    "startOffset": 39668,
+                    "startOffset": 39638,
                     "endLine": 434,
                     "endColumn": 12,
-                    "endOffset": 39893
+                    "endOffset": 39863
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3012,10 +2991,10 @@
                 "to": {
                     "startLine": 435,
                     "startColumn": 4,
-                    "startOffset": 39898,
+                    "startOffset": 39868,
                     "endLine": 438,
                     "endColumn": 12,
-                    "endOffset": 40123
+                    "endOffset": 40093
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3025,10 +3004,10 @@
                 "to": {
                     "startLine": 439,
                     "startColumn": 4,
-                    "startOffset": 40128,
+                    "startOffset": 40098,
                     "endLine": 442,
                     "endColumn": 12,
-                    "endOffset": 40350
+                    "endOffset": 40320
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3038,10 +3017,10 @@
                 "to": {
                     "startLine": 443,
                     "startColumn": 4,
-                    "startOffset": 40355,
+                    "startOffset": 40325,
                     "endLine": 446,
                     "endColumn": 12,
-                    "endOffset": 40589
+                    "endOffset": 40559
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3051,10 +3030,10 @@
                 "to": {
                     "startLine": 447,
                     "startColumn": 4,
-                    "startOffset": 40594,
+                    "startOffset": 40564,
                     "endLine": 450,
                     "endColumn": 12,
-                    "endOffset": 40815
+                    "endOffset": 40785
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3064,10 +3043,10 @@
                 "to": {
                     "startLine": 451,
                     "startColumn": 4,
-                    "startOffset": 40820,
+                    "startOffset": 40790,
                     "endLine": 454,
                     "endColumn": 12,
-                    "endOffset": 41060
+                    "endOffset": 41030
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3077,10 +3056,10 @@
                 "to": {
                     "startLine": 455,
                     "startColumn": 4,
-                    "startOffset": 41065,
+                    "startOffset": 41035,
                     "endLine": 458,
                     "endColumn": 12,
-                    "endOffset": 41290
+                    "endOffset": 41260
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3090,10 +3069,10 @@
                 "to": {
                     "startLine": 459,
                     "startColumn": 4,
-                    "startOffset": 41295,
+                    "startOffset": 41265,
                     "endLine": 462,
                     "endColumn": 12,
-                    "endOffset": 41538
+                    "endOffset": 41508
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3103,10 +3082,10 @@
                 "to": {
                     "startLine": 463,
                     "startColumn": 4,
-                    "startOffset": 41543,
+                    "startOffset": 41513,
                     "endLine": 466,
                     "endColumn": 12,
-                    "endOffset": 41757
+                    "endOffset": 41727
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3116,10 +3095,10 @@
                 "to": {
                     "startLine": 467,
                     "startColumn": 4,
-                    "startOffset": 41762,
+                    "startOffset": 41732,
                     "endLine": 471,
                     "endColumn": 12,
-                    "endOffset": 42040
+                    "endOffset": 42010
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3129,10 +3108,10 @@
                 "to": {
                     "startLine": 472,
                     "startColumn": 4,
-                    "startOffset": 42045,
+                    "startOffset": 42015,
                     "endLine": 475,
                     "endColumn": 12,
-                    "endOffset": 42248
+                    "endOffset": 42218
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3142,10 +3121,10 @@
                 "to": {
                     "startLine": 476,
                     "startColumn": 4,
-                    "startOffset": 42253,
+                    "startOffset": 42223,
                     "endLine": 478,
                     "endColumn": 12,
-                    "endOffset": 42379
+                    "endOffset": 42349
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3155,10 +3134,10 @@
                 "to": {
                     "startLine": 479,
                     "startColumn": 4,
-                    "startOffset": 42384,
+                    "startOffset": 42354,
                     "endLine": 482,
                     "endColumn": 12,
-                    "endOffset": 42606
+                    "endOffset": 42576
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3168,10 +3147,10 @@
                 "to": {
                     "startLine": 483,
                     "startColumn": 4,
-                    "startOffset": 42611,
+                    "startOffset": 42581,
                     "endLine": 486,
                     "endColumn": 12,
-                    "endOffset": 42852
+                    "endOffset": 42822
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3181,10 +3160,10 @@
                 "to": {
                     "startLine": 487,
                     "startColumn": 4,
-                    "startOffset": 42857,
+                    "startOffset": 42827,
                     "endLine": 490,
                     "endColumn": 12,
-                    "endOffset": 43077
+                    "endOffset": 43047
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3194,10 +3173,10 @@
                 "to": {
                     "startLine": 491,
                     "startColumn": 4,
-                    "startOffset": 43082,
+                    "startOffset": 43052,
                     "endLine": 494,
                     "endColumn": 12,
-                    "endOffset": 43324
+                    "endOffset": 43294
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3207,10 +3186,10 @@
                 "to": {
                     "startLine": 495,
                     "startColumn": 4,
-                    "startOffset": 43329,
+                    "startOffset": 43299,
                     "endLine": 498,
                     "endColumn": 12,
-                    "endOffset": 43545
+                    "endOffset": 43515
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3220,10 +3199,10 @@
                 "to": {
                     "startLine": 499,
                     "startColumn": 4,
-                    "startOffset": 43550,
+                    "startOffset": 43520,
                     "endLine": 502,
                     "endColumn": 12,
-                    "endOffset": 43790
+                    "endOffset": 43760
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3233,10 +3212,10 @@
                 "to": {
                     "startLine": 503,
                     "startColumn": 4,
-                    "startOffset": 43795,
+                    "startOffset": 43765,
                     "endLine": 506,
                     "endColumn": 12,
-                    "endOffset": 44066
+                    "endOffset": 44036
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3246,10 +3225,10 @@
                 "to": {
                     "startLine": 507,
                     "startColumn": 4,
-                    "startOffset": 44071,
+                    "startOffset": 44041,
                     "endLine": 510,
                     "endColumn": 12,
-                    "endOffset": 44367
+                    "endOffset": 44337
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3259,10 +3238,10 @@
                 "to": {
                     "startLine": 511,
                     "startColumn": 4,
-                    "startOffset": 44372,
+                    "startOffset": 44342,
                     "endLine": 514,
                     "endColumn": 12,
-                    "endOffset": 44691
+                    "endOffset": 44661
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3272,10 +3251,10 @@
                 "to": {
                     "startLine": 515,
                     "startColumn": 4,
-                    "startOffset": 44696,
+                    "startOffset": 44666,
                     "endLine": 518,
                     "endColumn": 12,
-                    "endOffset": 44982
+                    "endOffset": 44952
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3285,10 +3264,10 @@
                 "to": {
                     "startLine": 519,
                     "startColumn": 4,
-                    "startOffset": 44987,
+                    "startOffset": 44957,
                     "endLine": 522,
                     "endColumn": 12,
-                    "endOffset": 45296
+                    "endOffset": 45266
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3298,9 +3277,9 @@
                 "to": {
                     "startLine": 523,
                     "startColumn": 4,
-                    "startOffset": 45301,
+                    "startOffset": 45271,
                     "endColumn": 136,
-                    "endOffset": 45433
+                    "endOffset": 45403
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3310,9 +3289,9 @@
                 "to": {
                     "startLine": 524,
                     "startColumn": 4,
-                    "startOffset": 45438,
+                    "startOffset": 45408,
                     "endColumn": 130,
-                    "endOffset": 45564
+                    "endOffset": 45534
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3322,9 +3301,9 @@
                 "to": {
                     "startLine": 525,
                     "startColumn": 4,
-                    "startOffset": 45569,
+                    "startOffset": 45539,
                     "endColumn": 104,
-                    "endOffset": 45669
+                    "endOffset": 45639
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3334,10 +3313,10 @@
                 "to": {
                     "startLine": 526,
                     "startColumn": 4,
-                    "startOffset": 45674,
+                    "startOffset": 45644,
                     "endLine": 528,
                     "endColumn": 12,
-                    "endOffset": 45911
+                    "endOffset": 45881
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3347,10 +3326,10 @@
                 "to": {
                     "startLine": 529,
                     "startColumn": 4,
-                    "startOffset": 45916,
+                    "startOffset": 45886,
                     "endLine": 531,
                     "endColumn": 12,
-                    "endOffset": 46078
+                    "endOffset": 46048
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3360,10 +3339,10 @@
                 "to": {
                     "startLine": 532,
                     "startColumn": 4,
-                    "startOffset": 46083,
+                    "startOffset": 46053,
                     "endLine": 534,
                     "endColumn": 12,
-                    "endOffset": 46282
+                    "endOffset": 46252
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3373,10 +3352,10 @@
                 "to": {
                     "startLine": 535,
                     "startColumn": 4,
-                    "startOffset": 46287,
+                    "startOffset": 46257,
                     "endLine": 537,
                     "endColumn": 12,
-                    "endOffset": 46490
+                    "endOffset": 46460
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3386,10 +3365,10 @@
                 "to": {
                     "startLine": 538,
                     "startColumn": 4,
-                    "startOffset": 46495,
+                    "startOffset": 46465,
                     "endLine": 541,
                     "endColumn": 12,
-                    "endOffset": 46761
+                    "endOffset": 46731
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3399,9 +3378,9 @@
                 "to": {
                     "startLine": 542,
                     "startColumn": 4,
-                    "startOffset": 46766,
+                    "startOffset": 46736,
                     "endColumn": 111,
-                    "endOffset": 46873
+                    "endOffset": 46843
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3411,9 +3390,9 @@
                 "to": {
                     "startLine": 543,
                     "startColumn": 4,
-                    "startOffset": 46878,
+                    "startOffset": 46848,
                     "endColumn": 111,
-                    "endOffset": 46985
+                    "endOffset": 46955
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3423,9 +3402,9 @@
                 "to": {
                     "startLine": 544,
                     "startColumn": 4,
-                    "startOffset": 46990,
+                    "startOffset": 46960,
                     "endColumn": 104,
-                    "endOffset": 47090
+                    "endOffset": 47060
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3435,9 +3414,9 @@
                 "to": {
                     "startLine": 545,
                     "startColumn": 4,
-                    "startOffset": 47095,
+                    "startOffset": 47065,
                     "endColumn": 116,
-                    "endOffset": 47207
+                    "endOffset": 47177
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3447,10 +3426,10 @@
                 "to": {
                     "startLine": 546,
                     "startColumn": 4,
-                    "startOffset": 47212,
+                    "startOffset": 47182,
                     "endLine": 548,
                     "endColumn": 12,
-                    "endOffset": 47421
+                    "endOffset": 47391
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3460,10 +3439,10 @@
                 "to": {
                     "startLine": 549,
                     "startColumn": 4,
-                    "startOffset": 47426,
+                    "startOffset": 47396,
                     "endLine": 550,
                     "endColumn": 12,
-                    "endOffset": 47567
+                    "endOffset": 47537
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3473,10 +3452,10 @@
                 "to": {
                     "startLine": 551,
                     "startColumn": 4,
-                    "startOffset": 47572,
+                    "startOffset": 47542,
                     "endLine": 552,
                     "endColumn": 12,
-                    "endOffset": 47707
+                    "endOffset": 47677
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3486,10 +3465,10 @@
                 "to": {
                     "startLine": 553,
                     "startColumn": 4,
-                    "startOffset": 47712,
+                    "startOffset": 47682,
                     "endLine": 554,
                     "endColumn": 12,
-                    "endOffset": 47793
+                    "endOffset": 47763
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3499,10 +3478,10 @@
                 "to": {
                     "startLine": 555,
                     "startColumn": 4,
-                    "startOffset": 47798,
+                    "startOffset": 47768,
                     "endLine": 559,
                     "endColumn": 12,
-                    "endOffset": 48141
+                    "endOffset": 48111
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3512,9 +3491,9 @@
                 "to": {
                     "startLine": 560,
                     "startColumn": 4,
-                    "startOffset": 48146,
+                    "startOffset": 48116,
                     "endColumn": 87,
-                    "endOffset": 48229
+                    "endOffset": 48199
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3524,10 +3503,10 @@
                 "to": {
                     "startLine": 561,
                     "startColumn": 4,
-                    "startOffset": 48234,
+                    "startOffset": 48204,
                     "endLine": 564,
                     "endColumn": 12,
-                    "endOffset": 48459
+                    "endOffset": 48429
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3537,10 +3516,10 @@
                 "to": {
                     "startLine": 565,
                     "startColumn": 4,
-                    "startOffset": 48464,
+                    "startOffset": 48434,
                     "endLine": 570,
                     "endColumn": 12,
-                    "endOffset": 48877
+                    "endOffset": 48847
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3550,10 +3529,10 @@
                 "to": {
                     "startLine": 571,
                     "startColumn": 4,
-                    "startOffset": 48882,
+                    "startOffset": 48852,
                     "endLine": 574,
                     "endColumn": 12,
-                    "endOffset": 49110
+                    "endOffset": 49080
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3563,9 +3542,9 @@
                 "to": {
                     "startLine": 575,
                     "startColumn": 4,
-                    "startOffset": 49115,
+                    "startOffset": 49085,
                     "endColumn": 81,
-                    "endOffset": 49192
+                    "endOffset": 49162
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3575,10 +3554,10 @@
                 "to": {
                     "startLine": 576,
                     "startColumn": 4,
-                    "startOffset": 49197,
+                    "startOffset": 49167,
                     "endLine": 577,
                     "endColumn": 12,
-                    "endOffset": 49290
+                    "endOffset": 49260
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3588,10 +3567,10 @@
                 "to": {
                     "startLine": 578,
                     "startColumn": 4,
-                    "startOffset": 49295,
+                    "startOffset": 49265,
                     "endLine": 588,
                     "endColumn": 12,
-                    "endOffset": 49882
+                    "endOffset": 49852
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3601,9 +3580,9 @@
                 "to": {
                     "startLine": 589,
                     "startColumn": 4,
-                    "startOffset": 49887,
+                    "startOffset": 49857,
                     "endColumn": 99,
-                    "endOffset": 49982
+                    "endOffset": 49952
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3613,10 +3592,10 @@
                 "to": {
                     "startLine": 590,
                     "startColumn": 4,
-                    "startOffset": 49987,
+                    "startOffset": 49957,
                     "endLine": 593,
                     "endColumn": 12,
-                    "endOffset": 50218
+                    "endOffset": 50188
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3626,10 +3605,10 @@
                 "to": {
                     "startLine": 594,
                     "startColumn": 4,
-                    "startOffset": 50223,
+                    "startOffset": 50193,
                     "endLine": 599,
                     "endColumn": 12,
-                    "endOffset": 50642
+                    "endOffset": 50612
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3639,10 +3618,10 @@
                 "to": {
                     "startLine": 600,
                     "startColumn": 4,
-                    "startOffset": 50647,
+                    "startOffset": 50617,
                     "endLine": 603,
                     "endColumn": 12,
-                    "endOffset": 50881
+                    "endOffset": 50851
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3652,9 +3631,9 @@
                 "to": {
                     "startLine": 604,
                     "startColumn": 4,
-                    "startOffset": 50886,
+                    "startOffset": 50856,
                     "endColumn": 93,
-                    "endOffset": 50975
+                    "endOffset": 50945
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3664,9 +3643,9 @@
                 "to": {
                     "startLine": 605,
                     "startColumn": 4,
-                    "startOffset": 50980,
+                    "startOffset": 50950,
                     "endColumn": 88,
-                    "endOffset": 51064
+                    "endOffset": 51034
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3676,10 +3655,10 @@
                 "to": {
                     "startLine": 606,
                     "startColumn": 4,
-                    "startOffset": 51069,
+                    "startOffset": 51039,
                     "endLine": 609,
                     "endColumn": 12,
-                    "endOffset": 51301
+                    "endOffset": 51271
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3689,10 +3668,10 @@
                 "to": {
                     "startLine": 610,
                     "startColumn": 4,
-                    "startOffset": 51306,
+                    "startOffset": 51276,
                     "endLine": 636,
                     "endColumn": 12,
-                    "endOffset": 53325
+                    "endOffset": 53295
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3702,10 +3681,10 @@
                 "to": {
                     "startLine": 637,
                     "startColumn": 4,
-                    "startOffset": 53330,
+                    "startOffset": 53300,
                     "endLine": 640,
                     "endColumn": 12,
-                    "endOffset": 53567
+                    "endOffset": 53537
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3715,9 +3694,9 @@
                 "to": {
                     "startLine": 641,
                     "startColumn": 4,
-                    "startOffset": 53572,
+                    "startOffset": 53542,
                     "endColumn": 101,
-                    "endOffset": 53669
+                    "endOffset": 53639
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3727,10 +3706,10 @@
                 "to": {
                     "startLine": 642,
                     "startColumn": 4,
-                    "startOffset": 53674,
+                    "startOffset": 53644,
                     "endLine": 645,
                     "endColumn": 12,
-                    "endOffset": 53906
+                    "endOffset": 53876
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3740,10 +3719,10 @@
                 "to": {
                     "startLine": 646,
                     "startColumn": 4,
-                    "startOffset": 53911,
+                    "startOffset": 53881,
                     "endLine": 673,
                     "endColumn": 12,
-                    "endOffset": 56062
+                    "endOffset": 56032
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3753,10 +3732,10 @@
                 "to": {
                     "startLine": 674,
                     "startColumn": 4,
-                    "startOffset": 56067,
+                    "startOffset": 56037,
                     "endLine": 831,
                     "endColumn": 12,
-                    "endOffset": 65666
+                    "endOffset": 65636
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3766,10 +3745,10 @@
                 "to": {
                     "startLine": 832,
                     "startColumn": 4,
-                    "startOffset": 65671,
+                    "startOffset": 65641,
                     "endLine": 853,
                     "endColumn": 12,
-                    "endOffset": 66917
+                    "endOffset": 66887
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3779,10 +3758,10 @@
                 "to": {
                     "startLine": 854,
                     "startColumn": 4,
-                    "startOffset": 66922,
+                    "startOffset": 66892,
                     "endLine": 1011,
                     "endColumn": 12,
-                    "endOffset": 76620
+                    "endOffset": 76590
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3792,10 +3771,10 @@
                 "to": {
                     "startLine": 1012,
                     "startColumn": 4,
-                    "startOffset": 76625,
+                    "startOffset": 76595,
                     "endLine": 1033,
                     "endColumn": 12,
-                    "endOffset": 77883
+                    "endOffset": 77853
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3805,10 +3784,10 @@
                 "to": {
                     "startLine": 1034,
                     "startColumn": 4,
-                    "startOffset": 77888,
+                    "startOffset": 77858,
                     "endLine": 1060,
                     "endColumn": 12,
-                    "endOffset": 79375
+                    "endOffset": 79345
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3818,10 +3797,10 @@
                 "to": {
                     "startLine": 1061,
                     "startColumn": 4,
-                    "startOffset": 79380,
+                    "startOffset": 79350,
                     "endLine": 1067,
                     "endColumn": 12,
-                    "endOffset": 79911
+                    "endOffset": 79881
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3831,10 +3810,10 @@
                 "to": {
                     "startLine": 1068,
                     "startColumn": 4,
-                    "startOffset": 79916,
+                    "startOffset": 79886,
                     "endLine": 1072,
                     "endColumn": 12,
-                    "endOffset": 80241
+                    "endOffset": 80211
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3844,10 +3823,10 @@
                 "to": {
                     "startLine": 1073,
                     "startColumn": 4,
-                    "startOffset": 80246,
+                    "startOffset": 80216,
                     "endLine": 1094,
                     "endColumn": 12,
-                    "endOffset": 81506
+                    "endOffset": 81476
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3857,10 +3836,10 @@
                 "to": {
                     "startLine": 1095,
                     "startColumn": 4,
-                    "startOffset": 81511,
+                    "startOffset": 81481,
                     "endLine": 1099,
                     "endColumn": 12,
-                    "endOffset": 81762
+                    "endOffset": 81732
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3870,10 +3849,10 @@
                 "to": {
                     "startLine": 1100,
                     "startColumn": 4,
-                    "startOffset": 81767,
+                    "startOffset": 81737,
                     "endLine": 1104,
                     "endColumn": 12,
-                    "endOffset": 81998
+                    "endOffset": 81968
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3883,10 +3862,10 @@
                 "to": {
                     "startLine": 1105,
                     "startColumn": 4,
-                    "startOffset": 82003,
+                    "startOffset": 81973,
                     "endLine": 1114,
                     "endColumn": 12,
-                    "endOffset": 82545
+                    "endOffset": 82515
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3896,10 +3875,10 @@
                 "to": {
                     "startLine": 1115,
                     "startColumn": 4,
-                    "startOffset": 82550,
+                    "startOffset": 82520,
                     "endLine": 1123,
                     "endColumn": 12,
-                    "endOffset": 83039
+                    "endOffset": 83009
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3909,10 +3888,10 @@
                 "to": {
                     "startLine": 1124,
                     "startColumn": 4,
-                    "startOffset": 83044,
+                    "startOffset": 83014,
                     "endLine": 1132,
                     "endColumn": 12,
-                    "endOffset": 83644
+                    "endOffset": 83614
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3922,10 +3901,10 @@
                 "to": {
                     "startLine": 1133,
                     "startColumn": 4,
-                    "startOffset": 83649,
+                    "startOffset": 83619,
                     "endLine": 1136,
                     "endColumn": 12,
-                    "endOffset": 83842
+                    "endOffset": 83812
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3935,10 +3914,10 @@
                 "to": {
                     "startLine": 1137,
                     "startColumn": 4,
-                    "startOffset": 83847,
+                    "startOffset": 83817,
                     "endLine": 1143,
                     "endColumn": 12,
-                    "endOffset": 84422
+                    "endOffset": 84392
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3948,10 +3927,10 @@
                 "to": {
                     "startLine": 1144,
                     "startColumn": 4,
-                    "startOffset": 84427,
+                    "startOffset": 84397,
                     "endLine": 1151,
                     "endColumn": 12,
-                    "endOffset": 84986
+                    "endOffset": 84956
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3961,10 +3940,10 @@
                 "to": {
                     "startLine": 1152,
                     "startColumn": 4,
-                    "startOffset": 84991,
+                    "startOffset": 84961,
                     "endLine": 1158,
                     "endColumn": 12,
-                    "endOffset": 85361
+                    "endOffset": 85331
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3974,9 +3953,9 @@
                 "to": {
                     "startLine": 1159,
                     "startColumn": 4,
-                    "startOffset": 85366,
+                    "startOffset": 85336,
                     "endColumn": 117,
-                    "endOffset": 85479
+                    "endOffset": 85449
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3986,10 +3965,10 @@
                 "to": {
                     "startLine": 1160,
                     "startColumn": 4,
-                    "startOffset": 85484,
+                    "startOffset": 85454,
                     "endLine": 1168,
                     "endColumn": 12,
-                    "endOffset": 86017
+                    "endOffset": 85987
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -3999,10 +3978,10 @@
                 "to": {
                     "startLine": 1169,
                     "startColumn": 4,
-                    "startOffset": 86022,
+                    "startOffset": 85992,
                     "endLine": 1171,
                     "endColumn": 12,
-                    "endOffset": 86174
+                    "endOffset": 86144
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4012,10 +3991,10 @@
                 "to": {
                     "startLine": 1172,
                     "startColumn": 4,
-                    "startOffset": 86179,
+                    "startOffset": 86149,
                     "endLine": 1174,
                     "endColumn": 12,
-                    "endOffset": 86370
+                    "endOffset": 86340
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4025,10 +4004,10 @@
                 "to": {
                     "startLine": 1175,
                     "startColumn": 4,
-                    "startOffset": 86375,
+                    "startOffset": 86345,
                     "endLine": 1178,
                     "endColumn": 12,
-                    "endOffset": 86643
+                    "endOffset": 86613
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4038,10 +4017,10 @@
                 "to": {
                     "startLine": 1179,
                     "startColumn": 4,
-                    "startOffset": 86648,
+                    "startOffset": 86618,
                     "endLine": 1182,
                     "endColumn": 12,
-                    "endOffset": 86899
+                    "endOffset": 86869
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4051,10 +4030,10 @@
                 "to": {
                     "startLine": 1183,
                     "startColumn": 4,
-                    "startOffset": 86904,
+                    "startOffset": 86874,
                     "endLine": 1186,
                     "endColumn": 12,
-                    "endOffset": 87069
+                    "endOffset": 87039
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4064,10 +4043,10 @@
                 "to": {
                     "startLine": 1187,
                     "startColumn": 4,
-                    "startOffset": 87074,
+                    "startOffset": 87044,
                     "endLine": 1189,
                     "endColumn": 12,
-                    "endOffset": 87210
+                    "endOffset": 87180
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4077,9 +4056,9 @@
                 "to": {
                     "startLine": 1190,
                     "startColumn": 4,
-                    "startOffset": 87215,
+                    "startOffset": 87185,
                     "endColumn": 63,
-                    "endOffset": 87274
+                    "endOffset": 87244
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4089,10 +4068,10 @@
                 "to": {
                     "startLine": 1191,
                     "startColumn": 4,
-                    "startOffset": 87279,
+                    "startOffset": 87249,
                     "endLine": 1194,
                     "endColumn": 12,
-                    "endOffset": 87556
+                    "endOffset": 87526
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4102,10 +4081,10 @@
                 "to": {
                     "startLine": 1195,
                     "startColumn": 4,
-                    "startOffset": 87561,
+                    "startOffset": 87531,
                     "endLine": 1198,
                     "endColumn": 12,
-                    "endOffset": 87842
+                    "endOffset": 87812
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4115,10 +4094,10 @@
                 "to": {
                     "startLine": 1199,
                     "startColumn": 4,
-                    "startOffset": 87847,
+                    "startOffset": 87817,
                     "endLine": 1208,
                     "endColumn": 12,
-                    "endOffset": 88518
+                    "endOffset": 88488
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4128,10 +4107,10 @@
                 "to": {
                     "startLine": 1209,
                     "startColumn": 4,
-                    "startOffset": 88523,
+                    "startOffset": 88493,
                     "endLine": 1213,
                     "endColumn": 12,
-                    "endOffset": 88782
+                    "endOffset": 88752
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4141,10 +4120,10 @@
                 "to": {
                     "startLine": 1214,
                     "startColumn": 4,
-                    "startOffset": 88787,
+                    "startOffset": 88757,
                     "endLine": 1220,
                     "endColumn": 12,
-                    "endOffset": 89120
+                    "endOffset": 89090
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4154,10 +4133,10 @@
                 "to": {
                     "startLine": 1221,
                     "startColumn": 4,
-                    "startOffset": 89125,
+                    "startOffset": 89095,
                     "endLine": 1226,
                     "endColumn": 12,
-                    "endOffset": 89473
+                    "endOffset": 89443
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4167,9 +4146,9 @@
                 "to": {
                     "startLine": 1227,
                     "startColumn": 4,
-                    "startOffset": 89478,
+                    "startOffset": 89448,
                     "endColumn": 93,
-                    "endOffset": 89567
+                    "endOffset": 89537
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4179,10 +4158,10 @@
                 "to": {
                     "startLine": 1228,
                     "startColumn": 4,
-                    "startOffset": 89572,
+                    "startOffset": 89542,
                     "endLine": 1230,
                     "endColumn": 12,
-                    "endOffset": 89753
+                    "endOffset": 89723
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4192,10 +4171,10 @@
                 "to": {
                     "startLine": 1231,
                     "startColumn": 4,
-                    "startOffset": 89758,
+                    "startOffset": 89728,
                     "endLine": 1234,
                     "endColumn": 12,
-                    "endOffset": 90059
+                    "endOffset": 90029
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4205,10 +4184,10 @@
                 "to": {
                     "startLine": 1235,
                     "startColumn": 4,
-                    "startOffset": 90064,
+                    "startOffset": 90034,
                     "endLine": 1239,
                     "endColumn": 12,
-                    "endOffset": 90321
+                    "endOffset": 90291
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4218,10 +4197,10 @@
                 "to": {
                     "startLine": 1240,
                     "startColumn": 4,
-                    "startOffset": 90326,
+                    "startOffset": 90296,
                     "endLine": 1241,
                     "endColumn": 12,
-                    "endOffset": 90446
+                    "endOffset": 90416
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4231,10 +4210,10 @@
                 "to": {
                     "startLine": 1242,
                     "startColumn": 4,
-                    "startOffset": 90451,
+                    "startOffset": 90421,
                     "endLine": 1243,
                     "endColumn": 12,
-                    "endOffset": 90573
+                    "endOffset": 90543
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4244,10 +4223,10 @@
                 "to": {
                     "startLine": 1244,
                     "startColumn": 4,
-                    "startOffset": 90578,
+                    "startOffset": 90548,
                     "endLine": 1246,
                     "endColumn": 12,
-                    "endOffset": 90812
+                    "endOffset": 90782
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4257,10 +4236,10 @@
                 "to": {
                     "startLine": 1247,
                     "startColumn": 4,
-                    "startOffset": 90817,
+                    "startOffset": 90787,
                     "endLine": 1249,
                     "endColumn": 12,
-                    "endOffset": 91023
+                    "endOffset": 90993
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4270,10 +4249,10 @@
                 "to": {
                     "startLine": 1250,
                     "startColumn": 4,
-                    "startOffset": 91028,
+                    "startOffset": 90998,
                     "endLine": 1251,
                     "endColumn": 12,
-                    "endOffset": 91142
+                    "endOffset": 91112
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4283,10 +4262,10 @@
                 "to": {
                     "startLine": 1252,
                     "startColumn": 4,
-                    "startOffset": 91147,
+                    "startOffset": 91117,
                     "endLine": 1255,
                     "endColumn": 12,
-                    "endOffset": 91335
+                    "endOffset": 91305
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4296,10 +4275,10 @@
                 "to": {
                     "startLine": 1256,
                     "startColumn": 4,
-                    "startOffset": 91340,
+                    "startOffset": 91310,
                     "endLine": 1258,
                     "endColumn": 12,
-                    "endOffset": 91512
+                    "endOffset": 91482
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4309,10 +4288,10 @@
                 "to": {
                     "startLine": 1259,
                     "startColumn": 4,
-                    "startOffset": 91517,
+                    "startOffset": 91487,
                     "endLine": 1265,
                     "endColumn": 12,
-                    "endOffset": 91967
+                    "endOffset": 91937
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4322,10 +4301,10 @@
                 "to": {
                     "startLine": 1266,
                     "startColumn": 4,
-                    "startOffset": 91972,
+                    "startOffset": 91942,
                     "endLine": 1268,
                     "endColumn": 12,
-                    "endOffset": 92148
+                    "endOffset": 92118
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4335,10 +4314,10 @@
                 "to": {
                     "startLine": 1269,
                     "startColumn": 4,
-                    "startOffset": 92153,
+                    "startOffset": 92123,
                     "endLine": 1271,
                     "endColumn": 12,
-                    "endOffset": 92270
+                    "endOffset": 92240
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4348,10 +4327,10 @@
                 "to": {
                     "startLine": 1272,
                     "startColumn": 4,
-                    "startOffset": 92275,
+                    "startOffset": 92245,
                     "endLine": 1275,
                     "endColumn": 12,
-                    "endOffset": 92529
+                    "endOffset": 92499
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4361,10 +4340,10 @@
                 "to": {
                     "startLine": 1276,
                     "startColumn": 4,
-                    "startOffset": 92534,
+                    "startOffset": 92504,
                     "endLine": 1277,
                     "endColumn": 12,
-                    "endOffset": 92642
+                    "endOffset": 92612
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4374,10 +4353,10 @@
                 "to": {
                     "startLine": 1278,
                     "startColumn": 4,
-                    "startOffset": 92647,
+                    "startOffset": 92617,
                     "endLine": 1281,
                     "endColumn": 12,
-                    "endOffset": 92829
+                    "endOffset": 92799
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4387,10 +4366,10 @@
                 "to": {
                     "startLine": 1282,
                     "startColumn": 4,
-                    "startOffset": 92834,
+                    "startOffset": 92804,
                     "endLine": 1283,
                     "endColumn": 12,
-                    "endOffset": 92931
+                    "endOffset": 92901
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4400,10 +4379,10 @@
                 "to": {
                     "startLine": 1284,
                     "startColumn": 4,
-                    "startOffset": 92936,
+                    "startOffset": 92906,
                     "endLine": 1289,
                     "endColumn": 12,
-                    "endOffset": 93375
+                    "endOffset": 93345
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4413,10 +4392,10 @@
                 "to": {
                     "startLine": 1290,
                     "startColumn": 4,
-                    "startOffset": 93380,
+                    "startOffset": 93350,
                     "endLine": 1291,
                     "endColumn": 12,
-                    "endOffset": 93499
+                    "endOffset": 93469
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4426,10 +4405,10 @@
                 "to": {
                     "startLine": 1292,
                     "startColumn": 4,
-                    "startOffset": 93504,
+                    "startOffset": 93474,
                     "endLine": 1295,
                     "endColumn": 12,
-                    "endOffset": 93774
+                    "endOffset": 93744
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4439,10 +4418,10 @@
                 "to": {
                     "startLine": 1296,
                     "startColumn": 4,
-                    "startOffset": 93779,
+                    "startOffset": 93749,
                     "endLine": 1303,
                     "endColumn": 12,
-                    "endOffset": 94282
+                    "endOffset": 94252
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4452,10 +4431,10 @@
                 "to": {
                     "startLine": 1304,
                     "startColumn": 4,
-                    "startOffset": 94287,
+                    "startOffset": 94257,
                     "endLine": 1311,
                     "endColumn": 12,
-                    "endOffset": 94778
+                    "endOffset": 94748
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4465,10 +4444,10 @@
                 "to": {
                     "startLine": 1312,
                     "startColumn": 4,
-                    "startOffset": 94783,
+                    "startOffset": 94753,
                     "endLine": 1323,
                     "endColumn": 12,
-                    "endOffset": 95655
+                    "endOffset": 95625
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4478,10 +4457,10 @@
                 "to": {
                     "startLine": 1324,
                     "startColumn": 4,
-                    "startOffset": 95660,
+                    "startOffset": 95630,
                     "endLine": 1329,
                     "endColumn": 12,
-                    "endOffset": 95949
+                    "endOffset": 95919
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4491,10 +4470,10 @@
                 "to": {
                     "startLine": 1330,
                     "startColumn": 4,
-                    "startOffset": 95954,
+                    "startOffset": 95924,
                     "endLine": 1338,
                     "endColumn": 12,
-                    "endOffset": 96519
+                    "endOffset": 96489
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4504,10 +4483,10 @@
                 "to": {
                     "startLine": 1339,
                     "startColumn": 4,
-                    "startOffset": 96524,
+                    "startOffset": 96494,
                     "endLine": 1341,
                     "endColumn": 12,
-                    "endOffset": 96668
+                    "endOffset": 96638
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4517,10 +4496,10 @@
                 "to": {
                     "startLine": 1342,
                     "startColumn": 4,
-                    "startOffset": 96673,
+                    "startOffset": 96643,
                     "endLine": 1352,
                     "endColumn": 12,
-                    "endOffset": 97400
+                    "endOffset": 97370
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4530,10 +4509,10 @@
                 "to": {
                     "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 97405,
+                    "startOffset": 97375,
                     "endLine": 1355,
                     "endColumn": 12,
-                    "endOffset": 97572
+                    "endOffset": 97542
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4543,10 +4522,10 @@
                 "to": {
                     "startLine": 1356,
                     "startColumn": 4,
-                    "startOffset": 97577,
+                    "startOffset": 97547,
                     "endLine": 1360,
                     "endColumn": 12,
-                    "endOffset": 97908
+                    "endOffset": 97878
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4556,10 +4535,10 @@
                 "to": {
                     "startLine": 1361,
                     "startColumn": 4,
-                    "startOffset": 97913,
+                    "startOffset": 97883,
                     "endLine": 1374,
                     "endColumn": 12,
-                    "endOffset": 98966
+                    "endOffset": 98936
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4569,10 +4548,10 @@
                 "to": {
                     "startLine": 1375,
                     "startColumn": 4,
-                    "startOffset": 98971,
+                    "startOffset": 98941,
                     "endLine": 1379,
                     "endColumn": 12,
-                    "endOffset": 99244
+                    "endOffset": 99214
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4582,10 +4561,10 @@
                 "to": {
                     "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 99249,
+                    "startOffset": 99219,
                     "endLine": 1421,
                     "endColumn": 12,
-                    "endOffset": 102368
+                    "endOffset": 102338
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4595,10 +4574,10 @@
                 "to": {
                     "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 102373,
+                    "startOffset": 102343,
                     "endLine": 1464,
                     "endColumn": 12,
-                    "endOffset": 105635
+                    "endOffset": 105605
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4608,9 +4587,9 @@
                 "to": {
                     "startLine": 1465,
                     "startColumn": 4,
-                    "startOffset": 105640,
+                    "startOffset": 105610,
                     "endColumn": 61,
-                    "endOffset": 105697
+                    "endOffset": 105667
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4620,10 +4599,10 @@
                 "to": {
                     "startLine": 1466,
                     "startColumn": 4,
-                    "startOffset": 105702,
+                    "startOffset": 105672,
                     "endLine": 1475,
                     "endColumn": 12,
-                    "endOffset": 106275
+                    "endOffset": 106245
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4633,10 +4612,10 @@
                 "to": {
                     "startLine": 1476,
                     "startColumn": 4,
-                    "startOffset": 106280,
+                    "startOffset": 106250,
                     "endLine": 1484,
                     "endColumn": 12,
-                    "endOffset": 106859
+                    "endOffset": 106829
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4646,9 +4625,9 @@
                 "to": {
                     "startLine": 1485,
                     "startColumn": 4,
-                    "startOffset": 106864,
+                    "startOffset": 106834,
                     "endColumn": 85,
-                    "endOffset": 106945
+                    "endOffset": 106915
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4658,10 +4637,10 @@
                 "to": {
                     "startLine": 1486,
                     "startColumn": 4,
-                    "startOffset": 106950,
+                    "startOffset": 106920,
                     "endLine": 1487,
                     "endColumn": 12,
-                    "endOffset": 107058
+                    "endOffset": 107028
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4671,10 +4650,10 @@
                 "to": {
                     "startLine": 1488,
                     "startColumn": 4,
-                    "startOffset": 107063,
+                    "startOffset": 107033,
                     "endLine": 1491,
                     "endColumn": 12,
-                    "endOffset": 107287
+                    "endOffset": 107257
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4684,10 +4663,10 @@
                 "to": {
                     "startLine": 1492,
                     "startColumn": 4,
-                    "startOffset": 107292,
+                    "startOffset": 107262,
                     "endLine": 1494,
                     "endColumn": 12,
-                    "endOffset": 107447
+                    "endOffset": 107417
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4697,10 +4676,10 @@
                 "to": {
                     "startLine": 1495,
                     "startColumn": 4,
-                    "startOffset": 107452,
+                    "startOffset": 107422,
                     "endLine": 1497,
                     "endColumn": 12,
-                    "endOffset": 107599
+                    "endOffset": 107569
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4710,10 +4689,10 @@
                 "to": {
                     "startLine": 1498,
                     "startColumn": 4,
-                    "startOffset": 107604,
+                    "startOffset": 107574,
                     "endLine": 1500,
                     "endColumn": 12,
-                    "endOffset": 107770
+                    "endOffset": 107740
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4723,10 +4702,10 @@
                 "to": {
                     "startLine": 1501,
                     "startColumn": 4,
-                    "startOffset": 107775,
+                    "startOffset": 107745,
                     "endLine": 1503,
                     "endColumn": 12,
-                    "endOffset": 107937
+                    "endOffset": 107907
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4736,10 +4715,10 @@
                 "to": {
                     "startLine": 1504,
                     "startColumn": 4,
-                    "startOffset": 107942,
+                    "startOffset": 107912,
                     "endLine": 1507,
                     "endColumn": 12,
-                    "endOffset": 108180
+                    "endOffset": 108150
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4749,10 +4728,10 @@
                 "to": {
                     "startLine": 1508,
                     "startColumn": 4,
-                    "startOffset": 108185,
+                    "startOffset": 108155,
                     "endLine": 1510,
                     "endColumn": 12,
-                    "endOffset": 108350
+                    "endOffset": 108320
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4762,10 +4741,10 @@
                 "to": {
                     "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 108355,
+                    "startOffset": 108325,
                     "endLine": 1513,
                     "endColumn": 12,
-                    "endOffset": 108523
+                    "endOffset": 108493
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4775,10 +4754,10 @@
                 "to": {
                     "startLine": 1514,
                     "startColumn": 4,
-                    "startOffset": 108528,
+                    "startOffset": 108498,
                     "endLine": 1516,
                     "endColumn": 12,
-                    "endOffset": 108694
+                    "endOffset": 108664
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4788,10 +4767,10 @@
                 "to": {
                     "startLine": 1517,
                     "startColumn": 4,
-                    "startOffset": 108699,
+                    "startOffset": 108669,
                     "endLine": 1520,
                     "endColumn": 12,
-                    "endOffset": 108968
+                    "endOffset": 108938
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4801,10 +4780,10 @@
                 "to": {
                     "startLine": 1521,
                     "startColumn": 4,
-                    "startOffset": 108973,
+                    "startOffset": 108943,
                     "endLine": 1523,
                     "endColumn": 12,
-                    "endOffset": 109167
+                    "endOffset": 109137
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4814,10 +4793,10 @@
                 "to": {
                     "startLine": 1524,
                     "startColumn": 4,
-                    "startOffset": 109172,
+                    "startOffset": 109142,
                     "endLine": 1527,
                     "endColumn": 12,
-                    "endOffset": 109372
+                    "endOffset": 109342
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4827,10 +4806,10 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 109377,
+                    "startOffset": 109347,
                     "endLine": 1531,
                     "endColumn": 12,
-                    "endOffset": 109702
+                    "endOffset": 109672
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4840,9 +4819,9 @@
                 "to": {
                     "startLine": 1532,
                     "startColumn": 4,
-                    "startOffset": 109707,
+                    "startOffset": 109677,
                     "endColumn": 83,
-                    "endOffset": 109786
+                    "endOffset": 109756
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4852,9 +4831,9 @@
                 "to": {
                     "startLine": 1533,
                     "startColumn": 4,
-                    "startOffset": 109791,
+                    "startOffset": 109761,
                     "endColumn": 95,
-                    "endOffset": 109882
+                    "endOffset": 109852
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4864,9 +4843,9 @@
                 "to": {
                     "startLine": 1534,
                     "startColumn": 4,
-                    "startOffset": 109887,
+                    "startOffset": 109857,
                     "endColumn": 95,
-                    "endOffset": 109978
+                    "endOffset": 109948
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4876,9 +4855,9 @@
                 "to": {
                     "startLine": 1535,
                     "startColumn": 4,
-                    "startOffset": 109983,
+                    "startOffset": 109953,
                     "endColumn": 97,
-                    "endOffset": 110076
+                    "endOffset": 110046
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4888,9 +4867,9 @@
                 "to": {
                     "startLine": 1536,
                     "startColumn": 4,
-                    "startOffset": 110081,
+                    "startOffset": 110051,
                     "endColumn": 99,
-                    "endOffset": 110176
+                    "endOffset": 110146
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4900,9 +4879,9 @@
                 "to": {
                     "startLine": 1537,
                     "startColumn": 4,
-                    "startOffset": 110181,
+                    "startOffset": 110151,
                     "endColumn": 101,
-                    "endOffset": 110278
+                    "endOffset": 110248
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4912,9 +4891,9 @@
                 "to": {
                     "startLine": 1538,
                     "startColumn": 4,
-                    "startOffset": 110283,
+                    "startOffset": 110253,
                     "endColumn": 101,
-                    "endOffset": 110380
+                    "endOffset": 110350
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4924,9 +4903,9 @@
                 "to": {
                     "startLine": 1539,
                     "startColumn": 4,
-                    "startOffset": 110385,
+                    "startOffset": 110355,
                     "endColumn": 101,
-                    "endOffset": 110482
+                    "endOffset": 110452
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4936,9 +4915,9 @@
                 "to": {
                     "startLine": 1540,
                     "startColumn": 4,
-                    "startOffset": 110487,
+                    "startOffset": 110457,
                     "endColumn": 101,
-                    "endOffset": 110584
+                    "endOffset": 110554
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4948,9 +4927,9 @@
                 "to": {
                     "startLine": 1541,
                     "startColumn": 4,
-                    "startOffset": 110589,
+                    "startOffset": 110559,
                     "endColumn": 101,
-                    "endOffset": 110686
+                    "endOffset": 110656
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4960,9 +4939,9 @@
                 "to": {
                     "startLine": 1542,
                     "startColumn": 4,
-                    "startOffset": 110691,
+                    "startOffset": 110661,
                     "endColumn": 99,
-                    "endOffset": 110786
+                    "endOffset": 110756
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4972,9 +4951,9 @@
                 "to": {
                     "startLine": 1543,
                     "startColumn": 4,
-                    "startOffset": 110791,
+                    "startOffset": 110761,
                     "endColumn": 95,
-                    "endOffset": 110882
+                    "endOffset": 110852
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4984,9 +4963,9 @@
                 "to": {
                     "startLine": 1544,
                     "startColumn": 4,
-                    "startOffset": 110887,
+                    "startOffset": 110857,
                     "endColumn": 111,
-                    "endOffset": 110994
+                    "endOffset": 110964
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -4996,9 +4975,9 @@
                 "to": {
                     "startLine": 1545,
                     "startColumn": 4,
-                    "startOffset": 110999,
+                    "startOffset": 110969,
                     "endColumn": 128,
-                    "endOffset": 111123
+                    "endOffset": 111093
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5008,9 +4987,9 @@
                 "to": {
                     "startLine": 1546,
                     "startColumn": 4,
-                    "startOffset": 111128,
+                    "startOffset": 111098,
                     "endColumn": 122,
-                    "endOffset": 111246
+                    "endOffset": 111216
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5020,9 +4999,9 @@
                 "to": {
                     "startLine": 1547,
                     "startColumn": 4,
-                    "startOffset": 111251,
+                    "startOffset": 111221,
                     "endColumn": 130,
-                    "endOffset": 111377
+                    "endOffset": 111347
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5032,9 +5011,9 @@
                 "to": {
                     "startLine": 1548,
                     "startColumn": 4,
-                    "startOffset": 111382,
+                    "startOffset": 111352,
                     "endColumn": 130,
-                    "endOffset": 111508
+                    "endOffset": 111478
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5044,9 +5023,9 @@
                 "to": {
                     "startLine": 1549,
                     "startColumn": 4,
-                    "startOffset": 111513,
+                    "startOffset": 111483,
                     "endColumn": 97,
-                    "endOffset": 111606
+                    "endOffset": 111576
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5056,9 +5035,9 @@
                 "to": {
                     "startLine": 1550,
                     "startColumn": 4,
-                    "startOffset": 111611,
+                    "startOffset": 111581,
                     "endColumn": 113,
-                    "endOffset": 111720
+                    "endOffset": 111690
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5068,9 +5047,9 @@
                 "to": {
                     "startLine": 1551,
                     "startColumn": 4,
-                    "startOffset": 111725,
+                    "startOffset": 111695,
                     "endColumn": 93,
-                    "endOffset": 111814
+                    "endOffset": 111784
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5080,10 +5059,10 @@
                 "to": {
                     "startLine": 1552,
                     "startColumn": 4,
-                    "startOffset": 111819,
+                    "startOffset": 111789,
                     "endLine": 1555,
                     "endColumn": 12,
-                    "endOffset": 112013
+                    "endOffset": 111983
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5093,10 +5072,10 @@
                 "to": {
                     "startLine": 1556,
                     "startColumn": 4,
-                    "startOffset": 112018,
+                    "startOffset": 111988,
                     "endLine": 1559,
                     "endColumn": 12,
-                    "endOffset": 112217
+                    "endOffset": 112187
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5106,9 +5085,9 @@
                 "to": {
                     "startLine": 1560,
                     "startColumn": 4,
-                    "startOffset": 112222,
+                    "startOffset": 112192,
                     "endColumn": 68,
-                    "endOffset": 112286
+                    "endOffset": 112256
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5118,9 +5097,9 @@
                 "to": {
                     "startLine": 1561,
                     "startColumn": 4,
-                    "startOffset": 112291,
+                    "startOffset": 112261,
                     "endColumn": 115,
-                    "endOffset": 112402
+                    "endOffset": 112372
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5130,9 +5109,9 @@
                 "to": {
                     "startLine": 1562,
                     "startColumn": 4,
-                    "startOffset": 112407,
+                    "startOffset": 112377,
                     "endColumn": 127,
-                    "endOffset": 112530
+                    "endOffset": 112500
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5142,9 +5121,9 @@
                 "to": {
                     "startLine": 1563,
                     "startColumn": 4,
-                    "startOffset": 112535,
+                    "startOffset": 112505,
                     "endColumn": 63,
-                    "endOffset": 112594
+                    "endOffset": 112564
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5154,10 +5133,10 @@
                 "to": {
                     "startLine": 1564,
                     "startColumn": 4,
-                    "startOffset": 112599,
+                    "startOffset": 112569,
                     "endLine": 1567,
                     "endColumn": 12,
-                    "endOffset": 112798
+                    "endOffset": 112768
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5167,9 +5146,9 @@
                 "to": {
                     "startLine": 1568,
                     "startColumn": 4,
-                    "startOffset": 112803,
+                    "startOffset": 112773,
                     "endColumn": 68,
-                    "endOffset": 112867
+                    "endOffset": 112837
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5179,10 +5158,10 @@
                 "to": {
                     "startLine": 1569,
                     "startColumn": 4,
-                    "startOffset": 112872,
+                    "startOffset": 112842,
                     "endLine": 1572,
                     "endColumn": 12,
-                    "endOffset": 113070
+                    "endOffset": 113040
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5192,9 +5171,9 @@
                 "to": {
                     "startLine": 1573,
                     "startColumn": 4,
-                    "startOffset": 113075,
+                    "startOffset": 113045,
                     "endColumn": 69,
-                    "endOffset": 113140
+                    "endOffset": 113110
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5204,10 +5183,10 @@
                 "to": {
                     "startLine": 1574,
                     "startColumn": 4,
-                    "startOffset": 113145,
+                    "startOffset": 113115,
                     "endLine": 1575,
                     "endColumn": 12,
-                    "endOffset": 113280
+                    "endOffset": 113250
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5217,10 +5196,10 @@
                 "to": {
                     "startLine": 1576,
                     "startColumn": 4,
-                    "startOffset": 113285,
+                    "startOffset": 113255,
                     "endLine": 1577,
                     "endColumn": 12,
-                    "endOffset": 113414
+                    "endOffset": 113384
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5230,9 +5209,9 @@
                 "to": {
                     "startLine": 1578,
                     "startColumn": 4,
-                    "startOffset": 113419,
+                    "startOffset": 113389,
                     "endColumn": 95,
-                    "endOffset": 113510
+                    "endOffset": 113480
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5242,9 +5221,9 @@
                 "to": {
                     "startLine": 1579,
                     "startColumn": 4,
-                    "startOffset": 113515,
+                    "startOffset": 113485,
                     "endColumn": 111,
-                    "endOffset": 113622
+                    "endOffset": 113592
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5254,9 +5233,9 @@
                 "to": {
                     "startLine": 1580,
                     "startColumn": 4,
-                    "startOffset": 113627,
+                    "startOffset": 113597,
                     "endColumn": 99,
-                    "endOffset": 113722
+                    "endOffset": 113692
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5266,9 +5245,9 @@
                 "to": {
                     "startLine": 1581,
                     "startColumn": 4,
-                    "startOffset": 113727,
+                    "startOffset": 113697,
                     "endColumn": 115,
-                    "endOffset": 113838
+                    "endOffset": 113808
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5278,9 +5257,9 @@
                 "to": {
                     "startLine": 1582,
                     "startColumn": 4,
-                    "startOffset": 113843,
+                    "startOffset": 113813,
                     "endColumn": 95,
-                    "endOffset": 113934
+                    "endOffset": 113904
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5290,9 +5269,9 @@
                 "to": {
                     "startLine": 1583,
                     "startColumn": 4,
-                    "startOffset": 113939,
+                    "startOffset": 113909,
                     "endColumn": 111,
-                    "endOffset": 114046
+                    "endOffset": 114016
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5302,10 +5281,10 @@
                 "to": {
                     "startLine": 1584,
                     "startColumn": 4,
-                    "startOffset": 114051,
+                    "startOffset": 114021,
                     "endLine": 1585,
                     "endColumn": 12,
-                    "endOffset": 114186
+                    "endOffset": 114156
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5315,9 +5294,9 @@
                 "to": {
                     "startLine": 1586,
                     "startColumn": 4,
-                    "startOffset": 114191,
+                    "startOffset": 114161,
                     "endColumn": 135,
-                    "endOffset": 114322
+                    "endOffset": 114292
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5327,10 +5306,10 @@
                 "to": {
                     "startLine": 1587,
                     "startColumn": 4,
-                    "startOffset": 114327,
+                    "startOffset": 114297,
                     "endLine": 1588,
                     "endColumn": 12,
-                    "endOffset": 114486
+                    "endOffset": 114456
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5340,9 +5319,9 @@
                 "to": {
                     "startLine": 1589,
                     "startColumn": 4,
-                    "startOffset": 114491,
+                    "startOffset": 114461,
                     "endColumn": 129,
-                    "endOffset": 114616
+                    "endOffset": 114586
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5352,10 +5331,10 @@
                 "to": {
                     "startLine": 1590,
                     "startColumn": 4,
-                    "startOffset": 114621,
+                    "startOffset": 114591,
                     "endLine": 1591,
                     "endColumn": 12,
-                    "endOffset": 114774
+                    "endOffset": 114744
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5365,10 +5344,10 @@
                 "to": {
                     "startLine": 1592,
                     "startColumn": 4,
-                    "startOffset": 114779,
+                    "startOffset": 114749,
                     "endLine": 1593,
                     "endColumn": 12,
-                    "endOffset": 114924
+                    "endOffset": 114894
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5378,9 +5357,9 @@
                 "to": {
                     "startLine": 1594,
                     "startColumn": 4,
-                    "startOffset": 114929,
+                    "startOffset": 114899,
                     "endColumn": 140,
-                    "endOffset": 115065
+                    "endOffset": 115035
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5390,10 +5369,10 @@
                 "to": {
                     "startLine": 1595,
                     "startColumn": 4,
-                    "startOffset": 115070,
+                    "startOffset": 115040,
                     "endLine": 1596,
                     "endColumn": 12,
-                    "endOffset": 115209
+                    "endOffset": 115179
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5403,9 +5382,9 @@
                 "to": {
                     "startLine": 1597,
                     "startColumn": 4,
-                    "startOffset": 115214,
+                    "startOffset": 115184,
                     "endColumn": 134,
-                    "endOffset": 115344
+                    "endOffset": 115314
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5415,9 +5394,9 @@
                 "to": {
                     "startLine": 1598,
                     "startColumn": 4,
-                    "startOffset": 115349,
+                    "startOffset": 115319,
                     "endColumn": 111,
-                    "endOffset": 115456
+                    "endOffset": 115426
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5427,9 +5406,9 @@
                 "to": {
                     "startLine": 1599,
                     "startColumn": 4,
-                    "startOffset": 115461,
+                    "startOffset": 115431,
                     "endColumn": 149,
-                    "endOffset": 115606
+                    "endOffset": 115576
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5439,9 +5418,9 @@
                 "to": {
                     "startLine": 1600,
                     "startColumn": 4,
-                    "startOffset": 115611,
+                    "startOffset": 115581,
                     "endColumn": 127,
-                    "endOffset": 115734
+                    "endOffset": 115704
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5451,9 +5430,9 @@
                 "to": {
                     "startLine": 1601,
                     "startColumn": 4,
-                    "startOffset": 115739,
+                    "startOffset": 115709,
                     "endColumn": 127,
-                    "endOffset": 115862
+                    "endOffset": 115832
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5463,10 +5442,10 @@
                 "to": {
                     "startLine": 1602,
                     "startColumn": 4,
-                    "startOffset": 115867,
+                    "startOffset": 115837,
                     "endLine": 1603,
                     "endColumn": 12,
-                    "endOffset": 115998
+                    "endOffset": 115968
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5476,9 +5455,9 @@
                 "to": {
                     "startLine": 1604,
                     "startColumn": 4,
-                    "startOffset": 116003,
+                    "startOffset": 115973,
                     "endColumn": 131,
-                    "endOffset": 116130
+                    "endOffset": 116100
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5488,9 +5467,9 @@
                 "to": {
                     "startLine": 1605,
                     "startColumn": 4,
-                    "startOffset": 116135,
+                    "startOffset": 116105,
                     "endColumn": 129,
-                    "endOffset": 116260
+                    "endOffset": 116230
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5500,9 +5479,9 @@
                 "to": {
                     "startLine": 1606,
                     "startColumn": 4,
-                    "startOffset": 116265,
+                    "startOffset": 116235,
                     "endColumn": 129,
-                    "endOffset": 116390
+                    "endOffset": 116360
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5512,9 +5491,9 @@
                 "to": {
                     "startLine": 1607,
                     "startColumn": 4,
-                    "startOffset": 116395,
+                    "startOffset": 116365,
                     "endColumn": 111,
-                    "endOffset": 116502
+                    "endOffset": 116472
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5524,9 +5503,9 @@
                 "to": {
                     "startLine": 1608,
                     "startColumn": 4,
-                    "startOffset": 116507,
+                    "startOffset": 116477,
                     "endColumn": 139,
-                    "endOffset": 116642
+                    "endOffset": 116612
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5536,9 +5515,9 @@
                 "to": {
                     "startLine": 1609,
                     "startColumn": 4,
-                    "startOffset": 116647,
+                    "startOffset": 116617,
                     "endColumn": 67,
-                    "endOffset": 116710
+                    "endOffset": 116680
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5548,9 +5527,9 @@
                 "to": {
                     "startLine": 1610,
                     "startColumn": 4,
-                    "startOffset": 116715,
+                    "startOffset": 116685,
                     "endColumn": 72,
-                    "endOffset": 116783
+                    "endOffset": 116753
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5560,9 +5539,9 @@
                 "to": {
                     "startLine": 1611,
                     "startColumn": 4,
-                    "startOffset": 116788,
+                    "startOffset": 116758,
                     "endColumn": 73,
-                    "endOffset": 116857
+                    "endOffset": 116827
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5572,9 +5551,9 @@
                 "to": {
                     "startLine": 1612,
                     "startColumn": 4,
-                    "startOffset": 116862,
+                    "startOffset": 116832,
                     "endColumn": 72,
-                    "endOffset": 116930
+                    "endOffset": 116900
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5584,9 +5563,9 @@
                 "to": {
                     "startLine": 1613,
                     "startColumn": 4,
-                    "startOffset": 116935,
+                    "startOffset": 116905,
                     "endColumn": 73,
-                    "endOffset": 117004
+                    "endOffset": 116974
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5596,10 +5575,10 @@
                 "to": {
                     "startLine": 1614,
                     "startColumn": 4,
-                    "startOffset": 117009,
+                    "startOffset": 116979,
                     "endLine": 1615,
                     "endColumn": 12,
-                    "endOffset": 117150
+                    "endOffset": 117120
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5609,10 +5588,10 @@
                 "to": {
                     "startLine": 1616,
                     "startColumn": 4,
-                    "startOffset": 117155,
+                    "startOffset": 117125,
                     "endLine": 1617,
                     "endColumn": 12,
-                    "endOffset": 117294
+                    "endOffset": 117264
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5622,10 +5601,10 @@
                 "to": {
                     "startLine": 1618,
                     "startColumn": 4,
-                    "startOffset": 117299,
+                    "startOffset": 117269,
                     "endLine": 1619,
                     "endColumn": 12,
-                    "endOffset": 117432
+                    "endOffset": 117402
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5635,9 +5614,9 @@
                 "to": {
                     "startLine": 1620,
                     "startColumn": 4,
-                    "startOffset": 117437,
+                    "startOffset": 117407,
                     "endColumn": 65,
-                    "endOffset": 117498
+                    "endOffset": 117468
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5647,9 +5626,9 @@
                 "to": {
                     "startLine": 1621,
                     "startColumn": 4,
-                    "startOffset": 117503,
+                    "startOffset": 117473,
                     "endColumn": 89,
-                    "endOffset": 117588
+                    "endOffset": 117558
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5659,9 +5638,9 @@
                 "to": {
                     "startLine": 1622,
                     "startColumn": 4,
-                    "startOffset": 117593,
+                    "startOffset": 117563,
                     "endColumn": 75,
-                    "endOffset": 117664
+                    "endOffset": 117634
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5671,9 +5650,9 @@
                 "to": {
                     "startLine": 1623,
                     "startColumn": 4,
-                    "startOffset": 117669,
+                    "startOffset": 117639,
                     "endColumn": 103,
-                    "endOffset": 117768
+                    "endOffset": 117738
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5683,9 +5662,9 @@
                 "to": {
                     "startLine": 1624,
                     "startColumn": 4,
-                    "startOffset": 117773,
+                    "startOffset": 117743,
                     "endColumn": 89,
-                    "endOffset": 117858
+                    "endOffset": 117828
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5695,9 +5674,9 @@
                 "to": {
                     "startLine": 1625,
                     "startColumn": 4,
-                    "startOffset": 117863,
+                    "startOffset": 117833,
                     "endColumn": 101,
-                    "endOffset": 117960
+                    "endOffset": 117930
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5707,9 +5686,9 @@
                 "to": {
                     "startLine": 1626,
                     "startColumn": 4,
-                    "startOffset": 117965,
+                    "startOffset": 117935,
                     "endColumn": 107,
-                    "endOffset": 118068
+                    "endOffset": 118038
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5719,9 +5698,9 @@
                 "to": {
                     "startLine": 1627,
                     "startColumn": 4,
-                    "startOffset": 118073,
+                    "startOffset": 118043,
                     "endColumn": 107,
-                    "endOffset": 118176
+                    "endOffset": 118146
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5731,9 +5710,9 @@
                 "to": {
                     "startLine": 1628,
                     "startColumn": 4,
-                    "startOffset": 118181,
+                    "startOffset": 118151,
                     "endColumn": 99,
-                    "endOffset": 118276
+                    "endOffset": 118246
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5743,9 +5722,9 @@
                 "to": {
                     "startLine": 1629,
                     "startColumn": 4,
-                    "startOffset": 118281,
+                    "startOffset": 118251,
                     "endColumn": 79,
-                    "endOffset": 118356
+                    "endOffset": 118326
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5755,9 +5734,9 @@
                 "to": {
                     "startLine": 1630,
                     "startColumn": 4,
-                    "startOffset": 118361,
+                    "startOffset": 118331,
                     "endColumn": 91,
-                    "endOffset": 118448
+                    "endOffset": 118418
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5767,9 +5746,9 @@
                 "to": {
                     "startLine": 1631,
                     "startColumn": 4,
-                    "startOffset": 118453,
+                    "startOffset": 118423,
                     "endColumn": 97,
-                    "endOffset": 118546
+                    "endOffset": 118516
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5779,10 +5758,10 @@
                 "to": {
                     "startLine": 1632,
                     "startColumn": 4,
-                    "startOffset": 118551,
+                    "startOffset": 118521,
                     "endLine": 1633,
                     "endColumn": 12,
-                    "endOffset": 118656
+                    "endOffset": 118626
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5792,9 +5771,9 @@
                 "to": {
                     "startLine": 1634,
                     "startColumn": 4,
-                    "startOffset": 118661,
+                    "startOffset": 118631,
                     "endColumn": 77,
-                    "endOffset": 118734
+                    "endOffset": 118704
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5804,9 +5783,9 @@
                 "to": {
                     "startLine": 1635,
                     "startColumn": 4,
-                    "startOffset": 118739,
+                    "startOffset": 118709,
                     "endColumn": 105,
-                    "endOffset": 118840
+                    "endOffset": 118810
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5816,9 +5795,9 @@
                 "to": {
                     "startLine": 1636,
                     "startColumn": 4,
-                    "startOffset": 118845,
+                    "startOffset": 118815,
                     "endColumn": 91,
-                    "endOffset": 118932
+                    "endOffset": 118902
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5828,9 +5807,9 @@
                 "to": {
                     "startLine": 1637,
                     "startColumn": 4,
-                    "startOffset": 118937,
+                    "startOffset": 118907,
                     "endColumn": 103,
-                    "endOffset": 119036
+                    "endOffset": 119006
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5840,9 +5819,9 @@
                 "to": {
                     "startLine": 1638,
                     "startColumn": 4,
-                    "startOffset": 119041,
+                    "startOffset": 119011,
                     "endColumn": 109,
-                    "endOffset": 119146
+                    "endOffset": 119116
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5852,10 +5831,10 @@
                 "to": {
                     "startLine": 1639,
                     "startColumn": 4,
-                    "startOffset": 119151,
+                    "startOffset": 119121,
                     "endLine": 1640,
                     "endColumn": 12,
-                    "endOffset": 119268
+                    "endOffset": 119238
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5865,10 +5844,10 @@
                 "to": {
                     "startLine": 1641,
                     "startColumn": 4,
-                    "startOffset": 119273,
+                    "startOffset": 119243,
                     "endLine": 1644,
                     "endColumn": 12,
-                    "endOffset": 119431
+                    "endOffset": 119401
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5878,10 +5857,10 @@
                 "to": {
                     "startLine": 1645,
                     "startColumn": 4,
-                    "startOffset": 119436,
+                    "startOffset": 119406,
                     "endLine": 1648,
                     "endColumn": 12,
-                    "endOffset": 119588
+                    "endOffset": 119558
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5891,9 +5870,9 @@
                 "to": {
                     "startLine": 1649,
                     "startColumn": 4,
-                    "startOffset": 119593,
+                    "startOffset": 119563,
                     "endColumn": 79,
-                    "endOffset": 119668
+                    "endOffset": 119638
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5903,9 +5882,9 @@
                 "to": {
                     "startLine": 1650,
                     "startColumn": 4,
-                    "startOffset": 119673,
+                    "startOffset": 119643,
                     "endColumn": 99,
-                    "endOffset": 119768
+                    "endOffset": 119738
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5915,9 +5894,9 @@
                 "to": {
                     "startLine": 1651,
                     "startColumn": 4,
-                    "startOffset": 119773,
+                    "startOffset": 119743,
                     "endColumn": 89,
-                    "endOffset": 119858
+                    "endOffset": 119828
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5927,9 +5906,9 @@
                 "to": {
                     "startLine": 1652,
                     "startColumn": 4,
-                    "startOffset": 119863,
+                    "startOffset": 119833,
                     "endColumn": 109,
-                    "endOffset": 119968
+                    "endOffset": 119938
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5939,9 +5918,9 @@
                 "to": {
                     "startLine": 1653,
                     "startColumn": 4,
-                    "startOffset": 119973,
+                    "startOffset": 119943,
                     "endColumn": 93,
-                    "endOffset": 120062
+                    "endOffset": 120032
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5951,9 +5930,9 @@
                 "to": {
                     "startLine": 1654,
                     "startColumn": 4,
-                    "startOffset": 120067,
+                    "startOffset": 120037,
                     "endColumn": 105,
-                    "endOffset": 120168
+                    "endOffset": 120138
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5963,9 +5942,9 @@
                 "to": {
                     "startLine": 1655,
                     "startColumn": 4,
-                    "startOffset": 120173,
+                    "startOffset": 120143,
                     "endColumn": 91,
-                    "endOffset": 120260
+                    "endOffset": 120230
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5975,10 +5954,10 @@
                 "to": {
                     "startLine": 1656,
                     "startColumn": 4,
-                    "startOffset": 120265,
+                    "startOffset": 120235,
                     "endLine": 1657,
                     "endColumn": 12,
-                    "endOffset": 120360
+                    "endOffset": 120330
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -5988,10 +5967,10 @@
                 "to": {
                     "startLine": 1658,
                     "startColumn": 4,
-                    "startOffset": 120365,
+                    "startOffset": 120335,
                     "endLine": 1659,
                     "endColumn": 12,
-                    "endOffset": 120472
+                    "endOffset": 120442
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6001,10 +5980,10 @@
                 "to": {
                     "startLine": 1660,
                     "startColumn": 4,
-                    "startOffset": 120477,
+                    "startOffset": 120447,
                     "endLine": 1661,
                     "endColumn": 12,
-                    "endOffset": 120586
+                    "endOffset": 120556
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6014,10 +5993,10 @@
                 "to": {
                     "startLine": 1662,
                     "startColumn": 4,
-                    "startOffset": 120591,
+                    "startOffset": 120561,
                     "endLine": 1663,
                     "endColumn": 12,
-                    "endOffset": 120702
+                    "endOffset": 120672
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6027,10 +6006,10 @@
                 "to": {
                     "startLine": 1664,
                     "startColumn": 4,
-                    "startOffset": 120707,
+                    "startOffset": 120677,
                     "endLine": 1665,
                     "endColumn": 12,
-                    "endOffset": 120818
+                    "endOffset": 120788
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6040,9 +6019,9 @@
                 "to": {
                     "startLine": 1666,
                     "startColumn": 4,
-                    "startOffset": 120823,
+                    "startOffset": 120793,
                     "endColumn": 93,
-                    "endOffset": 120912
+                    "endOffset": 120882
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6052,9 +6031,9 @@
                 "to": {
                     "startLine": 1667,
                     "startColumn": 4,
-                    "startOffset": 120917,
+                    "startOffset": 120887,
                     "endColumn": 113,
-                    "endOffset": 121026
+                    "endOffset": 120996
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6064,9 +6043,9 @@
                 "to": {
                     "startLine": 1668,
                     "startColumn": 4,
-                    "startOffset": 121031,
+                    "startOffset": 121001,
                     "endColumn": 111,
-                    "endOffset": 121138
+                    "endOffset": 121108
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6076,10 +6055,10 @@
                 "to": {
                     "startLine": 1669,
                     "startColumn": 4,
-                    "startOffset": 121143,
+                    "startOffset": 121113,
                     "endLine": 1670,
                     "endColumn": 12,
-                    "endOffset": 121240
+                    "endOffset": 121210
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6089,10 +6068,10 @@
                 "to": {
                     "startLine": 1671,
                     "startColumn": 4,
-                    "startOffset": 121245,
+                    "startOffset": 121215,
                     "endLine": 1672,
                     "endColumn": 12,
-                    "endOffset": 121360
+                    "endOffset": 121330
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6102,10 +6081,10 @@
                 "to": {
                     "startLine": 1673,
                     "startColumn": 4,
-                    "startOffset": 121365,
+                    "startOffset": 121335,
                     "endLine": 1674,
                     "endColumn": 12,
-                    "endOffset": 121482
+                    "endOffset": 121452
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6115,9 +6094,9 @@
                 "to": {
                     "startLine": 1675,
                     "startColumn": 4,
-                    "startOffset": 121487,
+                    "startOffset": 121457,
                     "endColumn": 81,
-                    "endOffset": 121564
+                    "endOffset": 121534
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6127,9 +6106,9 @@
                 "to": {
                     "startLine": 1676,
                     "startColumn": 4,
-                    "startOffset": 121569,
+                    "startOffset": 121539,
                     "endColumn": 103,
-                    "endOffset": 121668
+                    "endOffset": 121638
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6139,9 +6118,9 @@
                 "to": {
                     "startLine": 1677,
                     "startColumn": 4,
-                    "startOffset": 121673,
+                    "startOffset": 121643,
                     "endColumn": 119,
-                    "endOffset": 121788
+                    "endOffset": 121758
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6151,9 +6130,9 @@
                 "to": {
                     "startLine": 1678,
                     "startColumn": 4,
-                    "startOffset": 121793,
+                    "startOffset": 121763,
                     "endColumn": 125,
-                    "endOffset": 121914
+                    "endOffset": 121884
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6163,9 +6142,9 @@
                 "to": {
                     "startLine": 1679,
                     "startColumn": 4,
-                    "startOffset": 121919,
+                    "startOffset": 121889,
                     "endColumn": 97,
-                    "endOffset": 122012
+                    "endOffset": 121982
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6175,9 +6154,9 @@
                 "to": {
                     "startLine": 1680,
                     "startColumn": 4,
-                    "startOffset": 122017,
+                    "startOffset": 121987,
                     "endColumn": 93,
-                    "endOffset": 122106
+                    "endOffset": 122076
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6187,9 +6166,9 @@
                 "to": {
                     "startLine": 1681,
                     "startColumn": 4,
-                    "startOffset": 122111,
+                    "startOffset": 122081,
                     "endColumn": 87,
-                    "endOffset": 122194
+                    "endOffset": 122164
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6199,9 +6178,9 @@
                 "to": {
                     "startLine": 1682,
                     "startColumn": 4,
-                    "startOffset": 122199,
+                    "startOffset": 122169,
                     "endColumn": 111,
-                    "endOffset": 122306
+                    "endOffset": 122276
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6211,9 +6190,9 @@
                 "to": {
                     "startLine": 1683,
                     "startColumn": 4,
-                    "startOffset": 122311,
+                    "startOffset": 122281,
                     "endColumn": 115,
-                    "endOffset": 122422
+                    "endOffset": 122392
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6223,9 +6202,9 @@
                 "to": {
                     "startLine": 1684,
                     "startColumn": 4,
-                    "startOffset": 122427,
+                    "startOffset": 122397,
                     "endColumn": 121,
-                    "endOffset": 122544
+                    "endOffset": 122514
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6235,9 +6214,9 @@
                 "to": {
                     "startLine": 1685,
                     "startColumn": 4,
-                    "startOffset": 122549,
+                    "startOffset": 122519,
                     "endColumn": 111,
-                    "endOffset": 122656
+                    "endOffset": 122626
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6247,10 +6226,10 @@
                 "to": {
                     "startLine": 1686,
                     "startColumn": 4,
-                    "startOffset": 122661,
+                    "startOffset": 122631,
                     "endLine": 1688,
                     "endColumn": 12,
-                    "endOffset": 122831
+                    "endOffset": 122801
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6260,9 +6239,9 @@
                 "to": {
                     "startLine": 1689,
                     "startColumn": 4,
-                    "startOffset": 122836,
+                    "startOffset": 122806,
                     "endColumn": 115,
-                    "endOffset": 122947
+                    "endOffset": 122917
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6272,9 +6251,9 @@
                 "to": {
                     "startLine": 1690,
                     "startColumn": 4,
-                    "startOffset": 122952,
+                    "startOffset": 122922,
                     "endColumn": 85,
-                    "endOffset": 123033
+                    "endOffset": 123003
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6284,9 +6263,9 @@
                 "to": {
                     "startLine": 1691,
                     "startColumn": 4,
-                    "startOffset": 123038,
+                    "startOffset": 123008,
                     "endColumn": 91,
-                    "endOffset": 123125
+                    "endOffset": 123095
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6296,10 +6275,10 @@
                 "to": {
                     "startLine": 1692,
                     "startColumn": 4,
-                    "startOffset": 123130,
+                    "startOffset": 123100,
                     "endLine": 1693,
                     "endColumn": 12,
-                    "endOffset": 123237
+                    "endOffset": 123207
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6309,10 +6288,10 @@
                 "to": {
                     "startLine": 1694,
                     "startColumn": 4,
-                    "startOffset": 123242,
+                    "startOffset": 123212,
                     "endLine": 1695,
                     "endColumn": 12,
-                    "endOffset": 123361
+                    "endOffset": 123331
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6322,9 +6301,9 @@
                 "to": {
                     "startLine": 1696,
                     "startColumn": 4,
-                    "startOffset": 123366,
+                    "startOffset": 123336,
                     "endColumn": 66,
-                    "endOffset": 123428
+                    "endOffset": 123398
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6334,10 +6313,10 @@
                 "to": {
                     "startLine": 1697,
                     "startColumn": 4,
-                    "startOffset": 123433,
+                    "startOffset": 123403,
                     "endLine": 1698,
                     "endColumn": 12,
-                    "endOffset": 123554
+                    "endOffset": 123524
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6347,9 +6326,9 @@
                 "to": {
                     "startLine": 1699,
                     "startColumn": 4,
-                    "startOffset": 123559,
+                    "startOffset": 123529,
                     "endColumn": 67,
-                    "endOffset": 123622
+                    "endOffset": 123592
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6359,10 +6338,10 @@
                 "to": {
                     "startLine": 1700,
                     "startColumn": 4,
-                    "startOffset": 123627,
+                    "startOffset": 123597,
                     "endLine": 1701,
                     "endColumn": 12,
-                    "endOffset": 123750
+                    "endOffset": 123720
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6372,10 +6351,10 @@
                 "to": {
                     "startLine": 1702,
                     "startColumn": 4,
-                    "startOffset": 123755,
+                    "startOffset": 123725,
                     "endLine": 1703,
                     "endColumn": 12,
-                    "endOffset": 123894
+                    "endOffset": 123864
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6385,10 +6364,10 @@
                 "to": {
                     "startLine": 1704,
                     "startColumn": 4,
-                    "startOffset": 123899,
+                    "startOffset": 123869,
                     "endLine": 1705,
                     "endColumn": 12,
-                    "endOffset": 124022
+                    "endOffset": 123992
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6398,9 +6377,9 @@
                 "to": {
                     "startLine": 1706,
                     "startColumn": 4,
-                    "startOffset": 124027,
+                    "startOffset": 123997,
                     "endColumn": 68,
-                    "endOffset": 124091
+                    "endOffset": 124061
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6410,9 +6389,9 @@
                 "to": {
                     "startLine": 1707,
                     "startColumn": 4,
-                    "startOffset": 124096,
+                    "startOffset": 124066,
                     "endColumn": 94,
-                    "endOffset": 124186
+                    "endOffset": 124156
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6422,9 +6401,9 @@
                 "to": {
                     "startLine": 1708,
                     "startColumn": 4,
-                    "startOffset": 124191,
+                    "startOffset": 124161,
                     "endColumn": 114,
-                    "endOffset": 124301
+                    "endOffset": 124271
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6434,9 +6413,9 @@
                 "to": {
                     "startLine": 1709,
                     "startColumn": 4,
-                    "startOffset": 124306,
+                    "startOffset": 124276,
                     "endColumn": 112,
-                    "endOffset": 124414
+                    "endOffset": 124384
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6446,9 +6425,9 @@
                 "to": {
                     "startLine": 1710,
                     "startColumn": 4,
-                    "startOffset": 124419,
+                    "startOffset": 124389,
                     "endColumn": 98,
-                    "endOffset": 124513
+                    "endOffset": 124483
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6458,9 +6437,9 @@
                 "to": {
                     "startLine": 1711,
                     "startColumn": 4,
-                    "startOffset": 124518,
+                    "startOffset": 124488,
                     "endColumn": 108,
-                    "endOffset": 124622
+                    "endOffset": 124592
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6470,9 +6449,9 @@
                 "to": {
                     "startLine": 1712,
                     "startColumn": 4,
-                    "startOffset": 124627,
+                    "startOffset": 124597,
                     "endColumn": 110,
-                    "endOffset": 124733
+                    "endOffset": 124703
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6482,9 +6461,9 @@
                 "to": {
                     "startLine": 1713,
                     "startColumn": 4,
-                    "startOffset": 124738,
+                    "startOffset": 124708,
                     "endColumn": 110,
-                    "endOffset": 124844
+                    "endOffset": 124814
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6494,9 +6473,9 @@
                 "to": {
                     "startLine": 1714,
                     "startColumn": 4,
-                    "startOffset": 124849,
+                    "startOffset": 124819,
                     "endColumn": 100,
-                    "endOffset": 124945
+                    "endOffset": 124915
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6506,9 +6485,9 @@
                 "to": {
                     "startLine": 1715,
                     "startColumn": 4,
-                    "startOffset": 124950,
+                    "startOffset": 124920,
                     "endColumn": 104,
-                    "endOffset": 125050
+                    "endOffset": 125020
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6518,9 +6497,9 @@
                 "to": {
                     "startLine": 1716,
                     "startColumn": 4,
-                    "startOffset": 125055,
+                    "startOffset": 125025,
                     "endColumn": 99,
-                    "endOffset": 125150
+                    "endOffset": 125120
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6530,10 +6509,10 @@
                 "to": {
                     "startLine": 1717,
                     "startColumn": 4,
-                    "startOffset": 125155,
+                    "startOffset": 125125,
                     "endLine": 1718,
                     "endColumn": 12,
-                    "endOffset": 125280
+                    "endOffset": 125250
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6543,9 +6522,9 @@
                 "to": {
                     "startLine": 1719,
                     "startColumn": 4,
-                    "startOffset": 125285,
+                    "startOffset": 125255,
                     "endColumn": 90,
-                    "endOffset": 125371
+                    "endOffset": 125341
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6555,9 +6534,9 @@
                 "to": {
                     "startLine": 1720,
                     "startColumn": 4,
-                    "startOffset": 125376,
+                    "startOffset": 125346,
                     "endColumn": 122,
-                    "endOffset": 125494
+                    "endOffset": 125464
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6567,9 +6546,9 @@
                 "to": {
                     "startLine": 1721,
                     "startColumn": 4,
-                    "startOffset": 125499,
+                    "startOffset": 125469,
                     "endColumn": 93,
-                    "endOffset": 125588
+                    "endOffset": 125558
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6579,10 +6558,10 @@
                 "to": {
                     "startLine": 1722,
                     "startColumn": 4,
-                    "startOffset": 125593,
+                    "startOffset": 125563,
                     "endLine": 1723,
                     "endColumn": 12,
-                    "endOffset": 125700
+                    "endOffset": 125670
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6592,9 +6571,9 @@
                 "to": {
                     "startLine": 1724,
                     "startColumn": 4,
-                    "startOffset": 125705,
+                    "startOffset": 125675,
                     "endColumn": 85,
-                    "endOffset": 125786
+                    "endOffset": 125756
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6604,9 +6583,9 @@
                 "to": {
                     "startLine": 1725,
                     "startColumn": 4,
-                    "startOffset": 125791,
+                    "startOffset": 125761,
                     "endColumn": 103,
-                    "endOffset": 125890
+                    "endOffset": 125860
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6616,9 +6595,9 @@
                 "to": {
                     "startLine": 1726,
                     "startColumn": 4,
-                    "startOffset": 125895,
+                    "startOffset": 125865,
                     "endColumn": 95,
-                    "endOffset": 125986
+                    "endOffset": 125956
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6628,9 +6607,9 @@
                 "to": {
                     "startLine": 1727,
                     "startColumn": 4,
-                    "startOffset": 125991,
+                    "startOffset": 125961,
                     "endColumn": 74,
-                    "endOffset": 126061
+                    "endOffset": 126031
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6640,9 +6619,9 @@
                 "to": {
                     "startLine": 1728,
                     "startColumn": 4,
-                    "startOffset": 126066,
+                    "startOffset": 126036,
                     "endColumn": 69,
-                    "endOffset": 126131
+                    "endOffset": 126101
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6652,9 +6631,9 @@
                 "to": {
                     "startLine": 1729,
                     "startColumn": 4,
-                    "startOffset": 126136,
+                    "startOffset": 126106,
                     "endColumn": 87,
-                    "endOffset": 126219
+                    "endOffset": 126189
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6664,10 +6643,10 @@
                 "to": {
                     "startLine": 1730,
                     "startColumn": 4,
-                    "startOffset": 126224,
+                    "startOffset": 126194,
                     "endLine": 1731,
                     "endColumn": 12,
-                    "endOffset": 126337
+                    "endOffset": 126307
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6677,10 +6656,10 @@
                 "to": {
                     "startLine": 1732,
                     "startColumn": 4,
-                    "startOffset": 126342,
+                    "startOffset": 126312,
                     "endLine": 1733,
                     "endColumn": 12,
-                    "endOffset": 126441
+                    "endOffset": 126411
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6690,10 +6669,10 @@
                 "to": {
                     "startLine": 1734,
                     "startColumn": 4,
-                    "startOffset": 126446,
+                    "startOffset": 126416,
                     "endLine": 1735,
                     "endColumn": 12,
-                    "endOffset": 126545
+                    "endOffset": 126515
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6703,10 +6682,10 @@
                 "to": {
                     "startLine": 1736,
                     "startColumn": 4,
-                    "startOffset": 126550,
+                    "startOffset": 126520,
                     "endLine": 1737,
                     "endColumn": 12,
-                    "endOffset": 126671
+                    "endOffset": 126641
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6716,9 +6695,9 @@
                 "to": {
                     "startLine": 1738,
                     "startColumn": 4,
-                    "startOffset": 126676,
+                    "startOffset": 126646,
                     "endColumn": 87,
-                    "endOffset": 126759
+                    "endOffset": 126729
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6728,9 +6707,9 @@
                 "to": {
                     "startLine": 1739,
                     "startColumn": 4,
-                    "startOffset": 126764,
+                    "startOffset": 126734,
                     "endColumn": 107,
-                    "endOffset": 126867
+                    "endOffset": 126837
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6740,9 +6719,9 @@
                 "to": {
                     "startLine": 1740,
                     "startColumn": 4,
-                    "startOffset": 126872,
+                    "startOffset": 126842,
                     "endColumn": 99,
-                    "endOffset": 126967
+                    "endOffset": 126937
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6752,9 +6731,9 @@
                 "to": {
                     "startLine": 1741,
                     "startColumn": 4,
-                    "startOffset": 126972,
+                    "startOffset": 126942,
                     "endColumn": 89,
-                    "endOffset": 127057
+                    "endOffset": 127027
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6764,9 +6743,9 @@
                 "to": {
                     "startLine": 1742,
                     "startColumn": 4,
-                    "startOffset": 127062,
+                    "startOffset": 127032,
                     "endColumn": 109,
-                    "endOffset": 127167
+                    "endOffset": 127137
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6776,9 +6755,9 @@
                 "to": {
                     "startLine": 1743,
                     "startColumn": 4,
-                    "startOffset": 127172,
+                    "startOffset": 127142,
                     "endColumn": 83,
-                    "endOffset": 127251
+                    "endOffset": 127221
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6788,9 +6767,9 @@
                 "to": {
                     "startLine": 1744,
                     "startColumn": 4,
-                    "startOffset": 127256,
+                    "startOffset": 127226,
                     "endColumn": 101,
-                    "endOffset": 127353
+                    "endOffset": 127323
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6800,9 +6779,9 @@
                 "to": {
                     "startLine": 1745,
                     "startColumn": 4,
-                    "startOffset": 127358,
+                    "startOffset": 127328,
                     "endColumn": 83,
-                    "endOffset": 127437
+                    "endOffset": 127407
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6812,9 +6791,9 @@
                 "to": {
                     "startLine": 1746,
                     "startColumn": 4,
-                    "startOffset": 127442,
+                    "startOffset": 127412,
                     "endColumn": 53,
-                    "endOffset": 127491
+                    "endOffset": 127461
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6824,9 +6803,9 @@
                 "to": {
                     "startLine": 1747,
                     "startColumn": 4,
-                    "startOffset": 127496,
+                    "startOffset": 127466,
                     "endColumn": 63,
-                    "endOffset": 127555
+                    "endOffset": 127525
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6836,9 +6815,9 @@
                 "to": {
                     "startLine": 1748,
                     "startColumn": 4,
-                    "startOffset": 127560,
+                    "startOffset": 127530,
                     "endColumn": 105,
-                    "endOffset": 127661
+                    "endOffset": 127631
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6848,9 +6827,9 @@
                 "to": {
                     "startLine": 1749,
                     "startColumn": 4,
-                    "startOffset": 127666,
+                    "startOffset": 127636,
                     "endColumn": 109,
-                    "endOffset": 127771
+                    "endOffset": 127741
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6860,9 +6839,9 @@
                 "to": {
                     "startLine": 1750,
                     "startColumn": 4,
-                    "startOffset": 127776,
+                    "startOffset": 127746,
                     "endColumn": 83,
-                    "endOffset": 127855
+                    "endOffset": 127825
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
@@ -6872,9 +6851,9 @@
                 "to": {
                     "startLine": 1751,
                     "startColumn": 4,
-                    "startOffset": 127860,
+                    "startOffset": 127830,
                     "endColumn": 119,
-                    "endOffset": 127975
+                    "endOffset": 127945
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/res/values/values.xml"
