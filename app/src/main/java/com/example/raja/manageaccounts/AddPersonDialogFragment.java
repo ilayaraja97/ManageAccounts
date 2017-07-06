@@ -1,5 +1,6 @@
 package com.example.raja.manageaccounts;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
@@ -57,12 +58,29 @@ public class AddPersonDialogFragment extends DialogFragment {
     public void onAttach(Context context) {
         super.onAttach(context);
         // Verify that the host activity implements the callback interface
+
         try {
             // Instantiate the NoticeDialogListener so we can send events to the host
             mListener = (AddPersonDialogFragment.PersonDialogListener) context;
         } catch (ClassCastException e) {
             // The activity doesn't implement the interface, throw exception
             throw new ClassCastException(context.toString()
+                    + " must implement NoticeDialogListener");
+        }
+    }
+    @SuppressWarnings("deparcation")
+    @Override
+    public void onAttach(Activity activity){
+        super.onAttach(activity);
+
+        // Verify that the host activity implements the callback interface
+
+        try {
+            // Instantiate the NoticeDialogListener so we can send events to the host
+            mListener = (AddPersonDialogFragment.PersonDialogListener) activity;
+        } catch (ClassCastException e) {
+            // The activity doesn't implement the interface, throw exception
+            throw new ClassCastException(activity.toString()
                     + " must implement NoticeDialogListener");
         }
     }
