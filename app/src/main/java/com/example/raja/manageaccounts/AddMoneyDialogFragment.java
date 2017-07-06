@@ -36,7 +36,8 @@ public class AddMoneyDialogFragment extends DialogFragment {
                         try {
                             amount = Float.valueOf(((EditText) view.findViewById(R.id.amount)).getText().toString());
                         }catch(Exception e){
-                            amount=0f;
+                            amount=0;
+                            mListener.onDialogNegativeClick(AddMoneyDialogFragment.this);
                         }
                         mListener.onDialogPositiveClick(AddMoneyDialogFragment.this,descri,amount);
                     }
