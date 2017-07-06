@@ -20,7 +20,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements AddMoneyDialogFragment.MoneyDialogListener {
+public class MainActivity extends AppCompatActivity implements AddMoneyDialogFragment.MoneyDialogListener, AddPersonDialogFragment.PersonDialogListener {
 
     ListView lv_accounts1;
     //String accounts[]={"raja","deva","dad","amma"};
@@ -44,7 +44,23 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         super.onCreateOptionsMenu(menu);
+        MenuInflater inflater=getMenuInflater();
+        inflater.inflate(R.menu.menu,menu);
         return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.add:
+                Toast.makeText(getApplicationContext(), "add a new person", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.help:
+                Toast.makeText(getApplicationContext(), "help is on ur way!", Toast.LENGTH_SHORT).show();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo)
@@ -92,6 +108,14 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
                 amount,
                 description,
                 selectedAmount);
+        finish();
+        startActivity(getIntent());
+    }
+
+    @Override
+    public void onDialogPositiveClick(DialogFragment dialog, String name) {
+        DbHandler db= new DbHandler(this);
+        db.addPerson(name);
         finish();
         startActivity(getIntent());
     }
