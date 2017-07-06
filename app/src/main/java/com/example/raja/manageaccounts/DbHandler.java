@@ -6,7 +6,11 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -16,7 +20,7 @@ import java.util.List;
 public class DbHandler extends SQLiteOpenHelper {
 
     private static String db_name="manage_accounts";
-    private static int db_version=1;
+    private static int db_version=2;
 
     public DbHandler(Context context) {
         super(context, db_name, null, db_version);
@@ -115,7 +119,15 @@ public class DbHandler extends SQLiteOpenHelper {
                 Transactions trans = new Transactions();
                 trans.setTid(Integer.parseInt(cursor.getString(0)));
                 trans.setPid(Integer.parseInt(cursor.getString(1)));
-                //trans.setTime_of_transaction(Long.parseLong(cursor.getString(2)));
+                Log.d("ilaya","going to insert date");
+                DateFormat formatter = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss");
+                Date d=new Date();
+                try {
+                    d=(Date)formatter.parse(cursor.getString(2));
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+                trans.setTime_of_transaction(d);
                 trans.setAmount(Float.parseFloat(cursor.getString(3)));
                 trans.setDescription(cursor.getString(4));
                 transList.add(trans);

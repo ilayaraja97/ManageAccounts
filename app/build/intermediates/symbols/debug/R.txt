@@ -558,6 +558,7 @@ int id collapseActionView 0x7f0b001e
 int id contentPanel 0x7f0b0031
 int id custom 0x7f0b0038
 int id customPanel 0x7f0b0037
+int id date_time 0x7f0b0076
 int id decor_content_parent 0x7f0b0045
 int id default_activity_button 0x7f0b002a
 int id description 0x7f0b005b
@@ -567,7 +568,7 @@ int id end 0x7f0b001b
 int id end_padder 0x7f0b0073
 int id expand_activities_button 0x7f0b0028
 int id expanded_menu 0x7f0b003d
-int id help 0x7f0b0076
+int id help 0x7f0b0077
 int id home 0x7f0b0004
 int id homeAsUp 0x7f0b000d
 int id icon 0x7f0b002c

@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
+import java.text.DateFormat;
 import java.util.ArrayList;
-
 /**
  * Created by raja on 22/06/17.
  */
@@ -49,6 +49,7 @@ public class TransactionAdapter extends ArrayAdapter {
             holder.txtId = (TextView) convertView.findViewById((R.id.id));
             holder.txtName = (TextView) convertView.findViewById(R.id.description);
             holder.txtAmount = (TextView) convertView.findViewById(R.id.amount);
+            holder.txtTime = (TextView) convertView.findViewById(R.id.date_time);
             convertView.setTag(holder);
         } else {
             holder = (TransactionAdapter.ViewHolder) convertView.getTag();
@@ -57,6 +58,11 @@ public class TransactionAdapter extends ArrayAdapter {
         holder.txtId.setText(String.valueOf(searchArrayList.get(position).getPid()));
         holder.txtName.setText(searchArrayList.get(position).getDescription());
         holder.txtAmount.setText(String.valueOf(searchArrayList.get(position).getAmount()));
+        Log.d("ilaya","before time");
+        DateFormat df = DateFormat.getDateInstance();
+//        Log.d("ilaya","after time"+searchArrayList.get(position).getTime_of_transaction());
+        holder.txtTime.setText(df.format(searchArrayList.get(position).getTime_of_transaction()));
+        Log.d("ilaya","after adding to txtv");
 //        Log.d("ilaya","done setting text in list");
         return convertView;
     }
@@ -65,5 +71,6 @@ public class TransactionAdapter extends ArrayAdapter {
         TextView txtId;
         TextView txtName;
         TextView txtAmount;
+        TextView txtTime;
     }
 }

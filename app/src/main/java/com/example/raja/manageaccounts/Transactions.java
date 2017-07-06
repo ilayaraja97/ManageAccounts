@@ -1,5 +1,7 @@
 package com.example.raja.manageaccounts;
 
+import android.util.Log;
+
 import java.util.Date;
 
 /**
@@ -16,8 +18,10 @@ public class Transactions {
         return time_of_transaction;
     }
 
-    public void setTime_of_transaction(long time_of_transaction) {
-        this.time_of_transaction = new Date(time_of_transaction);
+    public void setTime_of_transaction(Date time_of_transaction) {
+        Log.d("ilaya","hi from transactions1");
+        this.time_of_transaction = time_of_transaction;
+
     }
 
     public String getDescription() {
