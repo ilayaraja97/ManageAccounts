@@ -83,7 +83,7 @@ public class AddMoneyDialogFragment extends DialogFragment {
 
         try {
             // Instantiate the NoticeDialogListener so we can send events to the host
-            mListener = (AddPersonDialogFragment.PersonDialogListener) activity;
+            mListener = (AddMoneyDialogFragment.MoneyDialogListener) activity;
         } catch (ClassCastException e) {
             // The activity doesn't implement the interface, throw exception
             throw new ClassCastException(activity.toString()
