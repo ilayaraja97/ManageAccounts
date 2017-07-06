@@ -74,5 +74,21 @@ public class AddMoneyDialogFragment extends DialogFragment {
                     + " must implement NoticeDialogListener");
         }
     }
+    @SuppressWarnings("deparcation")
+    @Override
+    public void onAttach(Activity activity){
+        super.onAttach(activity);
+
+        // Verify that the host activity implements the callback interface
+
+        try {
+            // Instantiate the NoticeDialogListener so we can send events to the host
+            mListener = (AddPersonDialogFragment.PersonDialogListener) activity;
+        } catch (ClassCastException e) {
+            // The activity doesn't implement the interface, throw exception
+            throw new ClassCastException(activity.toString()
+                    + " must implement NoticeDialogListener");
+        }
+    }
 
 }
