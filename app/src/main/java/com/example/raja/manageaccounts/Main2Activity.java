@@ -33,3 +33,4 @@ public class Main2Activity extends AppCompatActivity {
         registerForContextMenu(lv_history);
     }
 }
+

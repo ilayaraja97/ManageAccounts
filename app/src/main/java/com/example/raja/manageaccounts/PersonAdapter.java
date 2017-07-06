@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageSwitcher;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -51,6 +53,7 @@ public class PersonAdapter extends ArrayAdapter {
             holder.txtId = (TextView) convertView.findViewById((R.id.id));
             holder.txtName = (TextView) convertView.findViewById(R.id.name);
             holder.txtAmount = (TextView) convertView.findViewById(R.id.amount);
+            holder.img = (ImageView) convertView.findViewById(R.id.image);
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
@@ -58,7 +61,23 @@ public class PersonAdapter extends ArrayAdapter {
 //        Log.d("ilaya",searchArrayList.get(position).getName());
         holder.txtId.setText(String.valueOf(searchArrayList.get(position).getPid()));
         holder.txtName.setText(searchArrayList.get(position).getName());
-        holder.txtAmount.setText(String.valueOf(searchArrayList.get(position).getCumulative_value()));
+        float val=searchArrayList.get(position).getCumulative_value();
+        holder.txtAmount.setText(String.valueOf(val));
+        if(val<0)
+            convertView.setBackgroundResource(R.drawable.cardshape_red);
+        else if(val>0)
+            convertView.setBackgroundResource(R.drawable.cardshape_green);
+        else
+            convertView.setBackgroundResource(R.drawable.cardshape);
+        holder.img.setVisibility(View.VISIBLE);
+        if(Math.abs(val)<5)
+            holder.img.setVisibility(View.INVISIBLE);
+        if(Math.abs(val)<100)
+            holder.img.setImageResource(R.mipmap.coin);
+        else if(Math.abs(val)<500)
+            holder.img.setImageResource(R.mipmap.coins);
+        else
+            holder.img.setImageResource(R.mipmap.notes);
         convertView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -74,5 +93,6 @@ public class PersonAdapter extends ArrayAdapter {
         TextView txtId;
         TextView txtName;
         TextView txtAmount;
+        ImageView img;
     }
 }
