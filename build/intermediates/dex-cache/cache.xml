@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_da76e8c3055416f95d805a5504c75a894d5b1adf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.1_adfaa0345313a362c0a6315aa2a83f23890e5a74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.1_8c30a5d166b7e423ae9009b03e9df0789d1dd649.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.1_f350c2f7827d457629509e46642794c835e6882b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_346e00544ed8435517d2cfcbd32b1448c6baf8f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_aeb64746cd118a8e0dfc69eb3b3313ce53c0171b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_1d0aaea22fbeb9204bb7a3f8001d01a04d540423.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_1456b7e78b1cd779cd58f88e3145b33d60642f6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_9cbb60f7c4821c3234b26954e1b4760bccb16f9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.1_b6393ca9307ef49ee42ecafa6e84a7701c1c1fdd.jar" />
+    </item>
+
+</items>
