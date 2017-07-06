@@ -5,3 +5,6 @@ An android app to manage the amount of money you took or lend to anyone. the the
 
 ### In it's first few phases so review!!
 Try the latest stable release [here](https://github.com/ilayaraja97/ManageAccounts/raw/test/app/build/outputs/apk/app-debug.apk) 
+
+### Post an issue here in github
+When if you have issue of course! Easier for me to review.
