@@ -16,7 +16,7 @@ import java.util.List;
 public class DbHandler extends SQLiteOpenHelper {
 
     private static String db_name="manage_accounts";
-    private static int db_version=10;
+    private static int db_version=1;
 
     public DbHandler(Context context) {
         super(context, db_name, null, db_version);
@@ -24,7 +24,7 @@ public class DbHandler extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        Log.d("ilaya","start create");
+//        Log.d("ilaya","start create");
         db.execSQL("create table if not exists people(" +
                 "pid integer primary key,"+
                 "person varchar(50) not null,"+
@@ -41,19 +41,21 @@ public class DbHandler extends SQLiteOpenHelper {
                 ");"
         );
         //create dummy values
-        Log.d("ilaya","before inserted");
-        db.execSQL("insert into people(person,cumulative_value) values ('deva',200);");
-        db.execSQL("insert into people(person,cumulative_value) values ('amma',300);");
-        db.execSQL("insert into people(person,cumulative_value) values ('appu',100);");
-        Log.d("ilaya","inserted");
+//        Log.d("ilaya","before inserted");
+//        db.execSQL("insert into people(person,cumulative_value) values ('deva',200);");
+//        db.execSQL("insert into people(person,cumulative_value) values ('amma',300);");
+//        db.execSQL("insert into people(person,cumulative_value) values ('appu',100);");
+//        Log.d("ilaya","inserted");
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        Log.d("ilaya","update");
-        db.execSQL("drop table if exists people;");
-        db.execSQL("drop table if exists transactions;");
-        onCreate(db);
+//        Log.d("ilaya","update");
+        switch(oldVersion)
+        {
+            case 1:
+            case 2:
+        }
     }
 
     public void addMoneyTo(int pid,float amount,String description,float pastCumulative)
@@ -105,7 +107,7 @@ public class DbHandler extends SQLiteOpenHelper {
     {
         SQLiteDatabase db = this.getWritableDatabase();
         ArrayList<Transactions> transList= new ArrayList<Transactions>();
-        Log.d("ilaya_db","db: pid = "+pid);
+//        Log.d("ilaya_db","db: pid = "+pid);
         String query="select tid,pid,time_of_transaction,amount,description from transactions where pid="+pid+" order by tid desc;";
         Cursor cursor= db.rawQuery(query,null);
         if (cursor.moveToFirst()) {
