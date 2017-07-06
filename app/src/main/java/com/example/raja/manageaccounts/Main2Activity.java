@@ -25,10 +25,10 @@ public class Main2Activity extends AppCompatActivity {
 //        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_activated_1,accounts);
 //        lv_accounts1.setAdapter(adapter);
         DbHandler db=new DbHandler(this);
-        Log.d("ilaya","adapter gonna be made");
+//        Log.d("ilaya","adapter gonna be made");
         ArrayList<Transactions> people= db.getTransactionsFor(selectedPid);
         TransactionAdapter adapter = new TransactionAdapter(this,R.layout.transaction_row_view, people);
-        Log.d("ilaya","adapter made");
+//        Log.d("ilaya","adapter made");
         lv_history.setAdapter(adapter);
         registerForContextMenu(lv_history);
     }

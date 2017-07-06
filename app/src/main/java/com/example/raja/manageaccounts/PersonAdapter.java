@@ -24,7 +24,7 @@ public class PersonAdapter extends ArrayAdapter {
         super(context, textViewResourceId, objects);
         searchArrayList = objects;
         mInflater=(LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        Log.d("ilaya","constructed");
+//        Log.d("ilaya","constructed");
     }
 
     public int getCount() {
@@ -42,10 +42,10 @@ public class PersonAdapter extends ArrayAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder;
         if (convertView == null) {
-            Log.d("ilaya","inflate start");
+//            Log.d("ilaya","inflate start");
             //exception
             convertView = mInflater.inflate(R.layout.person_row_view,null);
-            Log.d("ilaya","inflate done");
+//            Log.d("ilaya","inflate done");
             holder = new ViewHolder();
             holder.txtId = (TextView) convertView.findViewById((R.id.id));
             holder.txtName = (TextView) convertView.findViewById(R.id.name);
@@ -54,11 +54,11 @@ public class PersonAdapter extends ArrayAdapter {
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
-        Log.d("ilaya",searchArrayList.get(position).getName());
+//        Log.d("ilaya",searchArrayList.get(position).getName());
         holder.txtId.setText(String.valueOf(searchArrayList.get(position).getPid()));
         holder.txtName.setText(searchArrayList.get(position).getName());
         holder.txtAmount.setText(String.valueOf(searchArrayList.get(position).getCumulative_value()));
-        Log.d("ilaya","done setting text in list");
+//        Log.d("ilaya","done setting text in list");
         return convertView;
     }
 

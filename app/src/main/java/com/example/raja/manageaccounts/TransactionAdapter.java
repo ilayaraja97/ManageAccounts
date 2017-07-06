@@ -23,7 +23,7 @@ public class TransactionAdapter extends ArrayAdapter {
         super(context, textViewResourceId, objects);
         searchArrayList = objects;
         mInflater=(LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        Log.d("ilaya","constructed");
+//        Log.d("ilaya","constructed");
     }
 
     public int getCount() {
@@ -41,10 +41,10 @@ public class TransactionAdapter extends ArrayAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         TransactionAdapter.ViewHolder holder;
         if (convertView == null) {
-            Log.d("ilaya","inflate start");
+//            Log.d("ilaya","inflate start");
             //exception
             convertView = mInflater.inflate(R.layout.transaction_row_view,null);
-            Log.d("ilaya","inflate done");
+//            Log.d("ilaya","inflate done");
             holder = new TransactionAdapter.ViewHolder();
             holder.txtId = (TextView) convertView.findViewById((R.id.id));
             holder.txtName = (TextView) convertView.findViewById(R.id.description);
@@ -53,11 +53,11 @@ public class TransactionAdapter extends ArrayAdapter {
         } else {
             holder = (TransactionAdapter.ViewHolder) convertView.getTag();
         }
-        Log.d("ilaya",searchArrayList.get(position).getDescription());
+//        Log.d("ilaya",searchArrayList.get(position).getDescription());
         holder.txtId.setText(String.valueOf(searchArrayList.get(position).getPid()));
         holder.txtName.setText(searchArrayList.get(position).getDescription());
         holder.txtAmount.setText(String.valueOf(searchArrayList.get(position).getAmount()));
-        Log.d("ilaya","done setting text in list");
+//        Log.d("ilaya","done setting text in list");
         return convertView;
     }
 

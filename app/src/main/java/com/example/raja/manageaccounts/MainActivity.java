@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
 //        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_activated_1,accounts);
 //        lv_accounts1.setAdapter(adapter);
         DbHandler db=new DbHandler(this);
-        Log.d("ilaya","adapter gonna be made");
+//        Log.d("ilaya","adapter gonna be made");
         ArrayList<Person> people= db.getPeopleInOrder();
         PersonAdapter adapter = new PersonAdapter(this,R.layout.person_row_view, people);
-        Log.d("ilaya","adapter made");
+//        Log.d("ilaya","adapter made");
         lv_accounts1.setAdapter(adapter);
         registerForContextMenu(lv_accounts1);
     }
@@ -80,9 +80,9 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         Person person = ((Person)lv_accounts1.getItemAtPosition(info.position)); // who the hell knew this!!
         selectedAmount=person.getCumulative_value();
         selectedPid=person.getPid();
-        Log.d("ilaya","pid "+selectedPid);
+//        Log.d("ilaya","pid "+selectedPid);
         if(item.getTitle()=="take or give money"){
-            Toast.makeText(getApplicationContext(),"take or give money code",Toast.LENGTH_LONG).show();
+//            Toast.makeText(getApplicationContext(),"take or give money code",Toast.LENGTH_LONG).show();
             DialogFragment dialog = new AddMoneyDialogFragment();
             dialog.show(getFragmentManager(), "AddMoneyDialogFragment");
         }
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
 
     @Override
     public void onDialogPositiveClick(DialogFragment dialog,String description,Float amount){
-        android.widget.Toast.makeText(getApplicationContext(), "ok from main", Toast.LENGTH_SHORT).show();
+//        android.widget.Toast.makeText(getApplicationContext(), "ok from main", Toast.LENGTH_SHORT).show();
 //        Log.d("ilaya","pos click");
         DbHandler db= new DbHandler(this);
 //        Log.d("ilaya_add","description "+amount);
@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
 
     @Override
     public void onDialogNegativeClick(DialogFragment dialog){
-        android.widget.Toast.makeText(getApplicationContext(), "cancel from main", Toast.LENGTH_SHORT).show();
+        android.widget.Toast.makeText(getApplicationContext(), "cancelled", Toast.LENGTH_SHORT).show();
     }
 
 }
