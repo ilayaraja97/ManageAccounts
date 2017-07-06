@@ -54,6 +54,8 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         switch (item.getItemId()) {
             case R.id.add:
                 Toast.makeText(getApplicationContext(), "add a new person", Toast.LENGTH_SHORT).show();
+                DialogFragment dialog = new AddPersonDialogFragment();
+                dialog.show(getFragmentManager(), "AddPersonDialogFragment");
                 return true;
             case R.id.help:
                 Toast.makeText(getApplicationContext(), "help is on ur way!", Toast.LENGTH_SHORT).show();
