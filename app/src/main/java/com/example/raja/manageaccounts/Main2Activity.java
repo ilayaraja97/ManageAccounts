@@ -20,7 +20,7 @@ public class Main2Activity extends AppCompatActivity {
         Intent intent=getIntent();
 
         selectedPid=intent.getIntExtra("pid",0);
-
+        setTitle(intent.getStringExtra("name"));
         lv_history=(ListView)findViewById(R.id.lv_2);
 //        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_activated_1,accounts);
 //        lv_accounts1.setAdapter(adapter);

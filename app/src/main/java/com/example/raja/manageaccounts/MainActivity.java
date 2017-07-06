@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
     //String accounts[]={"raja","deva","dad","amma"};
     int selectedPid=0;
     float selectedAmount;
+    String selectedName;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -80,6 +81,7 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         Person person = ((Person)lv_accounts1.getItemAtPosition(info.position)); // who the hell knew this!!
         selectedAmount=person.getCumulative_value();
         selectedPid=person.getPid();
+        selectedName=person.getName();
 //        Log.d("ilaya","pid "+selectedPid);
         if(item.getTitle()=="take or give money"){
 //            Toast.makeText(getApplicationContext(),"take or give money code",Toast.LENGTH_LONG).show();
@@ -95,6 +97,7 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         }else{
             Intent intent=new Intent(this,Main2Activity.class);
             intent.putExtra("pid",selectedPid);
+            intent.putExtra("name",selectedName);
             startActivity(intent);
         }
         return true;

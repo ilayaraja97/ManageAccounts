@@ -1876,6 +1876,7 @@ containing a value of this type.
         public static final int contentPanel=0x7f0b0031;
         public static final int custom=0x7f0b0038;
         public static final int customPanel=0x7f0b0037;
+        public static final int date_time=0x7f0b0076;
         public static final int decor_content_parent=0x7f0b0045;
         public static final int default_activity_button=0x7f0b002a;
         public static final int description=0x7f0b005b;
@@ -1885,7 +1886,7 @@ containing a value of this type.
         public static final int end_padder=0x7f0b0073;
         public static final int expand_activities_button=0x7f0b0028;
         public static final int expanded_menu=0x7f0b003d;
-        public static final int help=0x7f0b0076;
+        public static final int help=0x7f0b0077;
         public static final int home=0x7f0b0004;
         public static final int homeAsUp=0x7f0b000d;
         public static final int icon=0x7f0b002c;
