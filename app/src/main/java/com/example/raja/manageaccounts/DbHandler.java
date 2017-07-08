@@ -88,19 +88,19 @@ public class DbHandler extends SQLiteOpenHelper {
         ArrayList<Person> peopleList= new ArrayList<>();
         String query="select pid,person,cumulative_value from people order by last_update desc;";
         Cursor cursor= db.rawQuery(query,null);
-        Log.d("ilaya","query sucess "+cursor.moveToFirst());
+//        Log.d("ilaya","query sucess "+cursor.moveToFirst());
         if (cursor.moveToFirst()) {
             do {
-                Log.d("ilaya","pid "+cursor.getString(0));
-                Log.d("ilaya",cursor.getString(1));
-                Log.d("ilaya",cursor.getString(2));
+//                Log.d("ilaya","pid "+cursor.getString(0));
+//                Log.d("ilaya",cursor.getString(1));
+//                Log.d("ilaya",cursor.getString(2));
                 Person person = new Person();
                 // exception solved
                 person.setPid(Integer.parseInt(cursor.getString(0)));
                 person.setName(cursor.getString(1));
                 person.setCumulative_value(Float.parseFloat(cursor.getString(2)));
                 peopleList.add(person);
-                Log.d("ilaya","taken 1 row "+cursor.toString());
+//                Log.d("ilaya","taken 1 row "+cursor.toString());
             } while (cursor.moveToNext());
         }
         cursor.close();
@@ -112,15 +112,15 @@ public class DbHandler extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         ArrayList<Transactions> transList= new ArrayList<Transactions>();
 //        Log.d("ilaya_db","db: pid = "+pid);
-        String query="select tid,pid,time_of_transaction,amount,description from transactions where pid="+pid+" order by tid desc;";
+        String query="select tid,pid,datetime(time_of_transaction,'localtime'),amount,description from transactions where pid="+pid+" order by tid desc;";
         Cursor cursor= db.rawQuery(query,null);
         if (cursor.moveToFirst()) {
             do {
                 Transactions trans = new Transactions();
                 trans.setTid(Integer.parseInt(cursor.getString(0)));
                 trans.setPid(Integer.parseInt(cursor.getString(1)));
-                Log.d("ilaya","going to insert date");
-                DateFormat formatter = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss");
+//                Log.d("ilaya","going to insert date"+cursor.getString(2));
+                DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                 Date d=new Date();
                 try {
                     d=(Date)formatter.parse(cursor.getString(2));

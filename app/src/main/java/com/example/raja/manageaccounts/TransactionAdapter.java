@@ -58,11 +58,11 @@ public class TransactionAdapter extends ArrayAdapter {
         holder.txtId.setText(String.valueOf(searchArrayList.get(position).getPid()));
         holder.txtName.setText(searchArrayList.get(position).getDescription());
         holder.txtAmount.setText(String.valueOf(searchArrayList.get(position).getAmount()));
-        Log.d("ilaya","before time");
-        DateFormat df = DateFormat.getDateInstance();
+//        Log.d("ilaya","before time");
+
 //        Log.d("ilaya","after time"+searchArrayList.get(position).getTime_of_transaction());
-        holder.txtTime.setText(df.format(searchArrayList.get(position).getTime_of_transaction()));
-        Log.d("ilaya","after adding to txtv");
+        holder.txtTime.setText(DateDifference.relativeDate(searchArrayList.get(position).getTime_of_transaction()));
+//        Log.d("ilaya","after adding to txtv");
 //        Log.d("ilaya","done setting text in list");
         return convertView;
     }
