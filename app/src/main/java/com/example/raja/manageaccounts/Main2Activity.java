@@ -1,9 +1,10 @@
 package com.example.raja.manageaccounts;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.view.MenuItem;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -21,6 +22,7 @@ public class Main2Activity extends AppCompatActivity {
 
         selectedPid=intent.getIntExtra("pid",0);
         setTitle(intent.getStringExtra("name"));
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         lv_history=(ListView)findViewById(R.id.lv_2);
 //        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_activated_1,accounts);
 //        lv_accounts1.setAdapter(adapter);
@@ -31,6 +33,11 @@ public class Main2Activity extends AppCompatActivity {
 //        Log.d("ilaya","adapter made");
         lv_history.setAdapter(adapter);
         registerForContextMenu(lv_history);
+    }
+    @Override
+    public boolean onSupportNavigateUp(){
+        finish();
+        return true;
     }
 }
 
