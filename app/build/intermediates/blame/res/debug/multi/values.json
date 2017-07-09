@@ -191,14 +191,7 @@
                     "endOffset": 1048
                 },
                 "from": {
-                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/colors.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 324,
-                        "endColumn": 38,
-                        "endOffset": 358
-                    }
+                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/colors.xml"
                 }
             },
             {
@@ -2670,7 +2663,14 @@
                     "endOffset": 34912
                 },
                 "from": {
-                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml"
+                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 371,
+                        "endColumn": 49,
+                        "endOffset": 416
+                    }
                 }
             },
             {
@@ -2706,7 +2706,14 @@
                     "endOffset": 35071
                 },
                 "from": {
-                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml"
+                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 261,
+                        "endColumn": 51,
+                        "endOffset": 308
+                    }
                 }
             },
             {
@@ -2718,7 +2725,14 @@
                     "endOffset": 35138
                 },
                 "from": {
-                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml"
+                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 194,
+                        "endColumn": 66,
+                        "endOffset": 256
+                    }
                 }
             },
             {
@@ -2730,7 +2744,14 @@
                     "endOffset": 35196
                 },
                 "from": {
-                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml"
+                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 313,
+                        "endColumn": 57,
+                        "endOffset": 366
+                    }
                 }
             },
             {
@@ -2754,7 +2775,14 @@
                     "endOffset": 35305
                 },
                 "from": {
-                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml"
+                    "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 476,
+                        "endColumn": 42,
+                        "endOffset": 514
+                    }
                 }
             },
             {

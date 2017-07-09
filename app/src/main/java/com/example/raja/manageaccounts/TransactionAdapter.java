@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.text.DateFormat;
@@ -50,6 +51,7 @@ public class TransactionAdapter extends ArrayAdapter {
             holder.txtName = (TextView) convertView.findViewById(R.id.description);
             holder.txtAmount = (TextView) convertView.findViewById(R.id.amount);
             holder.txtTime = (TextView) convertView.findViewById(R.id.date_time);
+            holder.img = (ImageView) convertView.findViewById(R.id.image);
             convertView.setTag(holder);
         } else {
             holder = (TransactionAdapter.ViewHolder) convertView.getTag();
@@ -57,9 +59,24 @@ public class TransactionAdapter extends ArrayAdapter {
 //        Log.d("ilaya",searchArrayList.get(position).getDescription());
         holder.txtId.setText(String.valueOf(searchArrayList.get(position).getPid()));
         holder.txtName.setText(searchArrayList.get(position).getDescription());
-        holder.txtAmount.setText(String.valueOf(searchArrayList.get(position).getAmount()));
+        float val = searchArrayList.get(position).getAmount();
+        holder.txtAmount.setText(String.valueOf(val));
 //        Log.d("ilaya","before time");
-
+        if(val<0)
+            convertView.setBackgroundResource(R.drawable.cardshape_red);
+        else if(val>0)
+            convertView.setBackgroundResource(R.drawable.cardshape_green);
+        else
+            convertView.setBackgroundResource(R.drawable.cardshape);
+        holder.img.setVisibility(View.VISIBLE);
+        if(Math.abs(val)<5)
+            holder.img.setVisibility(View.INVISIBLE);
+        if(Math.abs(val)<100)
+            holder.img.setImageResource(R.mipmap.coin);
+        else if(Math.abs(val)<500)
+            holder.img.setImageResource(R.mipmap.coins);
+        else
+            holder.img.setImageResource(R.mipmap.notes);
 //        Log.d("ilaya","after time"+searchArrayList.get(position).getTime_of_transaction());
         holder.txtTime.setText(DateDifference.relativeDate(searchArrayList.get(position).getTime_of_transaction()));
 //        Log.d("ilaya","after adding to txtv");
@@ -72,5 +89,6 @@ public class TransactionAdapter extends ArrayAdapter {
         TextView txtName;
         TextView txtAmount;
         TextView txtTime;
+        ImageView img;
     }
 }
