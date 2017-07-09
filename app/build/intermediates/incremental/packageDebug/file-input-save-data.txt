@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jul 09 18:29:43 AZOST 2017
+#Sun Jul 09 20:10:51 AZOST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_switch_track.xml

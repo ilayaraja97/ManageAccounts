@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
             dialog.show(getFragmentManager(), "AddMoneyDialogFragment");
         }
         else if(item.getTitle()=="delete"){
-            Toast.makeText(getApplicationContext(),"deleting...",Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(),"deleted",Toast.LENGTH_LONG).show();
             DbHandler db=new DbHandler(this);
             db.deletePerson(selectedPid);
             finish();
