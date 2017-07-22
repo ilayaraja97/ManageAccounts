@@ -28,9 +28,11 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
 
     ListView lv_accounts1;
     //String accounts[]={"raja","deva","dad","amma"};
+    PersonAdapter adapter;
     int selectedPid=0;
     float selectedAmount;
     String selectedName;
+    ArrayList<Person> people;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,8 +48,8 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
 //        lv_accounts1.setAdapter(adapter);
         DbHandler db=new DbHandler(this);
 //        Log.d("ilaya","adapter gonna be made");
-        ArrayList<Person> people= db.getPeopleInOrder();
-        PersonAdapter adapter = new PersonAdapter(this,R.layout.person_row_view, people);
+        people= db.getPeopleInOrder();
+        adapter = new PersonAdapter(this,R.layout.person_row_view, people);
 //        Log.d("ilaya","adapter made");
         lv_accounts1.setAdapter(adapter);
         registerForContextMenu(lv_accounts1);
@@ -102,8 +104,12 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
             Toast.makeText(getApplicationContext(),"deleted",Toast.LENGTH_LONG).show();
             DbHandler db=new DbHandler(this);
             db.deletePerson(selectedPid);
-            finish();
-            startActivity(getIntent());
+            people = db.getPeopleInOrder();
+            adapter.clear();
+            adapter.addAll(people);
+            adapter.notifyDataSetChanged();
+//            finish();
+//            startActivity(getIntent());
         }else{
             Intent intent=new Intent(this,Main2Activity.class);
             intent.putExtra("pid",selectedPid);
@@ -123,16 +129,24 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
                 amount,
                 description,
                 selectedAmount);
-        finish();
-        startActivity(getIntent());
+        people = db.getPeopleInOrder();
+        adapter.clear();
+        adapter.addAll(people);
+        adapter.notifyDataSetChanged();
+//        finish();
+//        startActivity(getIntent());
     }
 
     @Override
     public void onDialogPositiveClick(DialogFragment dialog, String name) {
         DbHandler db= new DbHandler(this);
         db.addPerson(name);
-        finish();
-        startActivity(getIntent());
+        people = db.getPeopleInOrder();
+        adapter.clear();
+        adapter.addAll(people);
+        adapter.notifyDataSetChanged();
+//        finish();
+//        startActivity(getIntent());
     }
 
     @Override
