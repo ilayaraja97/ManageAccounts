@@ -18,26 +18,38 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements AddMoneyDialogFragment.MoneyDialogListener, AddPersonDialogFragment.PersonDialogListener {
 
     ListView lv_accounts1;
     //String accounts[]={"raja","deva","dad","amma"};
+    PersonAdapter adapter;
     int selectedPid=0;
     float selectedAmount;
     String selectedName;
+    ArrayList<Person> people;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().addTestDevice("55F6547F9121E26FF4D5EE8B2C6F9B9F").build();
+        mAdView.loadAd(adRequest);
+
         lv_accounts1=(ListView)findViewById(R.id.lv_1);
+
 //        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_activated_1,accounts);
 //        lv_accounts1.setAdapter(adapter);
         DbHandler db=new DbHandler(this);
 //        Log.d("ilaya","adapter gonna be made");
-        ArrayList<Person> people= db.getPeopleInOrder();
-        PersonAdapter adapter = new PersonAdapter(this,R.layout.person_row_view, people);
+        people= db.getPeopleInOrder();
+        adapter = new PersonAdapter(this,R.layout.person_row_view, people);
 //        Log.d("ilaya","adapter made");
         lv_accounts1.setAdapter(adapter);
         registerForContextMenu(lv_accounts1);
@@ -92,8 +104,12 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
             Toast.makeText(getApplicationContext(),"deleted",Toast.LENGTH_LONG).show();
             DbHandler db=new DbHandler(this);
             db.deletePerson(selectedPid);
-            finish();
-            startActivity(getIntent());
+            people = db.getPeopleInOrder();
+            adapter.clear();
+            adapter.addAll(people);
+            adapter.notifyDataSetChanged();
+//            finish();
+//            startActivity(getIntent());
         }else{
             Intent intent=new Intent(this,Main2Activity.class);
             intent.putExtra("pid",selectedPid);
@@ -113,16 +129,24 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
                 amount,
                 description,
                 selectedAmount);
-        finish();
-        startActivity(getIntent());
+        people = db.getPeopleInOrder();
+        adapter.clear();
+        adapter.addAll(people);
+        adapter.notifyDataSetChanged();
+//        finish();
+//        startActivity(getIntent());
     }
 
     @Override
     public void onDialogPositiveClick(DialogFragment dialog, String name) {
         DbHandler db= new DbHandler(this);
         db.addPerson(name);
-        finish();
-        startActivity(getIntent());
+        people = db.getPeopleInOrder();
+        adapter.clear();
+        adapter.addAll(people);
+        adapter.notifyDataSetChanged();
+//        finish();
+//        startActivity(getIntent());
     }
 
     @Override

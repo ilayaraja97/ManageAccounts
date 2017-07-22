@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ManageAccounts</string>
+    <string name="app_name">Accounts</string>
     <string name="main_text">Lets change the world</string>
     <string name="give_or_take_money">Give or Take money</string>
     <string name="enter_amount">Positive for giving money</string>
