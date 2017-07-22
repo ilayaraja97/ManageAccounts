@@ -2,5 +2,9 @@
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/artboard.png",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/mipmap-xxxhdpi/artboard.png"
     }
 ]

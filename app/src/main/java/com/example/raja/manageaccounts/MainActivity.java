@@ -18,6 +18,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements AddMoneyDialogFragment.MoneyDialogListener, AddPersonDialogFragment.PersonDialogListener {
@@ -31,7 +35,13 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().addTestDevice("55F6547F9121E26FF4D5EE8B2C6F9B9F").build();
+        mAdView.loadAd(adRequest);
+
         lv_accounts1=(ListView)findViewById(R.id.lv_1);
+
 //        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_activated_1,accounts);
 //        lv_accounts1.setAdapter(adapter);
         DbHandler db=new DbHandler(this);

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "976245350499",
+    "firebase_url": "https://manageaccounts-5bd34.firebaseio.com",
+    "project_id": "manageaccounts-5bd34",
+    "storage_bucket": "manageaccounts-5bd34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976245350499:android:4ac7c6cb762674d4",
+        "android_client_info": {
+          "package_name": "com.example.raja.manageaccounts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976245350499-5i72plnv68tqi6m71mf96sblrt2n7fql.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC9VJcpRnpTDXc3hz2Us9mH9qqPYhYj2s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,8 +4,16 @@
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/mipmap-mdpi/cash.png"
     },
     {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/debug/mipmap-mdpi/artboard.png",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/mipmap-mdpi/artboard.png"
+    },
+    {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/debug/mipmap-mdpi/coins.png",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/mipmap-mdpi/coins.png"
     },
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/debug/mipmap-mdpi/notes.png",
