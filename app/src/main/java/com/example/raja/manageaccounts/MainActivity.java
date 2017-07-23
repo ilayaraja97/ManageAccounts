@@ -2,7 +2,6 @@ package com.example.raja.manageaccounts;
 
 import android.app.DialogFragment;
 import android.content.Intent;
-import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,16 +11,20 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.InterstitialAd;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements AddMoneyDialogFragment.MoneyDialogListener, AddPersonDialogFragment.PersonDialogListener {
@@ -37,9 +40,43 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+//        Log.d("ilaya_version","current "+BuildConfig.VERSION_NAME);
+        Runnable runnable=new Runnable() {
+            @Override
+            public void run() {
+                try{
+                    JSONObject jsonObject = getJSONObjectFromURL("http://ilayaraja97.000webhostapp.com/version.json");
+                    String latest= jsonObject.getString("versionName");
+//                    Log.d("ilaya_version","latest "+latest);
+//                    Log.d("ilaya_version","current "+BuildConfig.VERSION_NAME);
+                    if(!BuildConfig.VERSION_NAME.equals(latest)){
+                        new Thread(){
+                            public void run()
+                            {
+                                MainActivity.this.runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Toast.makeText(MainActivity.this, "Update your app", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+                            }
+                        }.start();
+
+
+                    }
+                } catch (JSONException e) {
+                    Log.d("ilaya_version","exception");
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    Log.d("ilaya_version","IO");
+                    e.printStackTrace();
+                }
+            }
+        };
+        new Thread(runnable).start();
 
         AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().addTestDevice("55F6547F9121E26FF4D5EE8B2C6F9B9F").build();
+        AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
         lv_accounts1=(ListView)findViewById(R.id.lv_1);
@@ -54,6 +91,7 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         lv_accounts1.setAdapter(adapter);
         registerForContextMenu(lv_accounts1);
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         super.onCreateOptionsMenu(menu);
@@ -66,7 +104,6 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.add:
-                Toast.makeText(getApplicationContext(), "add a new person", Toast.LENGTH_SHORT).show();
                 DialogFragment dialog = new AddPersonDialogFragment();
                 dialog.show(getFragmentManager(), "AddPersonDialogFragment");
                 return true;
@@ -154,5 +191,29 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         android.widget.Toast.makeText(getApplicationContext(), "cancelled", Toast.LENGTH_SHORT).show();
     }
 
+    public static JSONObject getJSONObjectFromURL(String urlString) throws IOException, JSONException {
+        HttpURLConnection urlConnection = null;
+        URL url = new URL(urlString);
+        urlConnection = (HttpURLConnection) url.openConnection();
+        urlConnection.setRequestMethod("GET");
+        urlConnection.setReadTimeout(10000 /* milliseconds */ );
+        urlConnection.setConnectTimeout(15000 /* milliseconds */ );
+        urlConnection.setDoOutput(true);
+        urlConnection.connect();
+//        Log.d("ilaya_version","connected");
+        BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
+        StringBuilder sb = new StringBuilder();
+
+        String line;
+        while ((line = br.readLine()) != null) {
+            sb.append(line + "\n");
+        }
+        br.close();
+
+        String jsonString = sb.toString();
+//        Log.d("ilaya_version","JSON: " + jsonString);
+
+        return new JSONObject(jsonString);
+    }
 }
 
