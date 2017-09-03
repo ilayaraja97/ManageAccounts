@@ -36,9 +36,28 @@
             android:textColor="#000"
             android:id="@+id/amount"
             android:hint="@string/enter_amount"
-            android:inputType="numberSigned"
+            android:inputType="number|text"
             android:background="@drawable/cardshape_grey"/>
+
     </LinearLayout>
+    <RadioGroup
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/give"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/take"/>
+    </RadioGroup>
 
     <LinearLayout
         android:layout_width="match_parent"

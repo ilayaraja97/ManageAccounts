@@ -183,6 +183,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/raja/.gradle/caches/modules-2/files-2.1/net.objecthunter/exp4j/0.4.8/cf1cfc0f958077d86ac7452c7e36d944689b2ec4/exp4j-0.4.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf1cfc0f958077d86ac7452c7e36d944689b2ec4">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/debug/exp4j-0.4.8_9f8cf1b909583100ef3506ad1cfb89dadcc0202e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/11.0.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
