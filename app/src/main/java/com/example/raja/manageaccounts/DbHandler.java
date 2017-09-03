@@ -62,7 +62,7 @@ public class DbHandler extends SQLiteOpenHelper {
         }
     }
 
-    public void addMoneyTo(int pid,float amount,String description,float pastCumulative)
+    public void addMoneyTo(int pid, double amount, String description, float pastCumulative)
     {
         SQLiteDatabase db = this.getWritableDatabase();
         db.execSQL("insert into transactions(pid,amount,description) values("+pid+","+amount+",'"+description+"');");

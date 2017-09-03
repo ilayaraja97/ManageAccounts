@@ -3,6 +3,7 @@ package com.example.raja.manageaccounts;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 
 /**
  * Created by raja on 07/07/17.
@@ -40,7 +41,11 @@ public class DateDifference {
         if(info!=1)
         {
             if(at==timeSet.length-1)
-                return new SimpleDateFormat("HH:mm:ss MM/dd/yyyy").format(date).toString();
+                return (SimpleDateFormat.getDateInstance()).format(date);
+            if(at>4)
+            {
+                return (SimpleDateFormat.getDateInstance()).format(date);
+            }
             return (info+" "+timeSet[at]+"s ago");
         }
         else
@@ -57,10 +62,11 @@ public class DateDifference {
                 case 5:
                 case 6:
                 case 7:
-                    return ("last "+timeSet[at]);
+                    return (SimpleDateFormat.getDateInstance()).format(date);
+                    //return ("last "+timeSet[at]);
             }
         }
-        return new SimpleDateFormat("HH:mm:ss MM/dd/yyyy").format(date).toString();
+        return (SimpleDateFormat.getDateInstance()).format(date);
 
     }
 }

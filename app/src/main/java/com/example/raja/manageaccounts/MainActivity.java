@@ -14,9 +14,6 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -49,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
                     String latest= jsonObject.getString("versionName");
 //                    Log.d("ilaya_version","latest "+latest);
 //                    Log.d("ilaya_version","current "+BuildConfig.VERSION_NAME);
+                    String current=BuildConfig.VERSION_NAME;
+                    current.split(".");
                     if(!BuildConfig.VERSION_NAME.equals(latest)){
                         new Thread(){
                             public void run()
@@ -75,10 +74,6 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         };
         new Thread(runnable).start();
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
-
         lv_accounts1=(ListView)findViewById(R.id.lv_1);
 
 //        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_activated_1,accounts);
@@ -89,6 +84,7 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         adapter = new PersonAdapter(this,R.layout.person_row_view, people);
 //        Log.d("ilaya","adapter made");
         lv_accounts1.setAdapter(adapter);
+
         registerForContextMenu(lv_accounts1);
     }
 
@@ -108,7 +104,9 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
                 dialog.show(getFragmentManager(), "AddPersonDialogFragment");
                 return true;
             case R.id.help:
-                Toast.makeText(getApplicationContext(), "help is on ur way!", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(), "help is on ur way!", Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(this,HelpActivity.class);
+                startActivity(intent);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -157,7 +155,7 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
     }
 
     @Override
-    public void onDialogPositiveClick(DialogFragment dialog,String description,Float amount){
+    public void onDialogPositiveClick(DialogFragment dialog, String description, double amount){
 //        android.widget.Toast.makeText(getApplicationContext(), "ok from main", Toast.LENGTH_SHORT).show();
 //        Log.d("ilaya","pos click");
         DbHandler db= new DbHandler(this);
@@ -165,6 +163,24 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         db.addMoneyTo(selectedPid,
                 amount,
                 description,
+                selectedAmount);
+        people = db.getPeopleInOrder();
+        adapter.clear();
+        adapter.addAll(people);
+        adapter.notifyDataSetChanged();
+//        finish();
+//        startActivity(getIntent());
+    }
+    @Override
+    public void onDialogNeutralClick(DialogFragment dialog){
+//        android.widget.Toast.makeText(getApplicationContext(), "ok from main", Toast.LENGTH_SHORT).show();
+//        Log.d("ilaya","pos click");
+        DbHandler db= new DbHandler(this);
+//        Log.d("ilaya_add","description "+amount);
+
+        db.addMoneyTo(selectedPid,
+                -selectedAmount,
+                "settled",
                 selectedAmount);
         people = db.getPeopleInOrder();
         adapter.clear();
