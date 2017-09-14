@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/debug/mipmap-mdpi/cash.png",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/mipmap-mdpi/cash.png"
-    },
-    {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/debug/mipmap-mdpi/artboard.png",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/mipmap-mdpi/artboard.png"
     },

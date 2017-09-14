@@ -2,9 +2,15 @@ package com.example.raja.manageaccounts;
 
 import android.content.Context;
 import android.database.Cursor;
+import android.database.sqlite.SQLiteConstraintException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.database.sqlite.SQLiteStatement;
 import android.util.Log;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -20,7 +26,7 @@ import java.util.List;
 public class DbHandler extends SQLiteOpenHelper {
 
     private static String db_name="manage_accounts";
-    private static int db_version=2;
+    private static int db_version=5;
 
     public DbHandler(Context context) {
         super(context, db_name, null, db_version);
@@ -31,7 +37,7 @@ public class DbHandler extends SQLiteOpenHelper {
 //        Log.d("ilaya","start create");
         db.execSQL("create table if not exists people(" +
                 "pid integer primary key,"+
-                "person varchar(50) not null,"+
+                "person varchar(50) not null unique,"+
                 "cumulative_value float not null default 0,"+
                 "last_update datetime default current_timestamp"+
                 ");"
@@ -59,20 +65,131 @@ public class DbHandler extends SQLiteOpenHelper {
         {
             case 1:
             case 2:
+            case 3://backup
+            case 4://prepared statements
+            case 5:db.execSQL("ALTER TABLE people\n" +
+                    "ADD UNIQUE CONSTRAINT (person);");
         }
+    }
+
+    public void importDatabase(JSONObject data) throws JSONException {
+        if(data.get("purpose").equals("manageaccounts"))
+        {
+            SQLiteDatabase db = this.getWritableDatabase();
+            int conventionFactor = 1;
+            if(!data.get("convention").equals("plus-lending"))
+            {
+                conventionFactor = -1;
+            }
+            JSONArray peopleList = (JSONArray) data.get("people");
+
+            for(int p=0;p<peopleList.length();p++)
+            {
+                JSONObject person = (JSONObject)peopleList.get(p);
+                long pid=-1;
+                try {
+
+                    pid = addPerson(
+                            person.getString("name"),
+                            (float) person.getDouble("amount") * conventionFactor,
+                            person.getString("last")
+                    );
+                    Log.d("ilaya_import", "" + pid);
+
+                    JSONArray transList = (JSONArray) person.get("transactions");
+                    for (int t = 0; t < transList.length(); t++) {
+                        JSONObject trans = (JSONObject) transList.get(t);
+                        addMoneyTo(
+                                pid,
+                                trans.getDouble("amount") * conventionFactor,
+                                trans.getString("description"),
+                                trans.getString("datetime"));
+                    }
+                } catch (SQLiteConstraintException sce) {
+                    sce.printStackTrace();
+                }
+            }
+        }
+    }
+
+    public JSONObject exportDatabase() throws JSONException {
+        JSONObject data=new JSONObject();
+        data.put("purpose","manageaccounts");
+        data.put("convention","plus-lending");
+        SQLiteDatabase db = this.getWritableDatabase();
+        JSONArray peopleList= new JSONArray();
+        String query="select pid,person,cumulative_value,last_update from people order by last_update desc;";
+        Cursor cursor= db.rawQuery(query,null);
+        if (cursor.moveToFirst()) {
+            do {
+                JSONObject o=new JSONObject();
+                o.put("name",cursor.getString(1));
+                o.put("amount",cursor.getString(2));
+                o.put("last",cursor.getString(3));
+                JSONArray transList= new JSONArray();
+                String queryT="select tid,pid,datetime(time_of_transaction,'localtime'),amount,description from transactions where pid="+cursor.getString(0)+" order by tid desc;";
+                Cursor cursorT= db.rawQuery(queryT,null);
+                if (cursorT.moveToFirst()) {
+                    do {
+                        JSONObject t=new JSONObject();
+                        t.put("datetime",cursorT.getString(2));
+                        t.put("amount",cursorT.getString(3));
+                        t.put("description",cursorT.getString(4));
+                        transList.put(t);
+                    } while (cursorT.moveToNext());
+                }
+
+                cursorT.close();
+                o.put("transactions",transList);
+                peopleList.put(o);
+            } while (cursor.moveToNext());
+            data.put("people",peopleList);
+        }
+        Log.d("ilaya_db",data.toString());
+        cursor.close();
+        return data;
     }
 
     public void addMoneyTo(int pid, double amount, String description, float pastCumulative)
     {
+        addMoneyTo(pid,amount,description,new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()).toString());
         SQLiteDatabase db = this.getWritableDatabase();
-        db.execSQL("insert into transactions(pid,amount,description) values("+pid+","+amount+",'"+description+"');");
-        db.execSQL("update people set cumulative_value="+(pastCumulative+amount)+",last_update= current_timestamp where pid="+pid+";");
+        db.execSQL("update people set cumulative_value="+(pastCumulative+amount)+",last_update= \'"+
+                new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()).toString()+"\' where pid="+pid+";");
     }
 
-    public void addPerson(String person)
+    private void addMoneyTo(long pid, double amount, String description, String date)
     {
         SQLiteDatabase db = this.getWritableDatabase();
-        db.execSQL("insert into people(person) values ('"+person+"');");
+        String sql = "insert into transactions(pid,amount,description,time_of_transaction) values(?,?,?,?);";
+        SQLiteStatement statement = db.compileStatement(sql);
+
+        statement.bindLong(1, pid);
+        statement.bindDouble(2,amount);
+        statement.bindString(3,description);
+        statement.bindString(4,date);
+        statement.executeInsert();
+        //db.execSQL("insert into transactions(pid,amount,description) values("+pid+","+amount+",'"+description+"');");
+    }
+
+    public void addPerson(String person) throws SQLiteConstraintException
+    {
+        addPerson(person,0f,new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()).toString());
+    }
+
+    private long addPerson(String person, float amount, String last) throws SQLiteConstraintException
+    {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String sql = "insert into people(person,cumulative_value,last_update) values (?,?,?);";
+        SQLiteStatement statement = db.compileStatement(sql);
+
+        statement.bindString(1, person);
+        statement.bindDouble(2,amount);
+        statement.bindString(3, last);
+        long i;
+        i = statement.executeInsert();
+        return i;
+
     }
 
     public void deletePerson(int pid)
@@ -112,7 +229,7 @@ public class DbHandler extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         ArrayList<Transactions> transList= new ArrayList<Transactions>();
 //        Log.d("ilaya_db","db: pid = "+pid);
-        String query="select tid,pid,datetime(time_of_transaction,'localtime'),amount,description from transactions where pid="+pid+" order by tid desc;";
+        String query="select tid,pid,datetime(time_of_transaction,'localtime'),amount,description from transactions where pid="+pid+" order by time_of_transaction desc;";
         Cursor cursor= db.rawQuery(query,null);
         if (cursor.moveToFirst()) {
             do {

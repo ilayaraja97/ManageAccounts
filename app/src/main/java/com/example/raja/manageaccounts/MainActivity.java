@@ -1,7 +1,11 @@
 package com.example.raja.manageaccounts;
 
+import android.annotation.TargetApi;
 import android.app.DialogFragment;
 import android.content.Intent;
+import android.database.sqlite.SQLiteConstraintException;
+import android.os.AsyncTask;
+import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +16,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import org.json.JSONException;
@@ -33,11 +38,28 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
     float selectedAmount;
     String selectedName;
     ArrayList<Person> people;
+    protected boolean shouldAskPermissions() {
+        return (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP_MR1);
+    }
+
+    @TargetApi(23)
+    protected void askPermissions() {
+        String[] permissions = {
+                "android.permission.READ_EXTERNAL_STORAGE",
+                "android.permission.WRITE_EXTERNAL_STORAGE"
+        };
+        int requestCode = 200;
+        requestPermissions(permissions, requestCode);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 //        Log.d("ilaya_version","current "+BuildConfig.VERSION_NAME);
+        if (shouldAskPermissions()) {
+            askPermissions();
+        }
+        spinner=(ProgressBar)findViewById(R.id.progressBar);
         Runnable runnable=new Runnable() {
             @Override
             public void run() {
@@ -95,21 +117,60 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         inflater.inflate(R.menu.menu,menu);
         return true;
     }
+    private ProgressBar spinner;
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
+        Intent intent;
         switch (item.getItemId()) {
             case R.id.add:
                 DialogFragment dialog = new AddPersonDialogFragment();
                 dialog.show(getFragmentManager(), "AddPersonDialogFragment");
                 return true;
+            case R.id.export:
+                ExportImport.export(getApplicationContext());
+                Toast.makeText(this, "Backup created in Downloads folder", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.importDb:
+                new ProgressTask().execute();
+                return true;
+            case R.id.settings:
+                intent=new Intent(this,SettingsActivity.class);
+                startActivity(intent);
+                return true;
             case R.id.help:
 //                Toast.makeText(getApplicationContext(), "help is on ur way!", Toast.LENGTH_SHORT).show();
-                Intent intent=new Intent(this,HelpActivity.class);
+                intent=new Intent(this,HelpActivity.class);
                 startActivity(intent);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
+        }
+    }
+    private class ProgressTask extends AsyncTask<Void,Void,Void> {
+        @Override
+        protected void onPreExecute(){
+            spinner.setVisibility(View.VISIBLE);
+        }
+
+        @Override
+        protected Void doInBackground(Void... arg0) {
+
+            ExportImport.importDb(getApplicationContext());
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            DbHandler db=new DbHandler(MainActivity.this);
+            people = db.getPeopleInOrder();
+            spinner.setVisibility(View.GONE);
+            db.close();
+            Toast.makeText(MainActivity.this, "Restored from backup in Downloads folder", Toast.LENGTH_SHORT).show();
+            adapter.clear();
+            adapter.addAll(people);
+            adapter.notifyDataSetChanged();
         }
     }
     @Override
@@ -193,8 +254,13 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
     @Override
     public void onDialogPositiveClick(DialogFragment dialog, String name) {
         DbHandler db= new DbHandler(this);
-        db.addPerson(name);
+        try {
+            db.addPerson(name);
+        }catch (SQLiteConstraintException sce){
+            Toast.makeText(this, "person with name already exists", Toast.LENGTH_SHORT).show();
+        }
         people = db.getPeopleInOrder();
+        db.close();
         adapter.clear();
         adapter.addAll(people);
         adapter.notifyDataSetChanged();

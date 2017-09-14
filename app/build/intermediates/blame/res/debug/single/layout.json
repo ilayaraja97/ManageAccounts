@@ -116,12 +116,12 @@
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/debug/layout/activity_help.xml",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/layout/activity_help.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_menu_item_layout.xml"
     },
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
