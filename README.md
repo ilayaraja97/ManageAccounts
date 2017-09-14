@@ -8,19 +8,3 @@ Try the latest stable release [here](https://github.com/ilayaraja97/ManageAccoun
 
 ### Post an issue here in github
 When if you have issue of course! Easier for me to review.
-
-### Versions
-------
-###### 1.0 
-* Add and delete people
-* Add money
-* View history of transactions
-* Notifies new updates when connected to internet
-* Bug fixes
-###### 1.0.1 
-* Enter expression in enter amount field
-* Easy way to settle
-###### 1.0.2 (current)
-* Save and use backups
-###### 1.1 (upcoming)
-* Help section
