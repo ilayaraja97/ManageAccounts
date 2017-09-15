@@ -26,7 +26,7 @@ import java.util.List;
 public class DbHandler extends SQLiteOpenHelper {
 
     private static String db_name="manage_accounts";
-    private static int db_version=5;
+    private static int db_version=6;
 
     public DbHandler(Context context) {
         super(context, db_name, null, db_version);
@@ -67,15 +67,19 @@ public class DbHandler extends SQLiteOpenHelper {
             case 2:
             case 3://backup
             case 4://prepared statements
-            case 5:db.execSQL("ALTER TABLE people\n" +
-                    "ADD UNIQUE CONSTRAINT (person);");
+            case 5:
+            case 6:
+                try {
+                    db.execSQL("create unique index I_person on people(person);");
+                } catch(Exception e) {
+                    db.execSQL("insert into people(person,cumulative_value) values ('export and then reinstall after fixing name conflicts',0);");
+                }
         }
     }
 
     public void importDatabase(JSONObject data) throws JSONException {
         if(data.get("purpose").equals("manageaccounts"))
         {
-            SQLiteDatabase db = this.getWritableDatabase();
             int conventionFactor = 1;
             if(!data.get("convention").equals("plus-lending"))
             {
@@ -86,7 +90,7 @@ public class DbHandler extends SQLiteOpenHelper {
             for(int p=0;p<peopleList.length();p++)
             {
                 JSONObject person = (JSONObject)peopleList.get(p);
-                long pid=-1;
+                long pid;
                 try {
 
                     pid = addPerson(
@@ -145,6 +149,7 @@ public class DbHandler extends SQLiteOpenHelper {
             } while (cursor.moveToNext());
             data.put("people",peopleList);
         }
+        db.close();
         Log.d("ilaya_db",data.toString());
         cursor.close();
         return data;
