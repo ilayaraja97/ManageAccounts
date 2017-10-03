@@ -6,12 +6,15 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.TextView;
 
 import net.objecthunter.exp4j.Expression;
 import net.objecthunter.exp4j.ExpressionBuilder;
@@ -27,6 +30,16 @@ public class AddMoneyDialogFragment extends DialogFragment {
         LayoutInflater inflater = getActivity().getLayoutInflater();
         final View view=inflater.inflate(R.layout.dialog_add_money,null);
 
+        if(!MainActivity.convention)
+        {
+            ((RadioButton)view.findViewById(R.id.plus)).setText(R.string.borrow, TextView.BufferType.EDITABLE);
+            ((RadioButton)view.findViewById(R.id.minus)).setText(R.string.lend, TextView.BufferType.EDITABLE);
+        }
+        else
+        {
+            ((RadioButton)view.findViewById(R.id.plus)).setText(R.string.lend, TextView.BufferType.EDITABLE);
+            ((RadioButton)view.findViewById(R.id.minus)).setText(R.string.borrow, TextView.BufferType.EDITABLE);
+        }
         builder.setView(view)
                 .setPositiveButton("ok", new DialogInterface.OnClickListener() {
                     @Override

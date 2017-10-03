@@ -426,6 +426,7 @@
     <string name="add_person">Add person</string>
     <string name="add_person_menu">Add person</string>
     <string name="app_name">Accounts</string>
+    <string name="borrow">Borrow</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -459,6 +460,7 @@
     <string name="google_storage_bucket" translatable="false">manageaccounts-5bd34.appspot.com</string>
     <string name="help_menu">Help</string>
     <string name="importdb">Import</string>
+    <string name="lend">Lend</string>
     <string name="main_text">Lets change the world</string>
     <string name="pref_default_display_name">John Smith</string>
     <string name="pref_description_social_recommendations">Recommendations for people to contact
@@ -473,7 +475,7 @@
     <string name="pref_title_new_message_notifications">New message notifications</string>
     <string name="pref_title_ringtone">Ringtone</string>
     <string name="pref_title_social_recommendations">Enable social recommendations</string>
-    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string name="pref_title_sync_frequency">Backup frequency</string>
     <string name="pref_title_system_sync_settings">System sync settings</string>
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="project_id" translatable="false">manageaccounts-5bd34</string>

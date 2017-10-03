@@ -1,9 +1,12 @@
 package com.example.raja.manageaccounts;
 
+import android.util.Log;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
+import java.util.TimeZone;
 
 /**
  * Created by raja on 07/07/17.
@@ -17,14 +20,19 @@ public class DateDifference {
 	}
 	*/
     public static String relativeDate(Date date) {
+        // takes UTC time
         // function to compare date to present and print period elapsed
         Calendar d = Calendar.getInstance();
+        Log.d("ilaya_",date.toString());
         d.setTime(date);
+        //d.setTimeZone(TimeZone.getTimeZone("GMT"));
         Calendar now= Calendar.getInstance();
         long difference=now.getTimeInMillis()-d.getTimeInMillis();
+        Log.d("ilaya_",""+d.getTime()+now.getTime());
+        Log.d("ilaya_time"," "+difference);
         if(difference<1)
         {
-            return new SimpleDateFormat("HH:mm:ss MM/dd/yyyy").format(date).toString();
+            return new SimpleDateFormat("HH:mm:ss MM/dd/yyyy", Locale.getDefault()).format(date);
         }
         final int divSet[]={1000,60,60,24,7,4,12,Integer.MAX_VALUE};
         final String timeSet[]={"millisecond","second","minute","hour","day","week","month","year"};

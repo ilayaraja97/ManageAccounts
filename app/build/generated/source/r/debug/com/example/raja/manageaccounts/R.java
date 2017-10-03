@@ -2019,7 +2019,7 @@ containing a value of this type.
         public static final int custom=0x7f0d0040;
         public static final int customPanel=0x7f0d003f;
         public static final int dark=0x7f0d0028;
-        public static final int date_time=0x7f0d0082;
+        public static final int date_time=0x7f0d0083;
         public static final int decor_content_parent=0x7f0d004d;
         public static final int default_activity_button=0x7f0d0032;
         public static final int description=0x7f0d0067;
@@ -2029,8 +2029,8 @@ containing a value of this type.
         public static final int end_padder=0x7f0d007f;
         public static final int expand_activities_button=0x7f0d0030;
         public static final int expanded_menu=0x7f0d0045;
-        public static final int export=0x7f0d0083;
-        public static final int help=0x7f0d0086;
+        public static final int export=0x7f0d0084;
+        public static final int help=0x7f0d0087;
         public static final int home=0x7f0d0004;
         public static final int homeAsUp=0x7f0d000d;
         public static final int icon=0x7f0d0034;
@@ -2039,7 +2039,7 @@ containing a value of this type.
         public static final int id=0x7f0d0080;
         public static final int ifRoom=0x7f0d0021;
         public static final int image=0x7f0d0031;
-        public static final int importDb=0x7f0d0084;
+        public static final int importDb=0x7f0d0085;
         public static final int info=0x7f0d0076;
         public static final int light=0x7f0d0029;
         public static final int line1=0x7f0d007b;
@@ -2062,6 +2062,7 @@ containing a value of this type.
         public static final int parentPanel=0x7f0d0038;
         public static final int plus=0x7f0d0065;
         public static final int progressBar=0x7f0d0061;
+        public static final int progressBar2=0x7f0d0082;
         public static final int progress_circular=0x7f0d0005;
         public static final int progress_horizontal=0x7f0d0006;
         public static final int radio=0x7f0d0048;
@@ -2082,7 +2083,7 @@ containing a value of this type.
         public static final int search_src_text=0x7f0d0058;
         public static final int search_voice_btn=0x7f0d005c;
         public static final int select_dialog_listview=0x7f0d005d;
-        public static final int settings=0x7f0d0085;
+        public static final int settings=0x7f0d0086;
         public static final int shortcut=0x7f0d0047;
         public static final int showCustom=0x7f0d000f;
         public static final int showHome=0x7f0d0010;
@@ -2169,11 +2170,12 @@ containing a value of this type.
         public static final int notification_template_part_chronometer=0x7f04002d;
         public static final int notification_template_part_time=0x7f04002e;
         public static final int person_row_view=0x7f04002f;
-        public static final int select_dialog_item_material=0x7f040030;
-        public static final int select_dialog_multichoice_material=0x7f040031;
-        public static final int select_dialog_singlechoice_material=0x7f040032;
-        public static final int support_simple_spinner_dropdown_item=0x7f040033;
-        public static final int transaction_row_view=0x7f040034;
+        public static final int progress_bar_layout=0x7f040030;
+        public static final int select_dialog_item_material=0x7f040031;
+        public static final int select_dialog_multichoice_material=0x7f040032;
+        public static final int select_dialog_singlechoice_material=0x7f040033;
+        public static final int support_simple_spinner_dropdown_item=0x7f040034;
+        public static final int transaction_row_view=0x7f040035;
     }
     public static final class menu {
         public static final int menu=0x7f0f0000;
@@ -2220,6 +2222,7 @@ containing a value of this type.
         public static final int add_person=0x7f070038;
         public static final int add_person_menu=0x7f070039;
         public static final int app_name=0x7f07003a;
+        public static final int borrow=0x7f07003b;
         public static final int common_google_play_services_enable_button=0x7f070013;
         public static final int common_google_play_services_enable_text=0x7f070014;
         public static final int common_google_play_services_enable_title=0x7f070015;
@@ -2237,38 +2240,39 @@ containing a value of this type.
         public static final int common_open_on_phone=0x7f070021;
         public static final int common_signin_button_text=0x7f070022;
         public static final int common_signin_button_text_long=0x7f070023;
-        public static final int default_web_client_id=0x7f07003b;
-        public static final int description=0x7f07003c;
-        public static final int enter_amount=0x7f07003d;
-        public static final int enter_the_name=0x7f07003e;
-        public static final int export=0x7f07003f;
-        public static final int fcm_fallback_notification_channel_label=0x7f070040;
-        public static final int firebase_database_url=0x7f070041;
-        public static final int gcm_defaultSenderId=0x7f070042;
-        public static final int give=0x7f070043;
-        public static final int give_or_take_money=0x7f070044;
-        public static final int google_api_key=0x7f070045;
-        public static final int google_app_id=0x7f070046;
-        public static final int google_crash_reporting_api_key=0x7f070047;
-        public static final int google_storage_bucket=0x7f070048;
-        public static final int help_menu=0x7f070049;
-        public static final int importdb=0x7f07004a;
-        public static final int main_text=0x7f07004b;
-        public static final int pref_default_display_name=0x7f07004c;
-        public static final int pref_description_social_recommendations=0x7f07004d;
-        public static final int pref_header_data_sync=0x7f07004e;
-        public static final int pref_header_general=0x7f07004f;
-        public static final int pref_header_notifications=0x7f070050;
-        public static final int pref_ringtone_silent=0x7f070051;
-        public static final int pref_title_add_friends_to_messages=0x7f070052;
-        public static final int pref_title_display_name=0x7f070053;
-        public static final int pref_title_new_message_notifications=0x7f070054;
-        public static final int pref_title_ringtone=0x7f070055;
-        public static final int pref_title_social_recommendations=0x7f070056;
-        public static final int pref_title_sync_frequency=0x7f070057;
-        public static final int pref_title_system_sync_settings=0x7f070058;
-        public static final int pref_title_vibrate=0x7f070059;
-        public static final int project_id=0x7f07005a;
+        public static final int default_web_client_id=0x7f07003c;
+        public static final int description=0x7f07003d;
+        public static final int enter_amount=0x7f07003e;
+        public static final int enter_the_name=0x7f07003f;
+        public static final int export=0x7f070040;
+        public static final int fcm_fallback_notification_channel_label=0x7f070041;
+        public static final int firebase_database_url=0x7f070042;
+        public static final int gcm_defaultSenderId=0x7f070043;
+        public static final int give=0x7f070044;
+        public static final int give_or_take_money=0x7f070045;
+        public static final int google_api_key=0x7f070046;
+        public static final int google_app_id=0x7f070047;
+        public static final int google_crash_reporting_api_key=0x7f070048;
+        public static final int google_storage_bucket=0x7f070049;
+        public static final int help_menu=0x7f07004a;
+        public static final int importdb=0x7f07004b;
+        public static final int lend=0x7f07004c;
+        public static final int main_text=0x7f07004d;
+        public static final int pref_default_display_name=0x7f07004e;
+        public static final int pref_description_social_recommendations=0x7f07004f;
+        public static final int pref_header_data_sync=0x7f070050;
+        public static final int pref_header_general=0x7f070051;
+        public static final int pref_header_notifications=0x7f070052;
+        public static final int pref_ringtone_silent=0x7f070053;
+        public static final int pref_title_add_friends_to_messages=0x7f070054;
+        public static final int pref_title_display_name=0x7f070055;
+        public static final int pref_title_new_message_notifications=0x7f070056;
+        public static final int pref_title_ringtone=0x7f070057;
+        public static final int pref_title_social_recommendations=0x7f070058;
+        public static final int pref_title_sync_frequency=0x7f070059;
+        public static final int pref_title_system_sync_settings=0x7f07005a;
+        public static final int pref_title_vibrate=0x7f07005b;
+        public static final int project_id=0x7f07005c;
         public static final int s1=0x7f070024;
         public static final int s2=0x7f070025;
         public static final int s3=0x7f070026;
@@ -2276,10 +2280,10 @@ containing a value of this type.
         public static final int s5=0x7f070028;
         public static final int s6=0x7f070029;
         public static final int search_menu_title=0x7f07002a;
-        public static final int settings=0x7f07005b;
+        public static final int settings=0x7f07005d;
         public static final int status_bar_notification_info_overflow=0x7f07002b;
-        public static final int take=0x7f07005c;
-        public static final int title_activity_settings=0x7f07005d;
+        public static final int take=0x7f07005e;
+        public static final int title_activity_settings=0x7f07005f;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09009f;
@@ -2637,10 +2641,7 @@ containing a value of this type.
         public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f090160;
     }
     public static final class xml {
-        public static final int pref_data_sync=0x7f060000;
-        public static final int pref_general=0x7f060001;
-        public static final int pref_headers=0x7f060002;
-        public static final int pref_notification=0x7f060003;
+        public static final int preferences=0x7f060000;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.

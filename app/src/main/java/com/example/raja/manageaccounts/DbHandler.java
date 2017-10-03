@@ -1,11 +1,13 @@
 package com.example.raja.manageaccounts;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteConstraintException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteStatement;
+import android.preference.PreferenceManager;
 import android.util.Log;
 
 import org.json.JSONArray;
@@ -16,8 +18,11 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
+import java.util.TimeZone;
 
 /**
  * Created by raja on 09/06/17.
@@ -77,13 +82,15 @@ public class DbHandler extends SQLiteOpenHelper {
         }
     }
 
-    public void importDatabase(JSONObject data) throws JSONException {
+    public void importDatabase(Context context,JSONObject data) throws JSONException {
         if(data.get("purpose").equals("manageaccounts"))
         {
             int conventionFactor = 1;
-            if(!data.get("convention").equals("plus-lending"))
-            {
-                conventionFactor = -1;
+
+            if(MainActivity.convention!=null) {
+                if (data.get("convention").equals("plus-lending") != MainActivity.convention) {
+                    conventionFactor = -1;
+                }
             }
             JSONArray peopleList = (JSONArray) data.get("people");
 
@@ -116,10 +123,16 @@ public class DbHandler extends SQLiteOpenHelper {
         }
     }
 
-    public JSONObject exportDatabase() throws JSONException {
+    public JSONObject exportDatabase(Context context) throws JSONException {
         JSONObject data=new JSONObject();
         data.put("purpose","manageaccounts");
-        data.put("convention","plus-lending");
+
+        if(MainActivity.convention) {
+            data.put("convention", "plus-lending");
+        }
+        else {
+            data.put("convention", "plus-borrow");
+        }
         SQLiteDatabase db = this.getWritableDatabase();
         JSONArray peopleList= new JSONArray();
         String query="select pid,person,cumulative_value,last_update from people order by last_update desc;";
@@ -131,7 +144,7 @@ public class DbHandler extends SQLiteOpenHelper {
                 o.put("amount",cursor.getString(2));
                 o.put("last",cursor.getString(3));
                 JSONArray transList= new JSONArray();
-                String queryT="select tid,pid,datetime(time_of_transaction,'localtime'),amount,description from transactions where pid="+cursor.getString(0)+" order by tid desc;";
+                String queryT="select tid,pid,datetime(time_of_transaction),amount,description from transactions where pid="+cursor.getString(0)+" order by tid desc;";
                 Cursor cursorT= db.rawQuery(queryT,null);
                 if (cursorT.moveToFirst()) {
                     do {
@@ -157,10 +170,18 @@ public class DbHandler extends SQLiteOpenHelper {
 
     public void addMoneyTo(int pid, double amount, String description, float pastCumulative)
     {
-        addMoneyTo(pid,amount,description,new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()).toString());
+        SimpleDateFormat format=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        format.setTimeZone(TimeZone.getTimeZone("GMT"));
+        Date date = new Date();
+
+        addMoneyTo(pid,amount,description,format.format(date));
+
         SQLiteDatabase db = this.getWritableDatabase();
-        db.execSQL("update people set cumulative_value="+(pastCumulative+amount)+",last_update= \'"+
-                new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()).toString()+"\' where pid="+pid+";");
+        db.execSQL("update people set cumulative_value="+(pastCumulative+amount)+",last_update= datetime(\'"+
+                format.format(date) +"\',\'utc\') where pid="+pid+";");
+
+        Log.d("ilaya_date", "hel "+format.format(date));
+
     }
 
     private void addMoneyTo(long pid, double amount, String description, String date)
@@ -179,7 +200,7 @@ public class DbHandler extends SQLiteOpenHelper {
 
     public void addPerson(String person) throws SQLiteConstraintException
     {
-        addPerson(person,0f,new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()).toString());
+        addPerson(person,0f,new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault()).format(new Date()));
     }
 
     private long addPerson(String person, float amount, String last) throws SQLiteConstraintException
@@ -234,7 +255,7 @@ public class DbHandler extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         ArrayList<Transactions> transList= new ArrayList<Transactions>();
 //        Log.d("ilaya_db","db: pid = "+pid);
-        String query="select tid,pid,datetime(time_of_transaction,'localtime'),amount,description from transactions where pid="+pid+" order by time_of_transaction desc;";
+        String query="select tid,pid,datetime(time_of_transaction,\'localtime\'),amount,description,datetime(time_of_transaction) from transactions where pid="+pid+" order by time_of_transaction desc;";
         Cursor cursor= db.rawQuery(query,null);
         if (cursor.moveToFirst()) {
             do {
@@ -242,10 +263,11 @@ public class DbHandler extends SQLiteOpenHelper {
                 trans.setTid(Integer.parseInt(cursor.getString(0)));
                 trans.setPid(Integer.parseInt(cursor.getString(1)));
 //                Log.d("ilaya","going to insert date"+cursor.getString(2));
-                DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
                 Date d=new Date();
                 try {
-                    d=(Date)formatter.parse(cursor.getString(2));
+                    Log.d("ilaya_date","show "+cursor.getString(2)+" : "+cursor.getString(5));
+                    d=formatter.parse(cursor.getString(2));
                 } catch (ParseException e) {
                     e.printStackTrace();
                 }

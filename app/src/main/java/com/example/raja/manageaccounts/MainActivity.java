@@ -1,11 +1,16 @@
 package com.example.raja.manageaccounts;
 
 import android.annotation.TargetApi;
+import android.app.Dialog;
 import android.app.DialogFragment;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.database.sqlite.SQLiteConstraintException;
 import android.os.AsyncTask;
 import android.os.Build;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -23,6 +28,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
@@ -38,10 +47,34 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
     float selectedAmount;
     String selectedName;
     ArrayList<Person> people;
+    static File convfile;
+    static public Boolean convention = null;
     protected boolean shouldAskPermissions() {
         return (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP_MR1);
     }
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setTitle("Closing The App")
+                .setMessage("Are you sure you want to close?")
+                .setNeutralButton("Close", new DialogInterface.OnClickListener()
+                {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        finish();
+                    }
 
+                })
+                .setPositiveButton("Backup and close", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        ExportImport.export(getApplicationContext());
+                        finish();
+                    }
+                })
+                .setNegativeButton("No", null)
+                .show();
+    }
     @TargetApi(23)
     protected void askPermissions() {
         String[] permissions = {
@@ -51,6 +84,44 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         int requestCode = 200;
         requestPermissions(permissions, requestCode);
     }
+    public static class AskConventionDialogFragment extends DialogFragment {
+        @Override
+        public Dialog onCreateDialog(Bundle savedInstanceState) {
+            // Use the Builder class for convenient dialog construction
+            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+            builder.setMessage("If you think borrowing money is plus for you then make sure you say yes. And you may do it only once.")
+                    .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            // FIRE ZE MISSILES!
+                            convention=false;
+                            FileOutputStream outputStream;
+                            try {
+                                outputStream = new FileOutputStream(convfile);
+                                outputStream.write(0);
+                                outputStream.close();
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                        }
+                    })
+                    .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            // User cancelled the dialog
+                            convention=true;
+                            FileOutputStream outputStream;
+                            try {
+                                outputStream = new FileOutputStream(convfile);
+                                outputStream.write(1);
+                                outputStream.close();
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                        }
+                    });
+            // Create the AlertDialog object and return it
+            return builder.create();
+        }
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,6 +130,26 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         if (shouldAskPermissions()) {
             askPermissions();
         }
+        convfile = new File(getApplication().getFilesDir(), "convention");
+        try {
+            FileInputStream inputStream=new FileInputStream(convfile);
+            int i=inputStream.read();
+            inputStream.close();
+            if(i==0)
+                convention=false;
+            else if(i>0)
+                convention=true;
+            else
+                convention=null;
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        if (convention==null)
+        {
+            DialogFragment dialog = new AskConventionDialogFragment();
+            dialog.show(getFragmentManager(), "AskConventionDialogFragment");
+        }
+
         spinner=(ProgressBar)findViewById(R.id.progressBar);
         Runnable runnable=new Runnable() {
             @Override
@@ -147,7 +238,8 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
                 return super.onOptionsItemSelected(item);
         }
     }
-    private class ProgressTask extends AsyncTask<Void,Void,Void> {
+
+    public class ProgressTask extends AsyncTask<Void,Void,Void> {
         @Override
         protected void onPreExecute(){
             spinner.setVisibility(View.VISIBLE);
@@ -173,14 +265,22 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
             adapter.notifyDataSetChanged();
         }
     }
+
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo)
     {
         super.onCreateContextMenu(menu, v, menuInfo);
-        menu.setHeaderTitle("Select The Action");
+        AdapterView.AdapterContextMenuInfo info= (AdapterView.AdapterContextMenuInfo) menuInfo;
+        Person person = ((Person)lv_accounts1.getItemAtPosition(info.position)); // who the hell knew this!!
+        selectedAmount=person.getCumulative_value();
+        selectedPid=person.getPid();
+        selectedName=person.getName();
 
+        menu.setHeaderTitle(selectedName+"\'s Account");
         menu.add(0, v.getId(), 0, "take or give money");//groupId, itemId, order, title
+        menu.add(0, v.getId(), 0, "settle");
         menu.add(0,v.getId(),0,"view history");
+        menu.add(0, v.getId(), 0, "send statement");
         menu.add(0, v.getId(), 0, "delete");
     }
     @Override
@@ -206,11 +306,34 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
             adapter.notifyDataSetChanged();
 //            finish();
 //            startActivity(getIntent());
-        }else{
+        }else if (item.getTitle()=="view history"){
             Intent intent=new Intent(this,Main2Activity.class);
             intent.putExtra("pid",selectedPid);
             intent.putExtra("name",selectedName);
             startActivity(intent);
+        }else if(item.getTitle()=="settle"){
+            DbHandler db= new DbHandler(this);
+//        Log.d("ilaya_add","description "+amount);
+
+            db.addMoneyTo(selectedPid,
+                    -selectedAmount,
+                    "settled",
+                    selectedAmount);
+            people = db.getPeopleInOrder();
+            doWhatsApp("I added "+-selectedAmount+" into my manageaccounts account. We've settled.");
+            adapter.clear();
+            db.close();
+            adapter.addAll(people);
+            adapter.notifyDataSetChanged();
+        }else if(item.getTitle()=="send statement"){
+            if(MainActivity.convention&&selectedAmount>0)
+                doWhatsApp("There's "+selectedAmount+" for you to give me according to our manageaccounts account.");
+            else if(MainActivity.convention&&selectedAmount<0)
+                doWhatsApp("There's "+selectedAmount+" for me to give you according to our manageaccounts account.");
+            else if(!MainActivity.convention&&selectedAmount>0)
+                doWhatsApp("There's "+selectedAmount+" for me to give you according to our manageaccounts account.");
+            else if(!MainActivity.convention&&selectedAmount<0)
+                doWhatsApp("There's "+selectedAmount+" for you to give me according to our manageaccounts account.");
         }
         return true;
     }
@@ -225,6 +348,8 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
                 amount,
                 description,
                 selectedAmount);
+        if(amount>100)
+            doWhatsApp("I added "+amount+" into my manageaccounts account. Reason, "+description+".");
         people = db.getPeopleInOrder();
         adapter.clear();
         adapter.addAll(people);
@@ -244,7 +369,9 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
                 "settled",
                 selectedAmount);
         people = db.getPeopleInOrder();
+        doWhatsApp("I added "+-selectedAmount+" into my manageaccounts account. We've settled.");
         adapter.clear();
+        db.close();
         adapter.addAll(people);
         adapter.notifyDataSetChanged();
 //        finish();
@@ -296,6 +423,23 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
 //        Log.d("ilaya_version","JSON: " + jsonString);
 
         return new JSONObject(jsonString);
+    }
+
+    public void doWhatsApp(String text) {
+
+        PackageManager pm=getPackageManager();
+
+        Intent waIntent = new Intent(Intent.ACTION_SEND);
+        waIntent.setType("text/plain");
+
+        //PackageInfo info=pm.getPackageInfo("com.whatsapp", PackageManager.GET_META_DATA);
+        //Check if package exists or not. If not then code
+        //in catch block will be called
+        //waIntent.setPackage("com.whatsapp");
+
+        waIntent.putExtra(Intent.EXTRA_TEXT, text);
+        startActivity(Intent.createChooser(waIntent, "Tell "+selectedName));
+
     }
 }
 

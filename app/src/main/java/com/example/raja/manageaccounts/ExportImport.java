@@ -1,9 +1,11 @@
 package com.example.raja.manageaccounts;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.media.MediaScannerConnection;
 import android.os.Environment;
+import android.preference.PreferenceManager;
 import android.support.v4.app.ActivityCompat;
 import android.util.*;
 import android.util.Log;
@@ -59,12 +61,19 @@ public class ExportImport {
         DbHandler db=new DbHandler(context);
         String content="";
         try {
-            content = db.exportDatabase().toString();
+            content = db.exportDatabase(context).toString();
         }catch (Exception e){
             e.printStackTrace();
         }
         try {
-            SecretKey secretKey = new SecretKeySpec("asdf5/*-asdf5/*-".getBytes(), "AES");
+            byte k[]="asdf5/*-asdf5/*-".getBytes();
+            SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+            byte a[] = prefs.getString("backup_key", "").getBytes();
+            for (int i=0;i<prefs.getString("backup_key", "").length();i++)
+            {
+                k[i%16]^=a[i];
+            }
+            SecretKey secretKey = new SecretKeySpec(k,"AES");
             cipher = Cipher.getInstance("AES");
             //char[] inputBytes = new char[content.length()];
             content = encrypt(content,secretKey);
@@ -108,13 +117,20 @@ public class ExportImport {
         Log.d("ilaya_import",content);
         try {
             //Log.d("ilaya_import",content);
-            SecretKey secretKey = new SecretKeySpec("asdf5/*-asdf5/*-".getBytes(), "AES");
+            byte k[]="asdf5/*-asdf5/*-".getBytes();
+            SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+            byte a[] = prefs.getString("restore_key", "").getBytes();
+            for (int i=0;i<prefs.getString("restore_key", "").length();i++)
+            {
+                k[i%16]^=a[i];
+            }
+            SecretKey secretKey = new SecretKeySpec(k, "AES");
             cipher = Cipher.getInstance("AES");
             content = decrypt(content,secretKey);
             Log.d("ilaya_import",content);
             JSONObject json = new JSONObject(content);
             //Log.d("ilaya_import",json.getString("purpose"));
-            db.importDatabase(json);
+            db.importDatabase(context,json);
         } catch (Exception e) {
             e.printStackTrace();
         }
