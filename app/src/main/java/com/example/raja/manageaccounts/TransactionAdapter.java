@@ -1,6 +1,8 @@
 package com.example.raja.manageaccounts;
 
 import android.content.Context;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -62,12 +64,17 @@ public class TransactionAdapter extends ArrayAdapter {
         float val = searchArrayList.get(position).getAmount();
         holder.txtAmount.setText(String.valueOf(val));
 //        Log.d("ilaya","before time");
+        Typeface tf = Typeface.createFromAsset(getContext().getAssets(),"fonts/Roboto-Regular.ttf");
+        holder.txtName.setTypeface(tf);
+        tf = Typeface.createFromAsset(getContext().getAssets(),"fonts/Roboto-Medium.ttf");
+        holder.txtAmount.setTypeface(tf);
+        convertView.setBackgroundResource(R.drawable.cardshape);
         if(val<0)
-            convertView.setBackgroundResource(R.drawable.cardshape_red);
+            holder.txtAmount.setTextColor(Color.parseColor("#AA3939"));
         else if(val>0)
-            convertView.setBackgroundResource(R.drawable.cardshape_green);
+            holder.txtAmount.setTextColor(Color.parseColor("#2D882D"));
         else
-            convertView.setBackgroundResource(R.drawable.cardshape);
+            holder.txtAmount.setTextColor(Color.GRAY);
         holder.img.setVisibility(View.VISIBLE);
         if(Math.abs(val)<5)
             holder.img.setVisibility(View.INVISIBLE);

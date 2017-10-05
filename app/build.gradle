@@ -31,8 +31,10 @@ dependencies {
     compile 'net.objecthunter:exp4j:0.4.8'
     compile 'com.android.support:support-v4:25.3.1'
     compile 'com.android.support:support-vector-drawable:25.3.1'
+    compile 'com.android.support:design:25.3.1'
     testCompile 'junit:junit:4.12'
 }
+
 
 
 

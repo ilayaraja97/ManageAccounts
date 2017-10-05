@@ -1,6 +1,10 @@
 package com.example.raja.manageaccounts;
 
 import android.content.Context;
+import android.content.res.AssetManager;
+import android.graphics.Color;
+import android.graphics.Typeface;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -61,14 +65,19 @@ public class PersonAdapter extends ArrayAdapter {
 //        Log.d("ilaya",searchArrayList.get(position).getName());
         holder.txtId.setText(String.valueOf(searchArrayList.get(position).getPid()));
         holder.txtName.setText(searchArrayList.get(position).getName());
+        Typeface tf = Typeface.createFromAsset(getContext().getAssets(),"fonts/Roboto-Regular.ttf");
+        holder.txtName.setTypeface(tf);
+        tf = Typeface.createFromAsset(getContext().getAssets(),"fonts/Roboto-Medium.ttf");
+        holder.txtAmount.setTypeface(tf);
         float val=searchArrayList.get(position).getCumulative_value();
         holder.txtAmount.setText(String.valueOf(val));
+        convertView.setBackgroundResource(R.drawable.cardshape);
         if(val<0)
-            convertView.setBackgroundResource(R.drawable.cardshape_red);
+            holder.txtAmount.setTextColor(Color.parseColor("#AA3939"));
         else if(val>0)
-            convertView.setBackgroundResource(R.drawable.cardshape_green);
+            holder.txtAmount.setTextColor(Color.parseColor("#2D882D"));
         else
-            convertView.setBackgroundResource(R.drawable.cardshape);
+            holder.txtAmount.setTextColor(Color.GRAY);
         holder.img.setVisibility(View.VISIBLE);
         if(Math.abs(val)<5)
             holder.img.setVisibility(View.INVISIBLE);

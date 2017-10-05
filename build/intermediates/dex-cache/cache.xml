@@ -21,6 +21,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.android.support-support-media-compat-25.3.1_3b52d31e23c9f491e0a06dfb75bcae8f01a50963.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -48,12 +57,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-25.3.1_5c69bb271347ea9c2e588e12e76fe252a1934a1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/11.0.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="4737d9835cf3ea9751f7d6647be60900062d1062">
         <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gass-11.0.2_35030610ddb9949d4baa7db5e2b550f6050b6617.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f260cdc1a267b17b911022919f19d568e6624229">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-messaging-11.0.2_390734ad6bd48defe1e754d90bf18f1260c01203.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fc5624185d414a0f572bfb3df7d841ceb335aef9">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-11.0.2_020644af48f34ccb4d8b7a045a6ae41b60486330.jar" />
     </item>
     <item
         is-multidex="false"
@@ -72,6 +108,24 @@
         revision="25.0.2"
         sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
         <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/support-annotations-25.3.1_7b6dc5af92aeb07e0860538600a8d3ff9dd93a7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_53a57c0b2178474acf7000ee10316d286f3e3e92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="86baa7d1051901fc1b8e7f596732f71f32175bde">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-11.0.2_c06f359183175b43aaccaca76eb22e8b83cab43c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,69 +156,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/11.0.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="587840a157b50a6380d814a7a5a87b76118405e2">
-        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-safetynet-11.0.2_a76d9d300591aa9de4786bcbbc274344a514400f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/11.0.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="acd4f9fad8500386084346a88ca47e2b66e84ffd">
-        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-clearcut-11.0.2_1122edeb58da30820abc052eb3b8aa5eb82569df.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.android.support-support-media-compat-25.3.1_3b52d31e23c9f491e0a06dfb75bcae8f01a50963.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-25.3.1_5c69bb271347ea9c2e588e12e76fe252a1934a1b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.0.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f260cdc1a267b17b911022919f19d568e6624229">
-        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-messaging-11.0.2_390734ad6bd48defe1e754d90bf18f1260c01203.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/11.0.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fc5624185d414a0f572bfb3df7d841ceb335aef9">
-        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-11.0.2_020644af48f34ccb4d8b7a045a6ae41b60486330.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.2/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="86baa7d1051901fc1b8e7f596732f71f32175bde">
-        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-11.0.2_c06f359183175b43aaccaca76eb22e8b83cab43c.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -189,6 +180,42 @@
         revision="25.0.2"
         sha1="2c1d9fbe7d2f686b3dcdbc3f63a983a211401ca3">
         <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-impl-11.0.2_eedcbe9e971c3d003bafa6c365ad7f973e37df49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_5ccffa74dd52d317701c6ec10f83074677e6375f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_b67d951f28bc7ca8a9def9f6122cb7f84ec62326.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/11.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="587840a157b50a6380d814a7a5a87b76118405e2">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-safetynet-11.0.2_a76d9d300591aa9de4786bcbbc274344a514400f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/11.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="acd4f9fad8500386084346a88ca47e2b66e84ffd">
+        <dex dex="/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-clearcut-11.0.2_1122edeb58da30820abc052eb3b8aa5eb82569df.jar" />
     </item>
     <item
         is-multidex="false"

@@ -5,11 +5,15 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.database.sqlite.SQLiteConstraintException;
 import android.os.AsyncTask;
 import android.os.Build;
+import android.preference.PreferenceManager;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,10 +23,14 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -52,6 +60,7 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
     protected boolean shouldAskPermissions() {
         return (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP_MR1);
     }
+
     @Override
     public void onBackPressed() {
         new AlertDialog.Builder(this)
@@ -150,7 +159,6 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
             dialog.show(getFragmentManager(), "AskConventionDialogFragment");
         }
 
-        spinner=(ProgressBar)findViewById(R.id.progressBar);
         Runnable runnable=new Runnable() {
             @Override
             public void run() {
@@ -188,7 +196,9 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         new Thread(runnable).start();
 
         lv_accounts1=(ListView)findViewById(R.id.lv_1);
-
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 //        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_activated_1,accounts);
 //        lv_accounts1.setAdapter(adapter);
         DbHandler db=new DbHandler(this);
@@ -196,6 +206,9 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         people= db.getPeopleInOrder();
         adapter = new PersonAdapter(this,R.layout.person_row_view, people);
 //        Log.d("ilaya","adapter made");
+
+        ViewGroup footer = (ViewGroup)getLayoutInflater().inflate(R.layout.list_footer,lv_accounts1,false);
+        lv_accounts1.addFooterView(footer,null,false);
         lv_accounts1.setAdapter(adapter);
 
         registerForContextMenu(lv_accounts1);
@@ -208,7 +221,7 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         inflater.inflate(R.menu.menu,menu);
         return true;
     }
-    private ProgressBar spinner;
+//    private ProgressBar spinner;
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
@@ -217,13 +230,6 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
             case R.id.add:
                 DialogFragment dialog = new AddPersonDialogFragment();
                 dialog.show(getFragmentManager(), "AddPersonDialogFragment");
-                return true;
-            case R.id.export:
-                ExportImport.export(getApplicationContext());
-                Toast.makeText(this, "Backup created in Downloads folder", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.importDb:
-                new ProgressTask().execute();
                 return true;
             case R.id.settings:
                 intent=new Intent(this,SettingsActivity.class);
@@ -239,32 +245,32 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
         }
     }
 
-    public class ProgressTask extends AsyncTask<Void,Void,Void> {
-        @Override
-        protected void onPreExecute(){
-            spinner.setVisibility(View.VISIBLE);
-        }
-
-        @Override
-        protected Void doInBackground(Void... arg0) {
-
-            ExportImport.importDb(getApplicationContext());
-
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(Void result) {
-            DbHandler db=new DbHandler(MainActivity.this);
-            people = db.getPeopleInOrder();
-            spinner.setVisibility(View.GONE);
-            db.close();
-            Toast.makeText(MainActivity.this, "Restored from backup in Downloads folder", Toast.LENGTH_SHORT).show();
-            adapter.clear();
-            adapter.addAll(people);
-            adapter.notifyDataSetChanged();
-        }
-    }
+//    public class ProgressTask extends AsyncTask<Void,Void,Void> {
+//        @Override
+//        protected void onPreExecute(){
+//            spinner.setVisibility(View.VISIBLE);
+//        }
+//
+//        @Override
+//        protected Void doInBackground(Void... arg0) {
+//
+//            ExportImport.importDb(getApplicationContext());
+//
+//            return null;
+//        }
+//
+//        @Override
+//        protected void onPostExecute(Void result) {
+//            DbHandler db=new DbHandler(MainActivity.this);
+//            people = db.getPeopleInOrder();
+//            spinner.setVisibility(View.GONE);
+//            db.close();
+//            Toast.makeText(MainActivity.this, "Restored from backup in Downloads folder", Toast.LENGTH_SHORT).show();
+//            adapter.clear();
+//            adapter.addAll(people);
+//            adapter.notifyDataSetChanged();
+//        }
+//    }
 
     @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo)
@@ -320,6 +326,9 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
                     "settled",
                     selectedAmount);
             people = db.getPeopleInOrder();
+            SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+            boolean pleaseTell = prefs.getBoolean("tell_settle", false);
+            if(pleaseTell)
             doWhatsApp("I added "+-selectedAmount+" into my manageaccounts account. We've settled.");
             adapter.clear();
             db.close();
@@ -348,8 +357,8 @@ public class MainActivity extends AppCompatActivity implements AddMoneyDialogFra
                 amount,
                 description,
                 selectedAmount);
-        if(amount>100)
-            doWhatsApp("I added "+amount+" into my manageaccounts account. Reason, "+description+".");
+        //if(amount>100)
+        //doWhatsApp("I added "+amount+" into my manageaccounts account. Reason, "+description+".");
         people = db.getPeopleInOrder();
         adapter.clear();
         adapter.addAll(people);

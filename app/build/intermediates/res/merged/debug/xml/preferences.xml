@@ -13,7 +13,12 @@
             android:title="Update the app"
             android:summary="Goto the github page of the project to download the release."
             />
-
+        <SwitchPreference
+            android:key="tell_settle"
+            android:title="Ask to tell on social after settle"
+            android:summary="Flip it off if your not interested to say we've settled."
+            android:defaultValue="true"
+            />
 
     </PreferenceCategory>
     <PreferenceCategory
@@ -44,7 +49,7 @@
     <Preference
         android:title="Restore now"
         android:key="restore_now"
-        android:summary="Restore will bring all your data to a previous state. And your not getting a prompt for it."
+        android:summary="Restore will bring all your deleted data. No data updated after backup that will be affected. UI may freeze!"
         />
     <!-- This preference simply launches an intent when selected. Use this UI sparingly, per
          design guidelines. -->

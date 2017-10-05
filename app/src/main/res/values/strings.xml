@@ -88,4 +88,6 @@
     <string name="importdb">Import</string>
     <string name="borrow">Borrow</string>
     <string name="lend">Lend</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="version">Accounts v1.0.2-beta</string>
 </resources>
