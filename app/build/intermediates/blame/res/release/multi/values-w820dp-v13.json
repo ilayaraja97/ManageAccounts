@@ -7,8 +7,8 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
+                    "endColumn": 56,
+                    "endOffset": 107
                 },
                 "from": {
                     "file": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/values-w820dp/dimens.xml",
@@ -16,8 +16,8 @@
                         "startLine": 4,
                         "startColumn": 4,
                         "startOffset": 291,
-                        "endColumn": 57,
-                        "endOffset": 344
+                        "endColumn": 56,
+                        "endOffset": 343
                     }
                 }
             }

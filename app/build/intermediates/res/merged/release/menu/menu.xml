@@ -2,18 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/add"
-        android:title="@string/add_person_menu">
-    </item>
-    <item android:id="@+id/export"
-        android:title="@string/export">
-    </item>
-    <item android:id="@+id/importDb"
-        android:title="@string/importdb">
+        android:title="@string/add_person_menu"
+        android:icon="@android:drawable/ic_input_add"
+        android:showAsAction="ifRoom">
     </item>
     <item android:id="@+id/settings"
-        android:title="@string/settings">
+        android:title="@string/settings"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:showAsAction="ifRoom">
     </item>
     <item android:id="@+id/help"
-        android:title="@string/help_menu">
+        android:title="@string/help_menu"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:showAsAction="ifRoom">
     </item>
 </menu>

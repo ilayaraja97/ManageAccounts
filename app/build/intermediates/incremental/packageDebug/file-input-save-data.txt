@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Oct 05 14:52:10 AZOST 2017
+#Thu Oct 05 15:30:27 AZOST 2017
 210.set=ANDROID_RESOURCE
 282.file=/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/resources-debug.ap_/res/mipmap-mdpi-v4/notes.png
 14.set=ANDROID_RESOURCE

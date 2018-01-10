@@ -4,24 +4,24 @@
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_popup_menu_header_item_layout.xml",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/activity_help.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/layout/activity_help.xml"
-    },
-    {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_screen_simple.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_simple.xml"
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/design_layout_snackbar_include.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_layout_snackbar_include.xml"
     },
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_action_bar_title_item.xml",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/help_headers.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/layout/help_headers.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/design_text_input_password_icon.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_text_input_password_icon.xml"
     },
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/notification_template_part_time.xml",
@@ -32,20 +32,12 @@
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_icon_group.xml"
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/list_footer.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/layout/list_footer.xml"
     },
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_activity_chooser_view.xml",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_search_dropdown_item_icons_2line.xml",
@@ -54,10 +46,6 @@
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_search_view.xml",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_search_view.xml"
-    },
-    {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_action_bar_view_list_nav_layout.xml",
@@ -84,24 +72,16 @@
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_layout.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_material.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_alert_dialog_material.xml"
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/design_layout_tab_text.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_layout_tab_text.xml"
     },
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/person_row_view.xml",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/layout/person_row_view.xml"
     },
     {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/notification_template_media.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_media.xml"
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_material.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_alert_dialog_material.xml"
     },
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/notification_template_media_custom.xml",
@@ -112,32 +92,16 @@
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/transaction_row_view.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/layout/transaction_row_view.xml"
-    },
-    {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_action_mode_close_item_material.xml",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_dialog_title_material.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/select_dialog_item_material.xml"
-    },
-    {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_select_dialog_material.xml"
     },
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_alert_dialog_button_bar_material.xml",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_action_tombstone.xml"
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_select_dialog_material.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_select_dialog_material.xml"
     },
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_activity_chooser_view_list_item.xml",
@@ -148,24 +112,128 @@
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/activity_main2.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/layout/activity_main2.xml"
-    },
-    {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/activity_main.xml",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_checkbox.xml"
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/activity_main2.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/layout/activity_main2.xml"
     },
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_icon.xml",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/design_navigation_item_subheader.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/design_layout_snackbar.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/design_navigation_item_header.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/design_navigation_menu_item.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/design_navigation_item.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/design_bottom_sheet_dialog.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/activity_help.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/layout/activity_help.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_screen_simple.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/design_navigation_item_separator.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_action_mode_bar.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/progress_bar_layout.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/layout/progress_bar_layout.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/design_layout_tab_icon.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/notification_template_media.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_screen_content_include.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/transaction_row_view.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/layout/transaction_row_view.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_dialog_title_material.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/select_dialog_item_material.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/design_navigation_menu.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/design_menu_item_action_area.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_action_menu_layout.xml",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/help_items.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/layout/help_items.xml"
     },
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/abc_screen_simple_overlay_action_mode.xml",
@@ -182,5 +250,9 @@
     {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/notification_action.xml",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/layout/design_bottom_navigation_item.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_bottom_navigation_item.xml"
     }
 ]

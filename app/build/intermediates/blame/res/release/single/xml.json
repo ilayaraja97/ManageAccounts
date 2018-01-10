@@ -8,6 +8,10 @@
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/xml/pref_data_sync.xml"
     },
     {
+        "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/xml/preferences.xml",
+        "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/xml/preferences.xml"
+    },
+    {
         "merged": "/home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/res/merged/release/xml/pref_general.xml",
         "source": "/home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/res/xml/pref_general.xml"
     },

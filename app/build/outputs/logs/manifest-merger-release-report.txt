@@ -31,15 +31,17 @@ ADDED from /home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/AndroidM
 		ADDED from /home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/AndroidManifest.xml:7:22-77
 application
 ADDED from /home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/AndroidManifest.xml:9:5-38:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
 MERGED from [com.google.firebase:firebase-messaging:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.0.2/AndroidManifest.xml:19:5-29:19
 MERGED from [com.google.android.gms:play-services-ads-lite:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.0.2/AndroidManifest.xml:23:5-26:19
 MERGED from [com.google.android.gms:play-services-clearcut:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/11.0.2/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-gass:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/11.0.2/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-safetynet:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/11.0.2/AndroidManifest.xml:18:5-19
 MERGED from [com.google.android.gms:play-services-base:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.2/AndroidManifest.xml:18:5-20:19
+MERGED from [com.android.support:design:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/AndroidManifest.xml:26:5-20
 MERGED from [com.google.firebase:firebase-core:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/11.0.2/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.0.2/AndroidManifest.xml:24:5-34:19
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.0.2/AndroidManifest.xml:24:5-28:19
@@ -106,15 +108,13 @@ ADDED from /home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/AndroidM
 	android:name
 		ADDED from /home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/AndroidManifest.xml:34:19-47
 activity#com.example.raja.manageaccounts.SettingsActivity
-ADDED from /home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/AndroidManifest.xml:35:9-37:72
+ADDED from /home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/AndroidManifest.xml:35:9-37:63
 	android:label
 		ADDED from /home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/AndroidManifest.xml:37:13-60
 	android:name
 		ADDED from /home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/AndroidManifest.xml:36:13-45
 uses-sdk
 INJECTED from /home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-messaging:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.0.2/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-ads:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.0.2/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-ads-lite:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.0.2/AndroidManifest.xml:22:5-43
@@ -122,7 +122,12 @@ MERGED from [com.google.android.gms:play-services-clearcut:11.0.2] /home/raja/An
 MERGED from [com.google.android.gms:play-services-gass:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/11.0.2/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-safetynet:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/11.0.2/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-base:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.2/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:design:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-core:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-core/11.0.2/AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-analytics:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.0.2/AndroidManifest.xml:17:5-43
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.0.2/AndroidManifest.xml:17:5-43
@@ -137,27 +142,13 @@ MERGED from [com.android.support:support-core-ui:25.3.1] /home/raja/AndroidStudi
 MERGED from [com.android.support:support-core-utils:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/AndroidManifest.xml
 		INJECTED from /home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/AndroidManifest.xml
 		INJECTED from /home/raja/AndroidStudioProjects/ManageAccounts/app/src/main/AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:26:9-47
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/11.0.2/AndroidManifest.xml:23:9-27:19
 	android:exported
@@ -187,6 +178,23 @@ ADDED from [com.google.android.gms:play-services-base:11.0.2] /home/raja/Android
 		ADDED from [com.google.android.gms:play-services-base:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.2/AndroidManifest.xml:19:86-145
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.2/AndroidManifest.xml:19:19-85
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/AndroidManifest.xml:26:9-47
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-analytics:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/11.0.2/AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:11.0.2] /home/raja/AndroidStudioProjects/ManageAccounts/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/11.0.2/AndroidManifest.xml:22:5-67
